@@ -8,5 +8,7 @@ argument-hint: "[lite|full|ultra|normal]"
 - `${CLAUDE_PLUGIN_ROOT}/skills/tryascia/references/slovar.md`
 - `${CLAUDE_PLUGIN_ROOT}/skills/tryascia/references/sceny.md`
 - `${CLAUDE_PLUGIN_ROOT}/skills/tryascia/references/ontologia.md`
+- `${CLAUDE_PLUGIN_ROOT}/skills/tryascia/references/dzherela.md`
+- `${CLAUDE_PLUGIN_ROOT}/skills/tryascia/references/korpus-100.md`
 
 Дотримуйся правил `skills/tryascia/SKILL.md`: українська лайка має сенс і правильну морфологію; технічні терміни, код, команди та помилки не змінюються; користувач не є мішенню; security та незворотні операції — без жартів.

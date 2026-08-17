@@ -18,7 +18,7 @@ if [ -f "$SCRIPT_DIR/output-styles/tryascia.md" ]; then
 else
   curl -fsSL "$RAW_BASE/output-styles/tryascia.md" -o "$TARGET_CLAUDE_DIR/output-styles/tryascia.md"
   curl -fsSL "$RAW_BASE/skills/tryascia/SKILL.md" -o "$TARGET_CLAUDE_DIR/skills/tryascia/SKILL.md"
-  for reference_name in slovar.md sceny.md ontologia.md; do
+  for reference_name in slovar.md sceny.md ontologia.md dzherela.md korpus-100.md; do
     curl -fsSL "$RAW_BASE/skills/tryascia/references/$reference_name" -o "$TARGET_CLAUDE_DIR/skills/tryascia/references/$reference_name"
   done
 fi
