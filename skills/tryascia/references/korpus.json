@@ -1,0 +1,2025 @@
+{
+  "schema_version": "0.2",
+  "generated_from": "skills/tryascia/references/korpus-100.md",
+  "generated_by": "scripts/validate-corpus.mjs",
+  "record_count": 100,
+  "records": [
+    {
+      "id": 1,
+      "form": "йой",
+      "meaning": "м’яка несподіванка або перший симптом",
+      "intensity": 1,
+      "register": "lite",
+      "target": "system_or_process",
+      "source_codes": [
+        "Ф"
+      ],
+      "source_urls": [
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 2,
+      "form": "ой леле",
+      "meaning": "проблема є, але ще без аварії",
+      "intensity": 1,
+      "register": "lite",
+      "target": "system_or_process",
+      "source_codes": [
+        "Ф",
+        "Н"
+      ],
+      "source_urls": [
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 3,
+      "form": "трясця",
+      "meaning": "локальна дрібна халепа",
+      "intensity": 3,
+      "register": "lite",
+      "target": "system_or_process",
+      "source_codes": [
+        "Ф",
+        "Н"
+      ],
+      "source_urls": [
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 4,
+      "form": "трясця його знає",
+      "meaning": "причина поки невідома",
+      "intensity": 4,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С",
+        "Н"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 5,
+      "form": "бодай",
+      "meaning": "короткий прокльон-маркер",
+      "intensity": 3,
+      "register": "lite",
+      "target": "system_or_process",
+      "source_codes": [
+        "Ф",
+        "Н"
+      ],
+      "source_urls": [
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 6,
+      "form": "бодай би",
+      "meaning": "посилений прокльон без прямої атаки",
+      "intensity": 4,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Ф",
+        "Н"
+      ],
+      "source_urls": [
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 7,
+      "form": "хай йому грець",
+      "meaning": "проблема неприємна, але контрольована",
+      "intensity": 3,
+      "register": "lite",
+      "target": "system_or_process",
+      "source_codes": [
+        "Ф",
+        "Н"
+      ],
+      "source_urls": [
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 8,
+      "form": "шляк би трафив",
+      "meaning": "сильне роздратування через збій",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Ф"
+      ],
+      "source_urls": [
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 9,
+      "form": "хай йому біс",
+      "meaning": "несподіваний збій або витівка",
+      "intensity": 4,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Ф",
+        "Н"
+      ],
+      "source_urls": [
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 10,
+      "form": "до біса",
+      "meaning": "прибрати зайве, якщо це безпечно",
+      "intensity": 3,
+      "register": "lite",
+      "target": "system_or_process",
+      "source_codes": [
+        "Ф",
+        "Н"
+      ],
+      "source_urls": [
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 11,
+      "form": "чорт забирай",
+      "meaning": "різка реакція на подію",
+      "intensity": 4,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "К",
+        "Л"
+      ],
+      "source_urls": [
+        "https://uk.wikisource.org/wiki/Твори_(Котляревський,_1922)/Том_1/Енеїда",
+        "https://uk.wikisource.org/wiki/Кайдашева_сім’я"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 12,
+      "form": "дідько",
+      "meaning": "коротка назва неприємності",
+      "intensity": 3,
+      "register": "lite",
+      "target": "system_or_process",
+      "source_codes": [
+        "Ф",
+        "Н"
+      ],
+      "source_urls": [
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "exact_anchor",
+      "exact_citations": [
+        {
+          "url": "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs/Items/Didko121-251.html",
+          "note": "Окремий розділ Франкового корпусу з численними народними формулами."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 13,
+      "form": "дідько лисий",
+      "meaning": "вперта, абсурдна проблема",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Ф",
+        "Н"
+      ],
+      "source_urls": [
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 14,
+      "form": "курча",
+      "meaning": "м’який публічний варіант роздратування",
+      "intensity": 2,
+      "register": "lite",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 15,
+      "form": "холера його знає",
+      "meaning": "причина не встановлена, але вже дратує",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С",
+        "Н"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 16,
+      "form": "кат його знає",
+      "meaning": "невідомий компонент або власник рішення",
+      "intensity": 4,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Н",
+        "Г"
+      ],
+      "source_urls": [
+        "https://archive.org/details/nomis1864",
+        "https://hrinchenko.com/"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 17,
+      "form": "хрін його знає",
+      "meaning": "невідома причина в неформальному режимі",
+      "intensity": 4,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С",
+        "Г"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861",
+        "https://hrinchenko.com/"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 18,
+      "form": "якого хріна",
+      "meaning": "вимога пояснити дивну поведінку",
+      "intensity": 4,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 19,
+      "form": "на хріна",
+      "meaning": "питання до зайвої залежності або функції",
+      "intensity": 3,
+      "register": "lite",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 20,
+      "form": "ні хріна",
+      "meaning": "результату немає",
+      "intensity": 4,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С",
+        "Г"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861",
+        "https://hrinchenko.com/"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 21,
+      "form": "хрін з ним",
+      "meaning": "безпечне відкладання другорядної задачі",
+      "intensity": 3,
+      "register": "lite",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 22,
+      "form": "щоб його качка копнула",
+      "meaning": "абсурдна, але не критична невдача",
+      "intensity": 4,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Н"
+      ],
+      "source_urls": [
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 23,
+      "form": "щоб його грім побив",
+      "meaning": "серйозна помилка з помітним впливом",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Н"
+      ],
+      "source_urls": [
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 24,
+      "form": "щоб тобі пусто було",
+      "meaning": "жорстка оцінка зіпсованого процесу",
+      "intensity": 7,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Н"
+      ],
+      "source_urls": [
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 25,
+      "form": "лиха година",
+      "meaning": "затяжна серія невдалих подій",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Ф",
+        "Н"
+      ],
+      "source_urls": [
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 26,
+      "form": "хуйня",
+      "meaning": "незначна або не варта драматизації проблема",
+      "intensity": 3,
+      "register": "lite",
+      "target": "system_or_process",
+      "source_codes": [
+        "С",
+        "Г"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861",
+        "https://hrinchenko.com/"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 27,
+      "form": "хуйовина",
+      "meaning": "дивний артефакт чи незрозумілий шматок коду",
+      "intensity": 4,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 28,
+      "form": "хуйовий",
+      "meaning": "низька якість або невдалий результат",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С",
+        "Г"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861",
+        "https://hrinchenko.com/"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 29,
+      "form": "хуйово",
+      "meaning": "система працює погано",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 30,
+      "form": "хуй знає",
+      "meaning": "причина або значення невідомі",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 31,
+      "form": "ні хуя",
+      "meaning": "очікуваного результату немає",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 32,
+      "form": "до хуя",
+      "meaning": "чогось надмірно багато",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 33,
+      "form": "заїбись",
+      "meaning": "результат добрий, без зайвого пафосу",
+      "intensity": 2,
+      "register": "lite",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 34,
+      "form": "заїбати",
+      "meaning": "виснажити людину або процес повтореннями",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 35,
+      "form": "заїбатися",
+      "meaning": "довго й безрезультатно возитися з проблемою",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 36,
+      "form": "заїбаний",
+      "meaning": "виснажений або перевантажений компонент",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 37,
+      "form": "йобнути",
+      "meaning": "різко зупинити процес або втратити стан",
+      "intensity": 7,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 38,
+      "form": "йобнутися",
+      "meaning": "упасти через помилку чи конфігурацію",
+      "intensity": 8,
+      "register": "ultra",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 39,
+      "form": "йобнулося",
+      "meaning": "факт падіння вже стався",
+      "intensity": 8,
+      "register": "ultra",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 40,
+      "form": "йобаний",
+      "meaning": "такий, що створює непропорційну мороку",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 41,
+      "form": "ебашити",
+      "meaning": "працювати інтенсивно або виконувати великий обсяг",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 42,
+      "form": "ебашить",
+      "meaning": "сервіс або джоба працює на повну",
+      "intensity": 3,
+      "register": "lite",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 43,
+      "form": "ебанутися",
+      "meaning": "вийти за межі нормальної поведінки",
+      "intensity": 7,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 44,
+      "form": "наїбати",
+      "meaning": "підмінити очікуваний результат або ввести в оману",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 45,
+      "form": "наїбка",
+      "meaning": "прихована пастка в контракті, конфігурації чи процесі",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 46,
+      "form": "наїбнутися",
+      "meaning": "зламатися через хибне припущення",
+      "intensity": 7,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 47,
+      "form": "пиздець",
+      "meaning": "критичний інцидент або реальна загроза",
+      "intensity": 9,
+      "register": "ultra",
+      "target": "system_or_process",
+      "source_codes": [
+        "С",
+        "К"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861",
+        "https://uk.wikisource.org/wiki/Твори_(Котляревський,_1922)/Том_1/Енеїда"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 48,
+      "form": "пиздьож",
+      "meaning": "неправда в описі, звіті або документації",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 49,
+      "form": "пиздити",
+      "meaning": "перекручувати факт або безконтрольно забирати ресурс; вживати лише з контекстом",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 50,
+      "form": "пиздячити",
+      "meaning": "швидко й наполегливо виконувати механічну роботу",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 51,
+      "form": "пиздатий",
+      "meaning": "дуже сильний результат або рішення",
+      "intensity": 4,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 52,
+      "form": "пиздато",
+      "meaning": "дуже добре зроблено",
+      "intensity": 3,
+      "register": "lite",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 53,
+      "form": "розпиздяйство",
+      "meaning": "системна недбалість у процесі",
+      "intensity": 7,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 54,
+      "form": "срака",
+      "meaning": "ризик уже впливає на користувачів або дані",
+      "intensity": 8,
+      "register": "ultra",
+      "target": "system_or_process",
+      "source_codes": [
+        "С",
+        "К"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861",
+        "https://uk.wikisource.org/wiki/Твори_(Котляревський,_1922)/Том_1/Енеїда"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 55,
+      "form": "срака-мотика",
+      "meaning": "кілька проблем зійшлися в один клубок",
+      "intensity": 7,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Ф",
+        "Н"
+      ],
+      "source_urls": [
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 56,
+      "form": "засрати",
+      "meaning": "забруднити логи, базу, конфігурацію або репозиторій",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 57,
+      "form": "засраний",
+      "meaning": "перевантажений сміттям чи випадковими змінами",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 58,
+      "form": "просрати",
+      "meaning": "втратити дані, шанс або контрольований дедлайн",
+      "intensity": 8,
+      "register": "ultra",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 59,
+      "form": "обісратися",
+      "meaning": "невдало виконати крок із помітними наслідками",
+      "intensity": 7,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 60,
+      "form": "всратися",
+      "meaning": "провалити план або оцінку",
+      "intensity": 7,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 61,
+      "form": "насрати",
+      "meaning": "знехтувати перевіркою або попередженням",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 62,
+      "form": "сраний",
+      "meaning": "неякісний, дратівливий або недбало зроблений",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 63,
+      "form": "дупа",
+      "meaning": "крихкий стан, що ще можна врятувати",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Н",
+        "Г"
+      ],
+      "source_urls": [
+        "https://archive.org/details/nomis1864",
+        "https://hrinchenko.com/"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 64,
+      "form": "дупа в милі",
+      "meaning": "аварійна робота під сильним тиском часу",
+      "intensity": 8,
+      "register": "ultra",
+      "target": "system_or_process",
+      "source_codes": [
+        "Н",
+        "Ф"
+      ],
+      "source_urls": [
+        "https://archive.org/details/nomis1864",
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 65,
+      "form": "довбень",
+      "meaning": "простий, але впертий дефект або модуль",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Г",
+        "Н"
+      ],
+      "source_urls": [
+        "https://hrinchenko.com/",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 66,
+      "form": "довбаний",
+      "meaning": "такий, що постійно створює зайву роботу",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С",
+        "Г"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861",
+        "https://hrinchenko.com/"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 67,
+      "form": "довбати",
+      "meaning": "методично розбирати проблему до причини",
+      "intensity": 4,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С",
+        "Г"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861",
+        "https://hrinchenko.com/"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 68,
+      "form": "довбатися",
+      "meaning": "довго шукати причину без швидкого результату",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 69,
+      "form": "довбодятел",
+      "meaning": "бездумний автоматизований крок або скрипт",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 70,
+      "form": "накосячити",
+      "meaning": "припуститися помилки в реалізації або конфігурації",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 71,
+      "form": "косяк",
+      "meaning": "конкретний дефект або проґавлена умова",
+      "intensity": 4,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С",
+        "Г"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861",
+        "https://hrinchenko.com/"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 72,
+      "form": "роздовбати",
+      "meaning": "розкласти проблему на частини або повністю зламати стару схему",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 73,
+      "form": "роздовбаний",
+      "meaning": "пошкоджений, розсипаний або погано організований",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 74,
+      "form": "прихачити",
+      "meaning": "швидко приєднати щось збоку без ідеальної архітектури",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "C",
+      "review_status": "adaptation",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 75,
+      "form": "на живу нитку",
+      "meaning": "тимчасово зібрати рішення без запасу міцності",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Н",
+        "Ф"
+      ],
+      "source_urls": [
+        "https://archive.org/details/nomis1864",
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 76,
+      "form": "через пень-колоду",
+      "meaning": "працює нестабільно й без системності",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Н",
+        "Ф"
+      ],
+      "source_urls": [
+        "https://archive.org/details/nomis1864",
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "exact_anchor",
+      "exact_citations": [
+        {
+          "url": "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs/Items/Pacaniv-Pershyna.html",
+          "note": "Зафіксовано варіант «Через пень колоду валити»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 77,
+      "form": "як мокре горить",
+      "meaning": "процес іде повільно та неохоче",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Н",
+        "Ф"
+      ],
+      "source_urls": [
+        "https://archive.org/details/nomis1864",
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 78,
+      "form": "пішло шкереберть",
+      "meaning": "локальна помилка перейшла в каскадну деградацію",
+      "intensity": 7,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "К",
+        "Л"
+      ],
+      "source_urls": [
+        "https://uk.wikisource.org/wiki/Твори_(Котляревський,_1922)/Том_1/Енеїда",
+        "https://uk.wikisource.org/wiki/Кайдашева_сім’я"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 79,
+      "form": "стоїть колом",
+      "meaning": "сервіс або задача заблоковані",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Н",
+        "Ф"
+      ],
+      "source_urls": [
+        "https://archive.org/details/nomis1864",
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 80,
+      "form": "ні руш",
+      "meaning": "немає жодного прогресу",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Н",
+        "Ф"
+      ],
+      "source_urls": [
+        "https://archive.org/details/nomis1864",
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 81,
+      "form": "ще й кінь не валявся",
+      "meaning": "роботу фактично не почали",
+      "intensity": 4,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Н",
+        "Ф"
+      ],
+      "source_urls": [
+        "https://archive.org/details/nomis1864",
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 82,
+      "form": "пальцем роблений",
+      "meaning": "зроблений без належної перевірки або міцності",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Н",
+        "Г"
+      ],
+      "source_urls": [
+        "https://archive.org/details/nomis1864",
+        "https://hrinchenko.com/"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 83,
+      "form": "тяп-ляп",
+      "meaning": "швидко зроблено без якості",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Н",
+        "Г"
+      ],
+      "source_urls": [
+        "https://archive.org/details/nomis1864",
+        "https://hrinchenko.com/"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 84,
+      "form": "аби-як",
+      "meaning": "виконано довільно, без вимог і контролю",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Н",
+        "Г"
+      ],
+      "source_urls": [
+        "https://archive.org/details/nomis1864",
+        "https://hrinchenko.com/"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 85,
+      "form": "якось воно буде",
+      "meaning": "відсутність плану, критеріїв і rollback",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Н",
+        "Ф"
+      ],
+      "source_urls": [
+        "https://archive.org/details/nomis1864",
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 86,
+      "form": "чортівня",
+      "meaning": "незрозуміла поведінка, яку ще треба дослідити",
+      "intensity": 4,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Ф",
+        "Н"
+      ],
+      "source_urls": [
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 87,
+      "form": "бісівщина",
+      "meaning": "сукупність дивних винятків і несумісностей",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Ф",
+        "Н"
+      ],
+      "source_urls": [
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "exact_anchor",
+      "exact_citations": [
+        {
+          "url": "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs/Items/Bis-Bovtaty.html",
+          "note": "Похідна сучасна форма; базову лексему «біс» зафіксовано окремим розділом."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 88,
+      "form": "морока",
+      "meaning": "багато дрібної ручної роботи",
+      "intensity": 4,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Ф",
+        "Н"
+      ],
+      "source_urls": [
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 89,
+      "form": "халепа",
+      "meaning": "локальна проблема з контрольованим виправленням",
+      "intensity": 3,
+      "register": "lite",
+      "target": "system_or_process",
+      "source_codes": [
+        "Ф",
+        "Н"
+      ],
+      "source_urls": [
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 90,
+      "form": "влипнути",
+      "meaning": "потрапити в залежність, дедлайн або невдалу схему",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Н",
+        "Ф"
+      ],
+      "source_urls": [
+        "https://archive.org/details/nomis1864",
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 91,
+      "form": "вляпатися",
+      "meaning": "зробити крок, що погіршив стан",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Н",
+        "Ф"
+      ],
+      "source_urls": [
+        "https://archive.org/details/nomis1864",
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 92,
+      "form": "задовбатися",
+      "meaning": "виснажитися від повторюваної роботи",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 93,
+      "form": "виносити мозок",
+      "meaning": "створювати постійний шум, алерти або зайві погодження",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 94,
+      "form": "горе-майстер",
+      "meaning": "компонент або реалізація, що лише імітує роботу",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Н",
+        "Ф"
+      ],
+      "source_urls": [
+        "https://archive.org/details/nomis1864",
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 95,
+      "form": "телепень",
+      "meaning": "незграбний або недоладний технічний об’єкт",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Г",
+        "Н"
+      ],
+      "source_urls": [
+        "https://hrinchenko.com/",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 96,
+      "form": "йолоп",
+      "meaning": "простий і очевидний дефект у неформальному описі",
+      "intensity": 4,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Г",
+        "Н"
+      ],
+      "source_urls": [
+        "https://hrinchenko.com/",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 97,
+      "form": "дурбецало",
+      "meaning": "незграбний скрипт або процес",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Г",
+        "Н"
+      ],
+      "source_urls": [
+        "https://hrinchenko.com/",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 98,
+      "form": "бевзь",
+      "meaning": "незграбна автоматизація чи недоладний модуль",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Г",
+        "Н"
+      ],
+      "source_urls": [
+        "https://hrinchenko.com/",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 99,
+      "form": "безтолоч",
+      "meaning": "процес, який споживає ресурси без користі",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Г",
+        "Н"
+      ],
+      "source_urls": [
+        "https://hrinchenko.com/",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 100,
+      "form": "паскуда",
+      "meaning": "особливо підступний баг або зіпсована підміна",
+      "intensity": 7,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Г",
+        "Н"
+      ],
+      "source_urls": [
+        "https://hrinchenko.com/",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "source_layer",
+      "exact_citations": [],
+      "note": "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+    }
+  ]
+}

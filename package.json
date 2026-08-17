@@ -2,6 +2,10 @@
   "name": "tryascia",
   "version": "0.1.0",
   "description": "Український інженерний стиль для AI-агентів",
+  "scripts": {
+    "test": "node scripts/validate-corpus.mjs",
+    "validate": "node scripts/validate-corpus.mjs"
+  },
   "keywords": [
     "ai-agent",
     "codex",
@@ -18,6 +22,7 @@
     "install-codex.sh",
     "install.sh",
     "output-styles/",
+    "scripts/",
     "skills/",
     "README.md"
   ]

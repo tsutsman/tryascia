@@ -99,6 +99,7 @@ curl -fsSL https://raw.githubusercontent.com/tsutsman/tryascia/main/install.sh |
 ```text
 skills/tryascia/              # Основні правила стилю
 skills/tryascia/references/   # Словник, сцени, онтологія, джерела й корпус
+scripts/                      # Перевірка та генерація машинного корпусу
 output-styles/tryascia.md     # Output style для Claude Code
 codex/AGENTS-tryascia.md      # Секція для Codex AGENTS.md
 commands/tryascia.md          # Slash-команда Claude Code
@@ -106,6 +107,14 @@ install-codex.sh              # Ідемпотентна інсталяція д
 install.sh                    # Ідемпотентна інсталяція для Claude Code
 evals/evals.json              # Перевірки калібрування стилю
 ```
+
+Перевірка корпусу:
+
+~~~bash
+npm test
+~~~
+
+Markdown-корпус призначений для читання, а skills/tryascia/references/korpus.json генерується валідатором і використовується як машинозчитуваний результат аудиту.
 
 ## Статус
 

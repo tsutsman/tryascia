@@ -39,11 +39,13 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 if [ -f "$SCRIPT_DIR/codex/AGENTS-tryascia.md" ]; then
   cp "$SCRIPT_DIR/codex/AGENTS-tryascia.md" "$TMP_SECTION"
   cp "$SCRIPT_DIR/skills/tryascia/references/"*.md "$TARGET_CODEX_DIR/tryascia/references/"
+  cp "$SCRIPT_DIR/skills/tryascia/references/korpus.json" "$TARGET_CODEX_DIR/tryascia/references/korpus.json"
 else
   curl -fsSL "$RAW_BASE/codex/AGENTS-tryascia.md" -o "$TMP_SECTION"
-  for reference_name in slovar.md sceny.md ontologia.md dzherela.md korpus-100.md; do
+  for reference_name in slovar.md sceny.md ontologia.md dzherela.md korpus-100.md verifikatsiya.md; do
     curl -fsSL "$RAW_BASE/skills/tryascia/references/$reference_name" -o "$TARGET_CODEX_DIR/tryascia/references/$reference_name"
   done
+  curl -fsSL "$RAW_BASE/skills/tryascia/references/korpus.json" -o "$TARGET_CODEX_DIR/tryascia/references/korpus.json"
 fi
 
 python3 - "$TARGET_CODEX_DIR" "$TMP_SECTION" <<'PY'
