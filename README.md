@@ -98,7 +98,7 @@ curl -fsSL https://raw.githubusercontent.com/tsutsman/tryascia/main/install.sh |
 
 ```text
 skills/tryascia/              # Основні правила стилю
-skills/tryascia/references/   # Словник, сцени й онтологія
+skills/tryascia/references/   # Словник, сцени, онтологія, джерела й корпус
 output-styles/tryascia.md     # Output style для Claude Code
 codex/AGENTS-tryascia.md      # Секція для Codex AGENTS.md
 commands/tryascia.md          # Slash-команда Claude Code
