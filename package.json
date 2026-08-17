@@ -1,0 +1,24 @@
+{
+  "name": "tryascia",
+  "version": "0.1.0",
+  "description": "Український інженерний стиль для AI-агентів",
+  "keywords": [
+    "ai-agent",
+    "codex",
+    "claude-code",
+    "ukrainian",
+    "output-style"
+  ],
+  "license": "MIT",
+  "files": [
+    ".claude-plugin/",
+    "commands/",
+    "codex/",
+    "evals/",
+    "install-codex.sh",
+    "install.sh",
+    "output-styles/",
+    "skills/",
+    "README.md"
+  ]
+}

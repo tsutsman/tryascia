@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "tryascia",
+  "description": "Український інженерний стиль для AI-агентів.",
+  "owner": {
+    "name": "Сергій Цуцман",
+    "url": "https://github.com/tsutsman"
+  },
+  "plugins": [
+    {
+      "name": "tryascia",
+      "description": "Агент відповідає як український інженер: коротко, точно й без зайвої церемонії.",
+      "source": "./",
+      "category": "fun"
+    }
+  ]
+}
