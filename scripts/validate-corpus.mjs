@@ -36,6 +36,18 @@ const exactCitations = {
       note: "Похідна сучасна форма; базову лексему «біс» зафіксовано окремим розділом."
     }
   ],
+  "бодай": [
+    {
+      url: "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs/Items/Bogorodycja-Bolity.html",
+      note: "Окремий розділ «Мудрування. Бодай» із народними формулами прокльону."
+    }
+  ],
+  "щоб його качка копнула": [
+    {
+      url: "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs/Items/Kacap-Kypa.html",
+      note: "Сторінка містить близькі народні варіанти «Бодай тебе качка надоптала!» та «Бодай тя качка копла!»."
+    }
+  ],
   "через пень-колоду": [
     {
       url: "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs/Items/Pacaniv-Pershyna.html",
@@ -125,11 +137,11 @@ const records = rows.map((row) => {
     source_urls: sourceCodes.map((code) => sourceUrls[code]),
     state: row.state,
     review_status: reviewStatus,
-    citation_status: citations.length > 0 ? "exact_anchor" : "source_layer",
+    citation_status: citations.length > 0 ? "exact_anchor" : "candidate",
     exact_citations: citations,
     note: citations.length > 0
       ? "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
-      : "Джерельний шар визначено; точний запис або сторінку ще треба додати під час редакторської верифікації."
+      : "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
   };
 });
 
