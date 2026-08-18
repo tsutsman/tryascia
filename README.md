@@ -20,6 +20,15 @@
 
 Корпус містить 100 форм: 75 мають exact anchor, 25 залишаються кандидатами для редакторської перевірки. Повний аудит зберігається в `records`, а runtime-пул `runtime_records` містить лише accepted-форми. Статуси й методологія описані у [журналі верифікації](skills/tryascia/references/verifikatsiya.md), [політиці корпусу](skills/tryascia/references/polityka-korpusu.md) та [реєстрі джерел](skills/tryascia/references/dzherela.md).
 
+## Підтримувані агенти
+
+| Агент | Інтеграція |
+|---|---|
+| Codex | `AGENTS.md` + локальний runtime-корпус |
+| Claude Code | output style + skill |
+| Hermes Agent | AgentSkills-сумісний skill у `~/.hermes/skills/tryascia` |
+| OpenClaw | AgentSkills-сумісний managed/workspace skill |
+
 ## До / після
 
 Звичайно:
@@ -91,6 +100,32 @@ TRYASCIA_REF="$TRYASCIA_REF" bash /tmp/tryascia-install.sh --uninstall
 rm -f /tmp/tryascia-install.sh
 ```
 
+### Hermes Agent
+
+ТРЯСЦЯ встановлюється як звичайний Hermes skill. За замовчуванням ціль — `~/.hermes/skills/tryascia`.
+
+```bash
+export TRYASCIA_REF=v0.1.0-rc.1
+curl -fsSL "https://raw.githubusercontent.com/tsutsman/tryascia/${TRYASCIA_REF}/install-hermes.sh" -o /tmp/tryascia-install-hermes.sh
+TRYASCIA_REF="$TRYASCIA_REF" bash /tmp/tryascia-install-hermes.sh
+rm -f /tmp/tryascia-install-hermes.sh
+```
+
+Після встановлення почни нову Hermes-сесію. Видалення — тим самим скриптом із `--uninstall`.
+
+### OpenClaw
+
+За замовчуванням ТРЯСЦЯ ставиться як shared managed skill у `~/.openclaw/skills/tryascia`.
+
+```bash
+export TRYASCIA_REF=v0.1.0-rc.1
+curl -fsSL "https://raw.githubusercontent.com/tsutsman/tryascia/${TRYASCIA_REF}/install-openclaw.sh" -o /tmp/tryascia-install-openclaw.sh
+TRYASCIA_REF="$TRYASCIA_REF" bash /tmp/tryascia-install-openclaw.sh
+rm -f /tmp/tryascia-install-openclaw.sh
+```
+
+Для workspace-рівня передай `OPENCLAW_SKILLS_DIR=/path/to/workspace/skills`. Видалення — тим самим скриптом із `--uninstall`.
+
 Команди перемикання:
 
 ```text
@@ -121,7 +156,7 @@ rm -f /tmp/tryascia-install.sh
 ## Структура
 
 ```text
-skills/tryascia/              # Основні правила стилю
+skills/tryascia/              # AgentSkills-сумісний skill і runtime-правила
 skills/tryascia/references/   # Словник, сцени, онтологія, джерела й корпус
 skills/tryascia/references/polityka-korpusu.md # Політика accepted/candidate і release gate
 scripts/                      # Перевірка та генерація машинного корпусу
@@ -131,6 +166,8 @@ codex/AGENTS-tryascia.md      # Секція для Codex AGENTS.md
 commands/tryascia.md          # Slash-команда Claude Code
 install-codex.sh              # Ідемпотентна інсталяція для Codex
 install.sh                    # Ідемпотентна інсталяція для Claude Code
+install-hermes.sh             # Ідемпотентна інсталяція skill для Hermes Agent
+install-openclaw.sh           # Ідемпотентна інсталяція skill для OpenClaw
 CHANGELOG.md                  # Історія релізів
 evals/evals.json              # Перевірки калібрування стилю
 ```
@@ -145,7 +182,7 @@ npm test
 
 ~~~bash
 npm test
-bash -n install.sh install-codex.sh tests/installer-smoke.sh tests/release-ref-smoke.sh
+bash -n install.sh install-codex.sh install-hermes.sh install-openclaw.sh tests/installer-smoke.sh tests/release-ref-smoke.sh
 bash tests/installer-smoke.sh
 bash tests/release-ref-smoke.sh
 ~~~
@@ -154,7 +191,7 @@ Markdown-корпус призначений для читання, а `skills/t
 
 ## Статус
 
-Release candidate `0.1.0-rc.1` підтримує Codex і Claude Code через prompt/style-файли та інсталятори. Релізні інсталятори мають використовувати тег або commit SHA. До `1.0` залишаються редакторський прохід кандидатів і стабілізація поведінкових evals.
+Release candidate `0.1.0-rc.1` підтримує Codex, Claude Code, Hermes Agent і OpenClaw. Для Hermes/OpenClaw використовується спільний AgentSkills-сумісний `skills/tryascia/SKILL.md`, без окремого дубльованого корпусу. Релізні інсталятори мають використовувати тег або commit SHA. До `1.0` залишаються редакторський прохід кандидатів і стабілізація поведінкових evals.
 
 ## Ліцензія
 
