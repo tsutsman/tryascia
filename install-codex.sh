@@ -1,14 +1,24 @@
 #!/usr/bin/env bash
 # Інсталяція стилю ТРЯСЦЯ для Codex.
 #
-#   curl -fsSL https://raw.githubusercontent.com/tsutsman/tryascia/main/install-codex.sh | bash
-#   curl -fsSL https://raw.githubusercontent.com/tsutsman/tryascia/main/install-codex.sh | bash -s -- --uninstall
+#   TRYASCIA_REF=v0.1.0-beta.1 bash install-codex.sh
+#   bash install-codex.sh --uninstall
 
 set -euo pipefail
 
 TARGET_CODEX_DIR="${TARGET_CODEX_DIR:-${HOME}/.codex}"
-RAW_BASE="${RAW_BASE:-https://raw.githubusercontent.com/tsutsman/tryascia/main}"
+TRYASCIA_REF="${TRYASCIA_REF:-main}"
+RAW_BASE="${RAW_BASE:-https://raw.githubusercontent.com/tsutsman/tryascia/${TRYASCIA_REF}}"
 MODE="${1:-install}"
+
+case "$MODE" in
+  install|--uninstall)
+    ;;
+  *)
+    echo "Використання: $0 [--uninstall]" >&2
+    exit 2
+    ;;
+esac
 
 command -v python3 >/dev/null 2>&1 || { echo "Потрібен python3" >&2; exit 1; }
 
