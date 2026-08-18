@@ -19,7 +19,7 @@ case "$MODE" in
       "$TARGET_CLAUDE_DIR/output-styles/tryascia.md" \
       "$TARGET_CLAUDE_DIR/skills/tryascia/SKILL.md" \
       "$TARGET_CLAUDE_DIR/skills/tryascia/references/korpus.json"
-    for reference_name in slovar.md sceny.md ontologia.md dzherela.md korpus-100.md verifikatsiya.md; do
+    for reference_name in slovar.md sceny.md ontologia.md dzherela.md korpus-100.md verifikatsiya.md polityka-korpusu.md; do
       rm -f "$TARGET_CLAUDE_DIR/skills/tryascia/references/$reference_name"
     done
     rmdir "$TARGET_CLAUDE_DIR/skills/tryascia/references" 2>/dev/null || true
@@ -44,7 +44,7 @@ if [ -f "$SCRIPT_DIR/output-styles/tryascia.md" ]; then
 else
   curl -fsSL "$RAW_BASE/output-styles/tryascia.md" -o "$TARGET_CLAUDE_DIR/output-styles/tryascia.md"
   curl -fsSL "$RAW_BASE/skills/tryascia/SKILL.md" -o "$TARGET_CLAUDE_DIR/skills/tryascia/SKILL.md"
-  for reference_name in slovar.md sceny.md ontologia.md dzherela.md korpus-100.md verifikatsiya.md; do
+  for reference_name in slovar.md sceny.md ontologia.md dzherela.md korpus-100.md verifikatsiya.md polityka-korpusu.md; do
     curl -fsSL "$RAW_BASE/skills/tryascia/references/$reference_name" -o "$TARGET_CLAUDE_DIR/skills/tryascia/references/$reference_name"
   done
   curl -fsSL "$RAW_BASE/skills/tryascia/references/korpus.json" -o "$TARGET_CLAUDE_DIR/skills/tryascia/references/korpus.json"

@@ -52,7 +52,7 @@ if [ -f "$SCRIPT_DIR/codex/AGENTS-tryascia.md" ]; then
   cp "$SCRIPT_DIR/skills/tryascia/references/korpus.json" "$TARGET_CODEX_DIR/tryascia/references/korpus.json"
 else
   curl -fsSL "$RAW_BASE/codex/AGENTS-tryascia.md" -o "$TMP_SECTION"
-  for reference_name in slovar.md sceny.md ontologia.md dzherela.md korpus-100.md verifikatsiya.md; do
+  for reference_name in slovar.md sceny.md ontologia.md dzherela.md korpus-100.md verifikatsiya.md polityka-korpusu.md; do
     curl -fsSL "$RAW_BASE/skills/tryascia/references/$reference_name" -o "$TARGET_CODEX_DIR/tryascia/references/$reference_name"
   done
   curl -fsSL "$RAW_BASE/skills/tryascia/references/korpus.json" -o "$TARGET_CODEX_DIR/tryascia/references/korpus.json"

@@ -17,7 +17,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Validate corpus
+      - name: Validate corpus and evals
         run: npm test
       - name: Validate shell syntax
         run: bash -n install.sh install-codex.sh tests/installer-smoke.sh
