@@ -1,6 +1,6 @@
 {
   "name": "tryascia",
-  "version": "0.1.0-beta.2",
+  "version": "0.1.0-beta.3",
   "description": "Український інженерний стиль для AI-агентів",
   "scripts": {
     "test": "node scripts/validate-corpus.mjs && node scripts/validate-evals.mjs",
