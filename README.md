@@ -4,7 +4,7 @@
 
 > Деплой йобнувся — це не привід писати роман. Знайди причину, скажи прямо й полагодь.
 
-**18+ · українська обсценна лексика · для інженерної роботи · v0.1.0-beta.1**
+**18+ · українська обсценна лексика · для інженерної роботи · v0.1.0-beta.2**
 
 > Експериментальний публічний реліз. ТРЯСЦЯ не є академічним словником і не призначена для образ користувача.
 
@@ -58,7 +58,7 @@
 ### Codex
 
 ```bash
-export TRYASCIA_REF=v0.1.0-beta.1
+export TRYASCIA_REF=v0.1.0-beta.2
 curl -fsSL "https://raw.githubusercontent.com/tsutsman/tryascia/${TRYASCIA_REF}/install-codex.sh" -o /tmp/tryascia-install-codex.sh
 TRYASCIA_REF="$TRYASCIA_REF" bash /tmp/tryascia-install-codex.sh
 rm -f /tmp/tryascia-install-codex.sh
@@ -67,7 +67,7 @@ rm -f /tmp/tryascia-install-codex.sh
 Після цього перезапусти Codex. Видалення:
 
 ```bash
-export TRYASCIA_REF=v0.1.0-beta.1
+export TRYASCIA_REF=v0.1.0-beta.2
 curl -fsSL "https://raw.githubusercontent.com/tsutsman/tryascia/${TRYASCIA_REF}/install-codex.sh" -o /tmp/tryascia-install-codex.sh
 TRYASCIA_REF="$TRYASCIA_REF" bash /tmp/tryascia-install-codex.sh --uninstall
 rm -f /tmp/tryascia-install-codex.sh
@@ -76,7 +76,7 @@ rm -f /tmp/tryascia-install-codex.sh
 ### Claude Code
 
 ```bash
-export TRYASCIA_REF=v0.1.0-beta.1
+export TRYASCIA_REF=v0.1.0-beta.2
 curl -fsSL "https://raw.githubusercontent.com/tsutsman/tryascia/${TRYASCIA_REF}/install.sh" -o /tmp/tryascia-install.sh
 TRYASCIA_REF="$TRYASCIA_REF" bash /tmp/tryascia-install.sh
 rm -f /tmp/tryascia-install.sh
@@ -85,7 +85,7 @@ rm -f /tmp/tryascia-install.sh
 Видалення:
 
 ```bash
-export TRYASCIA_REF=v0.1.0-beta.1
+export TRYASCIA_REF=v0.1.0-beta.2
 curl -fsSL "https://raw.githubusercontent.com/tsutsman/tryascia/${TRYASCIA_REF}/install.sh" -o /tmp/tryascia-install.sh
 TRYASCIA_REF="$TRYASCIA_REF" bash /tmp/tryascia-install.sh --uninstall
 rm -f /tmp/tryascia-install.sh
@@ -131,6 +131,7 @@ codex/AGENTS-tryascia.md      # Секція для Codex AGENTS.md
 commands/tryascia.md          # Slash-команда Claude Code
 install-codex.sh              # Ідемпотентна інсталяція для Codex
 install.sh                    # Ідемпотентна інсталяція для Claude Code
+CHANGELOG.md                 # Історія релізів
 evals/evals.json              # Перевірки калібрування стилю
 ```
 
@@ -146,13 +147,14 @@ npm test
 npm test
 bash -n install.sh install-codex.sh tests/installer-smoke.sh
 bash tests/installer-smoke.sh
+bash tests/release-ref-smoke.sh
 ~~~
 
 Markdown-корпус призначений для читання, а skills/tryascia/references/korpus.json генерується валідатором і використовується як машинозчитуваний результат аудиту.
 
 ## Статус
 
-Перша beta-версія підтримує Codex і Claude Code через prompt/style-файли та інсталятори. Релізні інсталятори мають використовувати тег або commit SHA. Адаптер для Pi планується після стабілізації словника й evals.
+Beta-реліз 0.1.0-beta.2 підтримує Codex і Claude Code через prompt/style-файли та інсталятори. Релізні інсталятори мають використовувати тег або commit SHA. Адаптер для Pi планується після стабілізації словника й evals.
 
 ## Ліцензія
 

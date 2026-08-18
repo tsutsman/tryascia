@@ -20,6 +20,8 @@ jobs:
       - name: Validate corpus and evals
         run: npm test
       - name: Validate shell syntax
-        run: bash -n install.sh install-codex.sh tests/installer-smoke.sh
+        run: bash -n install.sh install-codex.sh tests/installer-smoke.sh tests/release-ref-smoke.sh
       - name: Smoke-test installers
         run: bash tests/installer-smoke.sh
+      - name: Smoke-test ref installers
+        run: bash tests/release-ref-smoke.sh
