@@ -28,9 +28,8 @@ jobs:
       - name: Smoke-test ref installers
         run: bash tests/release-ref-smoke.sh
 
-  promote_beta3:
+  finalize_beta3:
     if: github.event_name == 'pull_request' && github.head_ref == 'agent/corpus-beta3-50'
-    needs: corpus
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -43,51 +42,9 @@ jobs:
         uses: actions/setup-node@v7
         with:
           node-version: 24
-      - name: Wire verified anchors and raise release gate
-        run: |
-          python3 - <<'PY'
-          from pathlib import Path
-          import json
-
-          validator = Path('scripts/validate-corpus.mjs')
-          text = validator.read_text(encoding='utf-8')
-          marker = '};\n\nconst rowPattern ='
-          if 'verified-anchors-beta3.json' not in text:
-              if marker not in text:
-                  raise SystemExit('validator insertion marker not found')
-              injected = '''};
-
-const additionalExactCitationsPath = path.join(root, "evals/verified-anchors-beta3.json");
-const additionalExactCitations = JSON.parse(fs.readFileSync(additionalExactCitationsPath, "utf8"));
-for (const [form, citations] of Object.entries(additionalExactCitations)) {
-  if (exactCitations[form]) {
-    throw new Error("Дубль exact citation для форми: " + form);
-  }
-  exactCitations[form] = citations;
-}
-
-const rowPattern ='''
-              validator.write_text(text.replace(marker, injected, 1), encoding='utf-8')
-
-          policy_path = Path('evals/corpus-policy.json')
-          policy = json.loads(policy_path.read_text(encoding='utf-8'))
-          policy['release_gate']['minimum_accepted_records'] = 50
-          policy['release_gate']['maximum_candidate_records'] = 50
-          policy_path.write_text(json.dumps(policy, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-
-          readme = Path('README.md')
-          readme_text = readme.read_text(encoding='utf-8')
-          old = 'Корпус містить 100 форм: 30 мають exact anchor, 70 залишаються кандидатами для редакторської перевірки.'
-          new = 'Корпус містить 100 форм: 50 мають exact anchor, 50 залишаються кандидатами для редакторської перевірки.'
-          if old in readme_text:
-              readme_text = readme_text.replace(old, new, 1)
-          elif new not in readme_text:
-              raise SystemExit('README corpus summary marker not found')
-          readme.write_text(readme_text, encoding='utf-8')
-          PY
-      - name: Regenerate and validate promoted corpus
+      - name: Generate 50/50 corpus
         run: npm test
-      - name: Assert 50/50 corpus
+      - name: Assert corpus counts
         run: |
           node - <<'NODE'
           const fs = require('fs');
@@ -103,14 +60,29 @@ const rowPattern ='''
           }
           console.log('OK: 100 records; 50 accepted; 50 candidate; 50 runtime records.');
           NODE
-      - name: Commit promoted corpus
+      - name: Update README and remove temporary promotion scaffolding
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          p = Path('README.md')
+          text = p.read_text(encoding='utf-8')
+          old = 'Корпус містить 100 форм: 30 мають exact anchor, 70 залишаються кандидатами для редакторської перевірки.'
+          new = 'Корпус містить 100 форм: 50 мають exact anchor, 50 залишаються кандидатами для редакторської перевірки.'
+          if old in text:
+              text = text.replace(old, new, 1)
+          elif new not in text:
+              raise SystemExit('README corpus summary marker not found')
+          p.write_text(text, encoding='utf-8')
+          PY
+          git fetch origin main:refs/remotes/origin/main --depth=1
+          git show origin/main:.github/workflows/validate.yml > .github/workflows/validate.yml
+          rm -f .github/workflows/promote-corpus-beta3.yml
+          rm -f .github/workflows/promote-corpus-beta3-pr.yml
+          rm -f BETA3_PLAN.md
+      - name: Commit generated corpus and cleanup
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add scripts/validate-corpus.mjs evals/corpus-policy.json README.md skills/tryascia/references/korpus.json
-          if git diff --cached --quiet; then
-            echo "Corpus already promoted"
-            exit 0
-          fi
-          git commit -m "feat: raise verified corpus gate to 50"
+          git add -A
+          git commit -m "feat: finalize verified corpus at 50 anchors"
           git push origin HEAD:agent/corpus-beta3-50
