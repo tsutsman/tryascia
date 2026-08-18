@@ -18,7 +18,7 @@
 - код, команди, імена API, логи й помилки залишаються точними;
 - security, дані та незворотні операції пояснюються чисто й без жартів.
 
-Корпус містить 100 форм: 30 мають exact anchor, 70 залишаються кандидатами для редакторської перевірки. Повний аудит зберігається в `records`, а runtime-пул `runtime_records` містить лише accepted-форми. Статуси й методологія описані у [журналі верифікації](skills/tryascia/references/verifikatsiya.md), [політиці корпусу](skills/tryascia/references/polityka-korpusu.md) та [реєстрі джерел](skills/tryascia/references/dzherela.md).
+Корпус містить 100 форм: 50 мають exact anchor, 50 залишаються кандидатами для редакторської перевірки. Повний аудит зберігається в `records`, а runtime-пул `runtime_records` містить лише accepted-форми. Статуси й методологія описані у [журналі верифікації](skills/tryascia/references/verifikatsiya.md), [політиці корпусу](skills/tryascia/references/polityka-korpusu.md) та [реєстрі джерел](skills/tryascia/references/dzherela.md).
 
 ## До / після
 
