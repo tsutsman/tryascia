@@ -1,0 +1,22 @@
+name: Publish v0.1.0-beta.3
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Create prerelease
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create v0.1.0-beta.3 \
+            --target "${GITHUB_SHA}" \
+            --title "v0.1.0-beta.3" \
+            --prerelease \
+            --notes "ТРЯСЦЯ v0.1.0-beta.3: 50 перевірених exact anchors, 50 candidate-записів, детермінований runtime corpus і посилена валідація."
