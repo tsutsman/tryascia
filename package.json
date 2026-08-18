@@ -10,6 +10,8 @@
     "ai-agent",
     "codex",
     "claude-code",
+    "hermes-agent",
+    "openclaw",
     "ukrainian",
     "output-style"
   ],
@@ -21,6 +23,8 @@
     "codex/",
     "evals/",
     "install-codex.sh",
+    "install-hermes.sh",
+    "install-openclaw.sh",
     "install.sh",
     "output-styles/",
     "scripts/",
