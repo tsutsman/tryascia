@@ -16,8 +16,24 @@ mkdir -p "$CODEX_DIR" "$CLAUDE_DIR/skills/tryascia/references" "$INSTALLER_DIR"
 printf '# Існуючі правила\n' > "$CODEX_DIR/AGENTS.md"
 printf '# Чужий файл\n' > "$CLAUDE_DIR/skills/tryascia/references/custom.md"
 
-curl -fsSL "$RAW_ROOT/install-codex.sh" -o "$INSTALLER_DIR/install-codex.sh"
-curl -fsSL "$RAW_ROOT/install.sh" -o "$INSTALLER_DIR/install.sh"
+download_file() {
+  local url="$1"
+  local output="$2"
+  local attempt
+  for attempt in 1 2 3 4; do
+    if curl --connect-timeout 15 -fsSL "$url" -o "$output"; then
+      return 0
+    fi
+    if [ "$attempt" -lt 4 ]; then
+      sleep $((attempt * 2))
+    fi
+  done
+  echo "Не вдалося завантажити $url після 4 спроб." >&2
+  return 1
+}
+
+download_file "$RAW_ROOT/install-codex.sh" "$INSTALLER_DIR/install-codex.sh"
+download_file "$RAW_ROOT/install.sh" "$INSTALLER_DIR/install.sh"
 chmod +x "$INSTALLER_DIR/install-codex.sh" "$INSTALLER_DIR/install.sh"
 
 TARGET_CODEX_DIR="$CODEX_DIR" TRYASCIA_REF="$REF" RAW_BASE="$RAW_ROOT" \
