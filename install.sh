@@ -18,8 +18,10 @@ case "$MODE" in
     rm -f \
       "$TARGET_CLAUDE_DIR/output-styles/tryascia.md" \
       "$TARGET_CLAUDE_DIR/skills/tryascia/SKILL.md" \
-      "$TARGET_CLAUDE_DIR/skills/tryascia/references/"*.md \
       "$TARGET_CLAUDE_DIR/skills/tryascia/references/korpus.json"
+    for reference_name in slovar.md sceny.md ontologia.md dzherela.md korpus-100.md verifikatsiya.md; do
+      rm -f "$TARGET_CLAUDE_DIR/skills/tryascia/references/$reference_name"
+    done
     rmdir "$TARGET_CLAUDE_DIR/skills/tryascia/references" 2>/dev/null || true
     rmdir "$TARGET_CLAUDE_DIR/skills/tryascia" 2>/dev/null || true
     echo "ТРЯСЦЮ видалено з Claude Code. Перезапусти Claude Code."
