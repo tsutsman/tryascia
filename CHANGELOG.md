@@ -1,5 +1,29 @@
 # Changelog
 
+## 0.1.0-rc.1 — 18.08.2026
+
+### Додано
+
+- 25 нових перевірених exact anchors у окремому RC-наборі;
+- boundary-evals для public-output cleanliness, security auto-clarity, no-user-insult і `normal` mode isolation.
+
+### Змінено
+
+- верифікований runtime-корпус розширено з 50 до 75 `accepted` форм;
+- release gate піднято до 75 `accepted` / максимум 25 `candidate`;
+- політику корпусу та журнал верифікації синхронізовано з RC-рівнем;
+- валідатор читає base, beta.3 і rc.1 набори exact anchors як окремі дані.
+
+### Перевірки
+
+- `npm test`;
+- узгодженість версій `package.json` та `evals/evals.json`;
+- generated corpus drift;
+- 100 записів / 75 accepted / 25 candidate / 75 runtime records;
+- синтаксична перевірка shell-скриптів;
+- локальна smoke-перевірка інсталяторів;
+- smoke-перевірка інсталяторів через віддалений ref.
+
 ## 0.1.0-beta.3 — 18.08.2026
 
 ### Змінено
