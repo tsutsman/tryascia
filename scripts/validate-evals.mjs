@@ -3,6 +3,7 @@
 import fs from "node:fs";
 
 const manifest = JSON.parse(fs.readFileSync("evals/evals.json", "utf8"));
+const pkg = JSON.parse(fs.readFileSync("package.json", "utf8"));
 const requiredNames = new Set([
   "candidate-guard",
   "intensity-calibration",
@@ -11,6 +12,11 @@ const requiredNames = new Set([
 
 if (manifest.skill_name !== "tryascia") {
   throw new Error("Неправильне ім’я skill у eval-manifest.");
+}
+if (manifest.version !== pkg.version) {
+  throw new Error(
+    "Версія eval-manifest (" + manifest.version + ") не збігається з package.json (" + pkg.version + ")."
+  );
 }
 if (!Array.isArray(manifest.evals) || manifest.evals.length < 8) {
   throw new Error("Eval-manifest має містити щонайменше вісім перевірок.");
@@ -28,4 +34,4 @@ for (const name of requiredNames) {
   }
 }
 
-console.log("OK: eval-manifest містить базові та regression-перевірки.");
+console.log("OK: eval-manifest синхронізований із версією пакета та містить regression-перевірки.");

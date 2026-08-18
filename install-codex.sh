@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Інсталяція стилю ТРЯСЦЯ для Codex.
 #
-#   TRYASCIA_REF=v0.1.0-beta.1 bash install-codex.sh
+#   TRYASCIA_REF=v0.1.0-beta.2 bash install-codex.sh
 #   bash install-codex.sh --uninstall
 
 set -euo pipefail
@@ -45,17 +45,34 @@ TMP_SECTION="$(mktemp)"
 cleanup() { rm -f "$TMP_SECTION"; }
 trap cleanup EXIT
 
+download_file() {
+  local url="$1"
+  local output="$2"
+  local attempt
+  for attempt in 1 2 3 4; do
+    if curl --connect-timeout 15 -fsSL "$url" -o "$output"; then
+      return 0
+    fi
+    if [ "$attempt" -lt 4 ]; then
+      sleep $((attempt * 2))
+    fi
+  done
+  echo "Не вдалося завантажити $url після 4 спроб." >&2
+  return 1
+}
+
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 if [ -f "$SCRIPT_DIR/codex/AGENTS-tryascia.md" ]; then
   cp "$SCRIPT_DIR/codex/AGENTS-tryascia.md" "$TMP_SECTION"
   cp "$SCRIPT_DIR/skills/tryascia/references/"*.md "$TARGET_CODEX_DIR/tryascia/references/"
   cp "$SCRIPT_DIR/skills/tryascia/references/korpus.json" "$TARGET_CODEX_DIR/tryascia/references/korpus.json"
 else
-  curl -fsSL "$RAW_BASE/codex/AGENTS-tryascia.md" -o "$TMP_SECTION"
+  command -v curl >/dev/null 2>&1 || { echo "Потрібен curl" >&2; exit 1; }
+  download_file "$RAW_BASE/codex/AGENTS-tryascia.md" "$TMP_SECTION"
   for reference_name in slovar.md sceny.md ontologia.md dzherela.md korpus-100.md verifikatsiya.md polityka-korpusu.md; do
-    curl -fsSL "$RAW_BASE/skills/tryascia/references/$reference_name" -o "$TARGET_CODEX_DIR/tryascia/references/$reference_name"
+    download_file "$RAW_BASE/skills/tryascia/references/$reference_name" "$TARGET_CODEX_DIR/tryascia/references/$reference_name"
   done
-  curl -fsSL "$RAW_BASE/skills/tryascia/references/korpus.json" -o "$TARGET_CODEX_DIR/tryascia/references/korpus.json"
+  download_file "$RAW_BASE/skills/tryascia/references/korpus.json" "$TARGET_CODEX_DIR/tryascia/references/korpus.json"
 fi
 
 python3 - "$TARGET_CODEX_DIR" "$TMP_SECTION" <<'PY'

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Інсталяція output style ТРЯСЦЯ для Claude Code.
 #
-#   TRYASCIA_REF=v0.1.0-beta.1 bash install.sh
+#   TRYASCIA_REF=v0.1.0-beta.2 bash install.sh
 #   bash install.sh --uninstall
 
 set -euo pipefail
@@ -35,6 +35,22 @@ esac
 
 mkdir -p "$TARGET_CLAUDE_DIR/output-styles" "$TARGET_CLAUDE_DIR/skills/tryascia/references"
 
+download_file() {
+  local url="$1"
+  local output="$2"
+  local attempt
+  for attempt in 1 2 3 4; do
+    if curl --connect-timeout 15 -fsSL "$url" -o "$output"; then
+      return 0
+    fi
+    if [ "$attempt" -lt 4 ]; then
+      sleep $((attempt * 2))
+    fi
+  done
+  echo "Не вдалося завантажити $url після 4 спроб." >&2
+  return 1
+}
+
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 if [ -f "$SCRIPT_DIR/output-styles/tryascia.md" ]; then
   cp "$SCRIPT_DIR/output-styles/tryascia.md" "$TARGET_CLAUDE_DIR/output-styles/tryascia.md"
@@ -42,12 +58,13 @@ if [ -f "$SCRIPT_DIR/output-styles/tryascia.md" ]; then
   cp "$SCRIPT_DIR/skills/tryascia/references/"*.md "$TARGET_CLAUDE_DIR/skills/tryascia/references/"
   cp "$SCRIPT_DIR/skills/tryascia/references/korpus.json" "$TARGET_CLAUDE_DIR/skills/tryascia/references/korpus.json"
 else
-  curl -fsSL "$RAW_BASE/output-styles/tryascia.md" -o "$TARGET_CLAUDE_DIR/output-styles/tryascia.md"
-  curl -fsSL "$RAW_BASE/skills/tryascia/SKILL.md" -o "$TARGET_CLAUDE_DIR/skills/tryascia/SKILL.md"
+  command -v curl >/dev/null 2>&1 || { echo "Потрібен curl" >&2; exit 1; }
+  download_file "$RAW_BASE/output-styles/tryascia.md" "$TARGET_CLAUDE_DIR/output-styles/tryascia.md"
+  download_file "$RAW_BASE/skills/tryascia/SKILL.md" "$TARGET_CLAUDE_DIR/skills/tryascia/SKILL.md"
   for reference_name in slovar.md sceny.md ontologia.md dzherela.md korpus-100.md verifikatsiya.md polityka-korpusu.md; do
-    curl -fsSL "$RAW_BASE/skills/tryascia/references/$reference_name" -o "$TARGET_CLAUDE_DIR/skills/tryascia/references/$reference_name"
+    download_file "$RAW_BASE/skills/tryascia/references/$reference_name" "$TARGET_CLAUDE_DIR/skills/tryascia/references/$reference_name"
   done
-  curl -fsSL "$RAW_BASE/skills/tryascia/references/korpus.json" -o "$TARGET_CLAUDE_DIR/skills/tryascia/references/korpus.json"
+  download_file "$RAW_BASE/skills/tryascia/references/korpus.json" "$TARGET_CLAUDE_DIR/skills/tryascia/references/korpus.json"
 fi
 
 echo "Готово. Обери output style ТРЯСЦЯ або перезапусти Claude Code."

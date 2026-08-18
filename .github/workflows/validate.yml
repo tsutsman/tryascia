@@ -12,13 +12,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
-          node-version: 20
+          node-version: 24
       - name: Validate corpus and evals
         run: npm test
+      - name: Verify generated corpus is committed
+        run: git diff --exit-code -- skills/tryascia/references/korpus.json
       - name: Validate shell syntax
         run: bash -n install.sh install-codex.sh tests/installer-smoke.sh tests/release-ref-smoke.sh
       - name: Smoke-test installers

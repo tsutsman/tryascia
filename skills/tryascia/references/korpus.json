@@ -3,2260 +3,6 @@
   "generated_from": "skills/tryascia/references/korpus-100.md",
   "generated_by": "scripts/validate-corpus.mjs",
   "record_count": 100,
-  "records": [
-    {
-      "id": 1,
-      "form": "йой",
-      "meaning": "м’яка несподіванка або перший симптом",
-      "intensity": 1,
-      "register": "lite",
-      "target": "system_or_process",
-      "source_codes": [
-        "Ф"
-      ],
-      "source_urls": [
-        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "exact_anchor",
-      "exact_citations": [
-        {
-          "url": "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs/Items/Aby-Ani.html",
-          "note": "У Франковому корпусі зафіксовано формулу «Або гой, або йой»; слово «йой» входить до дослівного запису."
-        }
-      ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
-    },
-    {
-      "id": 2,
-      "form": "ой леле",
-      "meaning": "проблема є, але ще без аварії",
-      "intensity": 1,
-      "register": "lite",
-      "target": "system_or_process",
-      "source_codes": [
-        "Ф",
-        "Н"
-      ],
-      "source_urls": [
-        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
-        "https://archive.org/details/nomis1864"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "exact_anchor",
-      "exact_citations": [
-        {
-          "url": "https://slovnyk.me/dict/synonyms_vusyk/%D0%BE%D0%B9",
-          "note": "Словникова стаття містить сполуку «ой, леле» як вигук."
-        }
-      ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
-    },
-    {
-      "id": 3,
-      "form": "трясця",
-      "meaning": "локальна дрібна халепа",
-      "intensity": 3,
-      "register": "lite",
-      "target": "system_or_process",
-      "source_codes": [
-        "Ф",
-        "Н"
-      ],
-      "source_urls": [
-        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
-        "https://archive.org/details/nomis1864"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 4,
-      "form": "трясця його знає",
-      "meaning": "причина поки невідома",
-      "intensity": 4,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С",
-        "Н"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861",
-        "https://archive.org/details/nomis1864"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 5,
-      "form": "бодай",
-      "meaning": "короткий прокльон-маркер",
-      "intensity": 3,
-      "register": "lite",
-      "target": "system_or_process",
-      "source_codes": [
-        "Ф",
-        "Н"
-      ],
-      "source_urls": [
-        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
-        "https://archive.org/details/nomis1864"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "exact_anchor",
-      "exact_citations": [
-        {
-          "url": "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs/Items/Bogorodycja-Bolity.html",
-          "note": "Окремий розділ «Мудрування. Бодай» із народними формулами прокльону."
-        }
-      ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
-    },
-    {
-      "id": 6,
-      "form": "бодай би",
-      "meaning": "посилений прокльон без прямої атаки",
-      "intensity": 4,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "Ф",
-        "Н"
-      ],
-      "source_urls": [
-        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
-        "https://archive.org/details/nomis1864"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "exact_anchor",
-      "exact_citations": [
-        {
-          "url": "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs/Items/Vorknuty-Vorona.html",
-          "note": "У Франковому записі дослівно вжито формулу «Бодай би того...»."
-        }
-      ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
-    },
-    {
-      "id": 7,
-      "form": "хай йому грець",
-      "meaning": "проблема неприємна, але контрольована",
-      "intensity": 3,
-      "register": "lite",
-      "target": "system_or_process",
-      "source_codes": [
-        "Ф",
-        "Н"
-      ],
-      "source_urls": [
-        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
-        "https://archive.org/details/nomis1864"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "exact_anchor",
-      "exact_citations": [
-        {
-          "url": "https://slovnyk.me/dict/phraseology/%D1%85%D0%B0%D0%B9",
-          "note": "Фразеологічна стаття містить точну сполуку «хай йому грець»."
-        }
-      ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
-    },
-    {
-      "id": 8,
-      "form": "шляк би трафив",
-      "meaning": "сильне роздратування через збій",
-      "intensity": 5,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "Ф"
-      ],
-      "source_urls": [
-        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 9,
-      "form": "хай йому біс",
-      "meaning": "несподіваний збій або витівка",
-      "intensity": 4,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "Ф",
-        "Н"
-      ],
-      "source_urls": [
-        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
-        "https://archive.org/details/nomis1864"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 10,
-      "form": "до біса",
-      "meaning": "прибрати зайве, якщо це безпечно",
-      "intensity": 3,
-      "register": "lite",
-      "target": "system_or_process",
-      "source_codes": [
-        "Ф",
-        "Н"
-      ],
-      "source_urls": [
-        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
-        "https://archive.org/details/nomis1864"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "exact_anchor",
-      "exact_citations": [
-        {
-          "url": "https://www.i-franko.name/uk/Prose/DomashnijPromysl.html",
-          "note": "У Франковому прозовому тексті дослівно вжито «Там до біса!»."
-        }
-      ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
-    },
-    {
-      "id": 11,
-      "form": "чорт забирай",
-      "meaning": "різка реакція на подію",
-      "intensity": 4,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "К",
-        "Л"
-      ],
-      "source_urls": [
-        "https://uk.wikisource.org/wiki/Твори_(Котляревський,_1922)/Том_1/Енеїда",
-        "https://uk.wikisource.org/wiki/Кайдашева_сім’я"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 12,
-      "form": "дідько",
-      "meaning": "коротка назва неприємності",
-      "intensity": 3,
-      "register": "lite",
-      "target": "system_or_process",
-      "source_codes": [
-        "Ф",
-        "Н"
-      ],
-      "source_urls": [
-        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
-        "https://archive.org/details/nomis1864"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "exact_anchor",
-      "exact_citations": [
-        {
-          "url": "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs/Items/Didko121-251.html",
-          "note": "Окремий розділ Франкового корпусу з численними народними формулами."
-        }
-      ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
-    },
-    {
-      "id": 13,
-      "form": "дідько лисий",
-      "meaning": "вперта, абсурдна проблема",
-      "intensity": 5,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "Ф",
-        "Н"
-      ],
-      "source_urls": [
-        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
-        "https://archive.org/details/nomis1864"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "exact_anchor",
-      "exact_citations": [
-        {
-          "url": "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs/Items/Tatuno-Terpec.html",
-          "note": "У записі з Кукизова дослівно вжито сполуку «дідько лисий»."
-        }
-      ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
-    },
-    {
-      "id": 14,
-      "form": "курча",
-      "meaning": "м’який публічний варіант роздратування",
-      "intensity": 2,
-      "register": "lite",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 15,
-      "form": "холера його знає",
-      "meaning": "причина не встановлена, але вже дратує",
-      "intensity": 5,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С",
-        "Н"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861",
-        "https://archive.org/details/nomis1864"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 16,
-      "form": "кат його знає",
-      "meaning": "невідомий компонент або власник рішення",
-      "intensity": 4,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "Н",
-        "Г"
-      ],
-      "source_urls": [
-        "https://archive.org/details/nomis1864",
-        "https://hrinchenko.com/"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "exact_anchor",
-      "exact_citations": [
-        {
-          "url": "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs/Items/Kamuz-Kateryna.html",
-          "note": "У записі з Нагуєвичів дослівно вжито «Кат його знає!»."
-        }
-      ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
-    },
-    {
-      "id": 17,
-      "form": "хрін його знає",
-      "meaning": "невідома причина в неформальному режимі",
-      "intensity": 4,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С",
-        "Г"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861",
-        "https://hrinchenko.com/"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 18,
-      "form": "якого хріна",
-      "meaning": "вимога пояснити дивну поведінку",
-      "intensity": 4,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 19,
-      "form": "на хріна",
-      "meaning": "питання до зайвої залежності або функції",
-      "intensity": 3,
-      "register": "lite",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 20,
-      "form": "ні хріна",
-      "meaning": "результату немає",
-      "intensity": 4,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С",
-        "Г"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861",
-        "https://hrinchenko.com/"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 21,
-      "form": "хрін з ним",
-      "meaning": "безпечне відкладання другорядної задачі",
-      "intensity": 3,
-      "register": "lite",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 22,
-      "form": "щоб його качка копнула",
-      "meaning": "абсурдна, але не критична невдача",
-      "intensity": 4,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "Н"
-      ],
-      "source_urls": [
-        "https://archive.org/details/nomis1864"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "exact_anchor",
-      "exact_citations": [
-        {
-          "url": "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs/Items/Kacap-Kypa.html",
-          "note": "Сторінка містить близькі народні варіанти «Бодай тебе качка надоптала!» та «Бодай тя качка копла!»."
-        }
-      ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
-    },
-    {
-      "id": 23,
-      "form": "щоб його грім побив",
-      "meaning": "серйозна помилка з помітним впливом",
-      "intensity": 6,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "Н"
-      ],
-      "source_urls": [
-        "https://archive.org/details/nomis1864"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "exact_anchor",
-      "exact_citations": [
-        {
-          "url": "https://www.i-franko.name/uk/Poems/KovalBassim/6.html",
-          "note": "У Франковому тексті зафіксовано близьку формулу «Ледарів щоб грім побив!»."
-        }
-      ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
-    },
-    {
-      "id": 24,
-      "form": "щоб тобі пусто було",
-      "meaning": "жорстка оцінка зіпсованого процесу",
-      "intensity": 7,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "Н"
-      ],
-      "source_urls": [
-        "https://archive.org/details/nomis1864"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 25,
-      "form": "лиха година",
-      "meaning": "затяжна серія невдалих подій",
-      "intensity": 5,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "Ф",
-        "Н"
-      ],
-      "source_urls": [
-        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
-        "https://archive.org/details/nomis1864"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "exact_anchor",
-      "exact_citations": [
-        {
-          "url": "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs/Items/Lyko-Lykho.html",
-          "note": "Франковий корпус містить дослівну сполуку «лиха година»."
-        }
-      ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
-    },
-    {
-      "id": 26,
-      "form": "хуйня",
-      "meaning": "незначна або не варта драматизації проблема",
-      "intensity": 3,
-      "register": "lite",
-      "target": "system_or_process",
-      "source_codes": [
-        "С",
-        "Г"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861",
-        "https://hrinchenko.com/"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 27,
-      "form": "хуйовина",
-      "meaning": "дивний артефакт чи незрозумілий шматок коду",
-      "intensity": 4,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "B",
-      "review_status": "derivative",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 28,
-      "form": "хуйовий",
-      "meaning": "низька якість або невдалий результат",
-      "intensity": 5,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С",
-        "Г"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861",
-        "https://hrinchenko.com/"
-      ],
-      "state": "B",
-      "review_status": "derivative",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 29,
-      "form": "хуйово",
-      "meaning": "система працює погано",
-      "intensity": 5,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "B",
-      "review_status": "derivative",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 30,
-      "form": "хуй знає",
-      "meaning": "причина або значення невідомі",
-      "intensity": 5,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 31,
-      "form": "ні хуя",
-      "meaning": "очікуваного результату немає",
-      "intensity": 5,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 32,
-      "form": "до хуя",
-      "meaning": "чогось надмірно багато",
-      "intensity": 5,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 33,
-      "form": "заїбись",
-      "meaning": "результат добрий, без зайвого пафосу",
-      "intensity": 2,
-      "register": "lite",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "B",
-      "review_status": "derivative",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 34,
-      "form": "заїбати",
-      "meaning": "виснажити людину або процес повтореннями",
-      "intensity": 5,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "B",
-      "review_status": "derivative",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 35,
-      "form": "заїбатися",
-      "meaning": "довго й безрезультатно возитися з проблемою",
-      "intensity": 5,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "B",
-      "review_status": "derivative",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 36,
-      "form": "заїбаний",
-      "meaning": "виснажений або перевантажений компонент",
-      "intensity": 6,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "B",
-      "review_status": "derivative",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 37,
-      "form": "йобнути",
-      "meaning": "різко зупинити процес або втратити стан",
-      "intensity": 7,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "B",
-      "review_status": "derivative",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 38,
-      "form": "йобнутися",
-      "meaning": "упасти через помилку чи конфігурацію",
-      "intensity": 8,
-      "register": "ultra",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "B",
-      "review_status": "derivative",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 39,
-      "form": "йобнулося",
-      "meaning": "факт падіння вже стався",
-      "intensity": 8,
-      "register": "ultra",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "B",
-      "review_status": "derivative",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 40,
-      "form": "йобаний",
-      "meaning": "такий, що створює непропорційну мороку",
-      "intensity": 6,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "B",
-      "review_status": "derivative",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 41,
-      "form": "ебашити",
-      "meaning": "працювати інтенсивно або виконувати великий обсяг",
-      "intensity": 5,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "B",
-      "review_status": "derivative",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 42,
-      "form": "ебашить",
-      "meaning": "сервіс або джоба працює на повну",
-      "intensity": 3,
-      "register": "lite",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "B",
-      "review_status": "derivative",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 43,
-      "form": "ебанутися",
-      "meaning": "вийти за межі нормальної поведінки",
-      "intensity": 7,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "B",
-      "review_status": "derivative",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 44,
-      "form": "наїбати",
-      "meaning": "підмінити очікуваний результат або ввести в оману",
-      "intensity": 6,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "B",
-      "review_status": "derivative",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 45,
-      "form": "наїбка",
-      "meaning": "прихована пастка в контракті, конфігурації чи процесі",
-      "intensity": 6,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "B",
-      "review_status": "derivative",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 46,
-      "form": "наїбнутися",
-      "meaning": "зламатися через хибне припущення",
-      "intensity": 7,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "B",
-      "review_status": "derivative",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 47,
-      "form": "пиздець",
-      "meaning": "критичний інцидент або реальна загроза",
-      "intensity": 9,
-      "register": "ultra",
-      "target": "system_or_process",
-      "source_codes": [
-        "С",
-        "К"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861",
-        "https://uk.wikisource.org/wiki/Твори_(Котляревський,_1922)/Том_1/Енеїда"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 48,
-      "form": "пиздьож",
-      "meaning": "неправда в описі, звіті або документації",
-      "intensity": 6,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "B",
-      "review_status": "derivative",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 49,
-      "form": "пиздити",
-      "meaning": "перекручувати факт або безконтрольно забирати ресурс; вживати лише з контекстом",
-      "intensity": 6,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "B",
-      "review_status": "derivative",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 50,
-      "form": "пиздячити",
-      "meaning": "швидко й наполегливо виконувати механічну роботу",
-      "intensity": 5,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "B",
-      "review_status": "derivative",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 51,
-      "form": "пиздатий",
-      "meaning": "дуже сильний результат або рішення",
-      "intensity": 4,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "B",
-      "review_status": "derivative",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 52,
-      "form": "пиздато",
-      "meaning": "дуже добре зроблено",
-      "intensity": 3,
-      "register": "lite",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "B",
-      "review_status": "derivative",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 53,
-      "form": "розпиздяйство",
-      "meaning": "системна недбалість у процесі",
-      "intensity": 7,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "B",
-      "review_status": "derivative",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 54,
-      "form": "срака",
-      "meaning": "ризик уже впливає на користувачів або дані",
-      "intensity": 8,
-      "register": "ultra",
-      "target": "system_or_process",
-      "source_codes": [
-        "С",
-        "К"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861",
-        "https://uk.wikisource.org/wiki/Твори_(Котляревський,_1922)/Том_1/Енеїда"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 55,
-      "form": "срака-мотика",
-      "meaning": "кілька проблем зійшлися в один клубок",
-      "intensity": 7,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "Ф",
-        "Н"
-      ],
-      "source_urls": [
-        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
-        "https://archive.org/details/nomis1864"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 56,
-      "form": "засрати",
-      "meaning": "забруднити логи, базу, конфігурацію або репозиторій",
-      "intensity": 6,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "B",
-      "review_status": "derivative",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 57,
-      "form": "засраний",
-      "meaning": "перевантажений сміттям чи випадковими змінами",
-      "intensity": 6,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "B",
-      "review_status": "derivative",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 58,
-      "form": "просрати",
-      "meaning": "втратити дані, шанс або контрольований дедлайн",
-      "intensity": 8,
-      "register": "ultra",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "B",
-      "review_status": "derivative",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 59,
-      "form": "обісратися",
-      "meaning": "невдало виконати крок із помітними наслідками",
-      "intensity": 7,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "B",
-      "review_status": "derivative",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 60,
-      "form": "всратися",
-      "meaning": "провалити план або оцінку",
-      "intensity": 7,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "B",
-      "review_status": "derivative",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 61,
-      "form": "насрати",
-      "meaning": "знехтувати перевіркою або попередженням",
-      "intensity": 6,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "B",
-      "review_status": "derivative",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 62,
-      "form": "сраний",
-      "meaning": "неякісний, дратівливий або недбало зроблений",
-      "intensity": 5,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "B",
-      "review_status": "derivative",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 63,
-      "form": "дупа",
-      "meaning": "крихкий стан, що ще можна врятувати",
-      "intensity": 6,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "Н",
-        "Г"
-      ],
-      "source_urls": [
-        "https://archive.org/details/nomis1864",
-        "https://hrinchenko.com/"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "exact_anchor",
-      "exact_citations": [
-        {
-          "url": "https://hrinchenko.com/dictionary/word/14380-dupa",
-          "note": "Словникова стаття Бориса Грінченка містить лексему «дупа» та її тлумачення."
-        }
-      ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
-    },
-    {
-      "id": 64,
-      "form": "дупа в милі",
-      "meaning": "аварійна робота під сильним тиском часу",
-      "intensity": 8,
-      "register": "ultra",
-      "target": "system_or_process",
-      "source_codes": [
-        "Н",
-        "Ф"
-      ],
-      "source_urls": [
-        "https://archive.org/details/nomis1864",
-        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 65,
-      "form": "довбень",
-      "meaning": "простий, але впертий дефект або модуль",
-      "intensity": 5,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "Г",
-        "Н"
-      ],
-      "source_urls": [
-        "https://hrinchenko.com/",
-        "https://archive.org/details/nomis1864"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 66,
-      "form": "довбаний",
-      "meaning": "такий, що постійно створює зайву роботу",
-      "intensity": 5,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С",
-        "Г"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861",
-        "https://hrinchenko.com/"
-      ],
-      "state": "B",
-      "review_status": "derivative",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 67,
-      "form": "довбати",
-      "meaning": "методично розбирати проблему до причини",
-      "intensity": 4,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С",
-        "Г"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861",
-        "https://hrinchenko.com/"
-      ],
-      "state": "B",
-      "review_status": "derivative",
-      "citation_status": "exact_anchor",
-      "exact_citations": [
-        {
-          "url": "https://hrinchenko.com/dictionary/word/12682-dovbati",
-          "note": "Словникова стаття Бориса Грінченка містить лексему «довбати»."
-        }
-      ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
-    },
-    {
-      "id": 68,
-      "form": "довбатися",
-      "meaning": "довго шукати причину без швидкого результату",
-      "intensity": 5,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "B",
-      "review_status": "derivative",
-      "citation_status": "exact_anchor",
-      "exact_citations": [
-        {
-          "url": "https://hrinchenko.com/dictionary/word/12683-dovbatisia",
-          "note": "Словникова стаття Бориса Грінченка містить лексему «довбатися»."
-        }
-      ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
-    },
-    {
-      "id": 69,
-      "form": "довбодятел",
-      "meaning": "бездумний автоматизований крок або скрипт",
-      "intensity": 6,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "B",
-      "review_status": "derivative",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 70,
-      "form": "накосячити",
-      "meaning": "припуститися помилки в реалізації або конфігурації",
-      "intensity": 5,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "B",
-      "review_status": "derivative",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 71,
-      "form": "косяк",
-      "meaning": "конкретний дефект або проґавлена умова",
-      "intensity": 4,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С",
-        "Г"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861",
-        "https://hrinchenko.com/"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 72,
-      "form": "роздовбати",
-      "meaning": "розкласти проблему на частини або повністю зламати стару схему",
-      "intensity": 6,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "B",
-      "review_status": "derivative",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 73,
-      "form": "роздовбаний",
-      "meaning": "пошкоджений, розсипаний або погано організований",
-      "intensity": 6,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "B",
-      "review_status": "derivative",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 74,
-      "form": "прихачити",
-      "meaning": "швидко приєднати щось збоку без ідеальної архітектури",
-      "intensity": 5,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "C",
-      "review_status": "adaptation",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 75,
-      "form": "на живу нитку",
-      "meaning": "тимчасово зібрати рішення без запасу міцності",
-      "intensity": 5,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "Н",
-        "Ф"
-      ],
-      "source_urls": [
-        "https://archive.org/details/nomis1864",
-        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "exact_anchor",
-      "exact_citations": [
-        {
-          "url": "https://slovnyk.me/dict/phraseology/%D0%B6%D0%B8%D0%B2%D0%B8%D0%B9",
-          "note": "Фразеологічна стаття містить точну сполуку «на живу нитку»."
-        }
-      ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
-    },
-    {
-      "id": 76,
-      "form": "через пень-колоду",
-      "meaning": "працює нестабільно й без системності",
-      "intensity": 6,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "Н",
-        "Ф"
-      ],
-      "source_urls": [
-        "https://archive.org/details/nomis1864",
-        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "exact_anchor",
-      "exact_citations": [
-        {
-          "url": "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs/Items/Pacaniv-Pershyna.html",
-          "note": "Зафіксовано варіант «Через пень колоду валити»."
-        }
-      ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
-    },
-    {
-      "id": 77,
-      "form": "як мокре горить",
-      "meaning": "процес іде повільно та неохоче",
-      "intensity": 5,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "Н",
-        "Ф"
-      ],
-      "source_urls": [
-        "https://archive.org/details/nomis1864",
-        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "exact_anchor",
-      "exact_citations": [
-        {
-          "url": "https://i-franko.name/uk/Folklore/1901/GalRusProverbs/Items/Robyty.html",
-          "note": "У Франковому корпусі дослівно зафіксовано «Робит, як мокре горит»."
-        }
-      ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
-    },
-    {
-      "id": 78,
-      "form": "пішло шкереберть",
-      "meaning": "локальна помилка перейшла в каскадну деградацію",
-      "intensity": 7,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "К",
-        "Л"
-      ],
-      "source_urls": [
-        "https://uk.wikisource.org/wiki/Твори_(Котляревський,_1922)/Том_1/Енеїда",
-        "https://uk.wikisource.org/wiki/Кайдашева_сім’я"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 79,
-      "form": "стоїть колом",
-      "meaning": "сервіс або задача заблоковані",
-      "intensity": 6,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "Н",
-        "Ф"
-      ],
-      "source_urls": [
-        "https://archive.org/details/nomis1864",
-        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 80,
-      "form": "ні руш",
-      "meaning": "немає жодного прогресу",
-      "intensity": 6,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "Н",
-        "Ф"
-      ],
-      "source_urls": [
-        "https://archive.org/details/nomis1864",
-        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "exact_anchor",
-      "exact_citations": [
-        {
-          "url": "https://i-franko.name/uk/Verses/IzLitMojejiMolodosti/NashiChesnoty/Patriotyzm.html",
-          "note": "У Франковому тексті дослівно вжито «Ні руш!»."
-        }
-      ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
-    },
-    {
-      "id": 81,
-      "form": "ще й кінь не валявся",
-      "meaning": "роботу фактично не почали",
-      "intensity": 4,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "Н",
-        "Ф"
-      ],
-      "source_urls": [
-        "https://archive.org/details/nomis1864",
-        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 82,
-      "form": "пальцем роблений",
-      "meaning": "зроблений без належної перевірки або міцності",
-      "intensity": 5,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "Н",
-        "Г"
-      ],
-      "source_urls": [
-        "https://archive.org/details/nomis1864",
-        "https://hrinchenko.com/"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 83,
-      "form": "тяп-ляп",
-      "meaning": "швидко зроблено без якості",
-      "intensity": 5,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "Н",
-        "Г"
-      ],
-      "source_urls": [
-        "https://archive.org/details/nomis1864",
-        "https://hrinchenko.com/"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 84,
-      "form": "аби-як",
-      "meaning": "виконано довільно, без вимог і контролю",
-      "intensity": 5,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "Н",
-        "Г"
-      ],
-      "source_urls": [
-        "https://archive.org/details/nomis1864",
-        "https://hrinchenko.com/"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 85,
-      "form": "якось воно буде",
-      "meaning": "відсутність плану, критеріїв і rollback",
-      "intensity": 6,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "Н",
-        "Ф"
-      ],
-      "source_urls": [
-        "https://archive.org/details/nomis1864",
-        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "exact_anchor",
-      "exact_citations": [
-        {
-          "url": "https://www.i-franko.name/uk/Prose/LelIPolel/3.html",
-          "note": "У Франковій прозі дослівно вжито «Ну, ну, тихо, якось воно буде!»."
-        }
-      ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
-    },
-    {
-      "id": 86,
-      "form": "чортівня",
-      "meaning": "незрозуміла поведінка, яку ще треба дослідити",
-      "intensity": 4,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "Ф",
-        "Н"
-      ],
-      "source_urls": [
-        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
-        "https://archive.org/details/nomis1864"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "exact_anchor",
-      "exact_citations": [
-        {
-          "url": "https://goroh.pp.ua/%D0%A2%D0%BB%D1%83%D0%BC%D0%B0%D1%87%D0%B5%D0%BD%D0%BD%D1%8F/%D1%87%D0%BE%D1%80%D1%82%D1%96%D0%B2%D0%BD%D1%8F",
-          "note": "Тлумачний словник містить окрему статтю «чортівня»."
-        }
-      ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
-    },
-    {
-      "id": 87,
-      "form": "бісівщина",
-      "meaning": "сукупність дивних винятків і несумісностей",
-      "intensity": 6,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "Ф",
-        "Н"
-      ],
-      "source_urls": [
-        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
-        "https://archive.org/details/nomis1864"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "exact_anchor",
-      "exact_citations": [
-        {
-          "url": "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs/Items/Bis-Bovtaty.html",
-          "note": "Похідна сучасна форма; базову лексему «біс» зафіксовано окремим розділом."
-        }
-      ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
-    },
-    {
-      "id": 88,
-      "form": "морока",
-      "meaning": "багато дрібної ручної роботи",
-      "intensity": 4,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "Ф",
-        "Н"
-      ],
-      "source_urls": [
-        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
-        "https://archive.org/details/nomis1864"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "exact_anchor",
-      "exact_citations": [
-        {
-          "url": "https://hrinchenko.com/dictionary/word/29000-moroka",
-          "note": "Словникова стаття Бориса Грінченка містить лексему «морока» та формулу «Морока його знає»."
-        }
-      ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
-    },
-    {
-      "id": 89,
-      "form": "халепа",
-      "meaning": "локальна проблема з контрольованим виправленням",
-      "intensity": 3,
-      "register": "lite",
-      "target": "system_or_process",
-      "source_codes": [
-        "Ф",
-        "Н"
-      ],
-      "source_urls": [
-        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
-        "https://archive.org/details/nomis1864"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "exact_anchor",
-      "exact_citations": [
-        {
-          "url": "https://hrinchenko.com/dictionary/word/62371-xalepa",
-          "note": "Словникова стаття Бориса Грінченка містить лексему «халепа» та приклад «Нехай йому халепа»."
-        }
-      ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
-    },
-    {
-      "id": 90,
-      "form": "влипнути",
-      "meaning": "потрапити в залежність, дедлайн або невдалу схему",
-      "intensity": 6,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "Н",
-        "Ф"
-      ],
-      "source_urls": [
-        "https://archive.org/details/nomis1864",
-        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "exact_anchor",
-      "exact_citations": [
-        {
-          "url": "https://slovnyk.me/amp/dict/vts/%D0%B2%D0%BB%D0%B8%D0%BF%D0%BD%D1%83%D1%82%D0%B8",
-          "note": "Тлумачний словник містить окрему статтю «влипнути»."
-        }
-      ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
-    },
-    {
-      "id": 91,
-      "form": "вляпатися",
-      "meaning": "зробити крок, що погіршив стан",
-      "intensity": 6,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "Н",
-        "Ф"
-      ],
-      "source_urls": [
-        "https://archive.org/details/nomis1864",
-        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 92,
-      "form": "задовбатися",
-      "meaning": "виснажитися від повторюваної роботи",
-      "intensity": 5,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "B",
-      "review_status": "derivative",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 93,
-      "form": "виносити мозок",
-      "meaning": "створювати постійний шум, алерти або зайві погодження",
-      "intensity": 5,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "С"
-      ],
-      "source_urls": [
-        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
-      ],
-      "state": "B",
-      "review_status": "derivative",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 94,
-      "form": "горе-майстер",
-      "meaning": "компонент або реалізація, що лише імітує роботу",
-      "intensity": 5,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "Н",
-        "Ф"
-      ],
-      "source_urls": [
-        "https://archive.org/details/nomis1864",
-        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "exact_anchor",
-      "exact_citations": [
-        {
-          "url": "https://goroh.pp.ua/%D0%A1%D0%BB%D0%BE%D0%B2%D0%BE%D0%B2%D0%B6%D0%B8%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F/%D0%B3%D0%BE%D1%80%D0%B5-%D0%BC%D0%B0%D0%B9%D1%81%D1%82%D0%B5%D1%80",
-          "note": "Словник слововживання містить окрему статтю «горе-майстер»."
-        }
-      ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
-    },
-    {
-      "id": 95,
-      "form": "телепень",
-      "meaning": "незграбний або недоладний технічний об’єкт",
-      "intensity": 5,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "Г",
-        "Н"
-      ],
-      "source_urls": [
-        "https://hrinchenko.com/",
-        "https://archive.org/details/nomis1864"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "exact_anchor",
-      "exact_citations": [
-        {
-          "url": "https://hrinchenko.com/dictionary/word/58216-telepen",
-          "note": "Словникова стаття Бориса Грінченка містить лексему «телепень»."
-        }
-      ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
-    },
-    {
-      "id": 96,
-      "form": "йолоп",
-      "meaning": "простий і очевидний дефект у неформальному описі",
-      "intensity": 4,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "Г",
-        "Н"
-      ],
-      "source_urls": [
-        "https://hrinchenko.com/",
-        "https://archive.org/details/nomis1864"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "exact_anchor",
-      "exact_citations": [
-        {
-          "url": "https://hrinchenko.com/dictionary/word/21691-iolop",
-          "note": "Словникова стаття Бориса Грінченка містить лексему «йолоп»."
-        }
-      ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
-    },
-    {
-      "id": 97,
-      "form": "дурбецало",
-      "meaning": "незграбний скрипт або процес",
-      "intensity": 5,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "Г",
-        "Н"
-      ],
-      "source_urls": [
-        "https://hrinchenko.com/",
-        "https://archive.org/details/nomis1864"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 98,
-      "form": "бевзь",
-      "meaning": "незграбна автоматизація чи недоладний модуль",
-      "intensity": 5,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "Г",
-        "Н"
-      ],
-      "source_urls": [
-        "https://hrinchenko.com/",
-        "https://archive.org/details/nomis1864"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "exact_anchor",
-      "exact_citations": [
-        {
-          "url": "https://hrinchenko.com/dictionary/word/1168-bevz",
-          "note": "Словникова стаття Бориса Грінченка містить лексему «бевзь» як лайливе слово."
-        }
-      ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
-    },
-    {
-      "id": 99,
-      "form": "безтолоч",
-      "meaning": "процес, який споживає ресурси без користі",
-      "intensity": 5,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "Г",
-        "Н"
-      ],
-      "source_urls": [
-        "https://hrinchenko.com/",
-        "https://archive.org/details/nomis1864"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації.",
-      "runtime_status": "candidate"
-    },
-    {
-      "id": 100,
-      "form": "паскуда",
-      "meaning": "особливо підступний баг або зіпсована підміна",
-      "intensity": 7,
-      "register": "full",
-      "target": "system_or_process",
-      "source_codes": [
-        "Г",
-        "Н"
-      ],
-      "source_urls": [
-        "https://hrinchenko.com/",
-        "https://archive.org/details/nomis1864"
-      ],
-      "state": "A",
-      "review_status": "screened",
-      "citation_status": "exact_anchor",
-      "exact_citations": [
-        {
-          "url": "https://hrinchenko.com/dictionary/word/36822-paskuda",
-          "note": "Словникова стаття Бориса Грінченка подає «паскуда» як лайливе слово."
-        }
-      ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
-    }
-  ],
   "accepted_record_count": 30,
   "candidate_record_count": 70,
   "runtime_status": "accepted",
@@ -2277,14 +23,14 @@
       "state": "A",
       "review_status": "screened",
       "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
       "exact_citations": [
         {
           "url": "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs/Items/Aby-Ani.html",
           "note": "У Франковому корпусі зафіксовано формулу «Або гой, або йой»; слово «йой» входить до дослівного запису."
         }
       ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 2,
@@ -2304,14 +50,14 @@
       "state": "A",
       "review_status": "screened",
       "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
       "exact_citations": [
         {
           "url": "https://slovnyk.me/dict/synonyms_vusyk/%D0%BE%D0%B9",
           "note": "Словникова стаття містить сполуку «ой, леле» як вигук."
         }
       ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 5,
@@ -2331,14 +77,14 @@
       "state": "A",
       "review_status": "screened",
       "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
       "exact_citations": [
         {
           "url": "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs/Items/Bogorodycja-Bolity.html",
           "note": "Окремий розділ «Мудрування. Бодай» із народними формулами прокльону."
         }
       ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 6,
@@ -2358,14 +104,14 @@
       "state": "A",
       "review_status": "screened",
       "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
       "exact_citations": [
         {
           "url": "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs/Items/Vorknuty-Vorona.html",
           "note": "У Франковому записі дослівно вжито формулу «Бодай би того...»."
         }
       ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 7,
@@ -2385,14 +131,14 @@
       "state": "A",
       "review_status": "screened",
       "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
       "exact_citations": [
         {
           "url": "https://slovnyk.me/dict/phraseology/%D1%85%D0%B0%D0%B9",
           "note": "Фразеологічна стаття містить точну сполуку «хай йому грець»."
         }
       ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 10,
@@ -2412,14 +158,14 @@
       "state": "A",
       "review_status": "screened",
       "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
       "exact_citations": [
         {
           "url": "https://www.i-franko.name/uk/Prose/DomashnijPromysl.html",
           "note": "У Франковому прозовому тексті дослівно вжито «Там до біса!»."
         }
       ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 12,
@@ -2439,14 +185,14 @@
       "state": "A",
       "review_status": "screened",
       "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
       "exact_citations": [
         {
           "url": "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs/Items/Didko121-251.html",
           "note": "Окремий розділ Франкового корпусу з численними народними формулами."
         }
       ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 13,
@@ -2466,14 +212,14 @@
       "state": "A",
       "review_status": "screened",
       "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
       "exact_citations": [
         {
           "url": "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs/Items/Tatuno-Terpec.html",
           "note": "У записі з Кукизова дослівно вжито сполуку «дідько лисий»."
         }
       ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 16,
@@ -2493,14 +239,14 @@
       "state": "A",
       "review_status": "screened",
       "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
       "exact_citations": [
         {
           "url": "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs/Items/Kamuz-Kateryna.html",
           "note": "У записі з Нагуєвичів дослівно вжито «Кат його знає!»."
         }
       ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 22,
@@ -2518,14 +264,14 @@
       "state": "A",
       "review_status": "screened",
       "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
       "exact_citations": [
         {
           "url": "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs/Items/Kacap-Kypa.html",
           "note": "Сторінка містить близькі народні варіанти «Бодай тебе качка надоптала!» та «Бодай тя качка копла!»."
         }
       ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 23,
@@ -2543,14 +289,14 @@
       "state": "A",
       "review_status": "screened",
       "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
       "exact_citations": [
         {
           "url": "https://www.i-franko.name/uk/Poems/KovalBassim/6.html",
           "note": "У Франковому тексті зафіксовано близьку формулу «Ледарів щоб грім побив!»."
         }
       ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 25,
@@ -2570,14 +316,14 @@
       "state": "A",
       "review_status": "screened",
       "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
       "exact_citations": [
         {
           "url": "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs/Items/Lyko-Lykho.html",
           "note": "Франковий корпус містить дослівну сполуку «лиха година»."
         }
       ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 63,
@@ -2597,14 +343,14 @@
       "state": "A",
       "review_status": "screened",
       "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
       "exact_citations": [
         {
           "url": "https://hrinchenko.com/dictionary/word/14380-dupa",
           "note": "Словникова стаття Бориса Грінченка містить лексему «дупа» та її тлумачення."
         }
       ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 67,
@@ -2624,14 +370,14 @@
       "state": "B",
       "review_status": "derivative",
       "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
       "exact_citations": [
         {
           "url": "https://hrinchenko.com/dictionary/word/12682-dovbati",
           "note": "Словникова стаття Бориса Грінченка містить лексему «довбати»."
         }
       ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 68,
@@ -2649,14 +395,14 @@
       "state": "B",
       "review_status": "derivative",
       "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
       "exact_citations": [
         {
           "url": "https://hrinchenko.com/dictionary/word/12683-dovbatisia",
           "note": "Словникова стаття Бориса Грінченка містить лексему «довбатися»."
         }
       ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 75,
@@ -2676,14 +422,14 @@
       "state": "A",
       "review_status": "screened",
       "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
       "exact_citations": [
         {
           "url": "https://slovnyk.me/dict/phraseology/%D0%B6%D0%B8%D0%B2%D0%B8%D0%B9",
           "note": "Фразеологічна стаття містить точну сполуку «на живу нитку»."
         }
       ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 76,
@@ -2703,14 +449,14 @@
       "state": "A",
       "review_status": "screened",
       "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
       "exact_citations": [
         {
           "url": "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs/Items/Pacaniv-Pershyna.html",
           "note": "Зафіксовано варіант «Через пень колоду валити»."
         }
       ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 77,
@@ -2730,14 +476,14 @@
       "state": "A",
       "review_status": "screened",
       "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
       "exact_citations": [
         {
           "url": "https://i-franko.name/uk/Folklore/1901/GalRusProverbs/Items/Robyty.html",
           "note": "У Франковому корпусі дослівно зафіксовано «Робит, як мокре горит»."
         }
       ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 80,
@@ -2757,14 +503,14 @@
       "state": "A",
       "review_status": "screened",
       "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
       "exact_citations": [
         {
           "url": "https://i-franko.name/uk/Verses/IzLitMojejiMolodosti/NashiChesnoty/Patriotyzm.html",
           "note": "У Франковому тексті дослівно вжито «Ні руш!»."
         }
       ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 85,
@@ -2784,14 +530,14 @@
       "state": "A",
       "review_status": "screened",
       "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
       "exact_citations": [
         {
           "url": "https://www.i-franko.name/uk/Prose/LelIPolel/3.html",
           "note": "У Франковій прозі дослівно вжито «Ну, ну, тихо, якось воно буде!»."
         }
       ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 86,
@@ -2811,14 +557,14 @@
       "state": "A",
       "review_status": "screened",
       "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
       "exact_citations": [
         {
           "url": "https://goroh.pp.ua/%D0%A2%D0%BB%D1%83%D0%BC%D0%B0%D1%87%D0%B5%D0%BD%D0%BD%D1%8F/%D1%87%D0%BE%D1%80%D1%82%D1%96%D0%B2%D0%BD%D1%8F",
           "note": "Тлумачний словник містить окрему статтю «чортівня»."
         }
       ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 87,
@@ -2838,14 +584,14 @@
       "state": "A",
       "review_status": "screened",
       "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
       "exact_citations": [
         {
           "url": "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs/Items/Bis-Bovtaty.html",
           "note": "Похідна сучасна форма; базову лексему «біс» зафіксовано окремим розділом."
         }
       ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 88,
@@ -2865,14 +611,14 @@
       "state": "A",
       "review_status": "screened",
       "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
       "exact_citations": [
         {
           "url": "https://hrinchenko.com/dictionary/word/29000-moroka",
           "note": "Словникова стаття Бориса Грінченка містить лексему «морока» та формулу «Морока його знає»."
         }
       ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 89,
@@ -2892,14 +638,14 @@
       "state": "A",
       "review_status": "screened",
       "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
       "exact_citations": [
         {
           "url": "https://hrinchenko.com/dictionary/word/62371-xalepa",
           "note": "Словникова стаття Бориса Грінченка містить лексему «халепа» та приклад «Нехай йому халепа»."
         }
       ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 90,
@@ -2919,14 +665,14 @@
       "state": "A",
       "review_status": "screened",
       "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
       "exact_citations": [
         {
           "url": "https://slovnyk.me/amp/dict/vts/%D0%B2%D0%BB%D0%B8%D0%BF%D0%BD%D1%83%D1%82%D0%B8",
           "note": "Тлумачний словник містить окрему статтю «влипнути»."
         }
       ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 94,
@@ -2946,14 +692,14 @@
       "state": "A",
       "review_status": "screened",
       "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
       "exact_citations": [
         {
           "url": "https://goroh.pp.ua/%D0%A1%D0%BB%D0%BE%D0%B2%D0%BE%D0%B2%D0%B6%D0%B8%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F/%D0%B3%D0%BE%D1%80%D0%B5-%D0%BC%D0%B0%D0%B9%D1%81%D1%82%D0%B5%D1%80",
           "note": "Словник слововживання містить окрему статтю «горе-майстер»."
         }
       ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 95,
@@ -2973,14 +719,14 @@
       "state": "A",
       "review_status": "screened",
       "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
       "exact_citations": [
         {
           "url": "https://hrinchenko.com/dictionary/word/58216-telepen",
           "note": "Словникова стаття Бориса Грінченка містить лексему «телепень»."
         }
       ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 96,
@@ -3000,14 +746,14 @@
       "state": "A",
       "review_status": "screened",
       "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
       "exact_citations": [
         {
           "url": "https://hrinchenko.com/dictionary/word/21691-iolop",
           "note": "Словникова стаття Бориса Грінченка містить лексему «йолоп»."
         }
       ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 98,
@@ -3027,14 +773,14 @@
       "state": "A",
       "review_status": "screened",
       "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
       "exact_citations": [
         {
           "url": "https://hrinchenko.com/dictionary/word/1168-bevz",
           "note": "Словникова стаття Бориса Грінченка містить лексему «бевзь» як лайливе слово."
         }
       ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 100,
@@ -3054,14 +800,2268 @@
       "state": "A",
       "review_status": "screened",
       "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
       "exact_citations": [
         {
           "url": "https://hrinchenko.com/dictionary/word/36822-paskuda",
           "note": "Словникова стаття Бориса Грінченка подає «паскуда» як лайливе слово."
         }
       ],
-      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання.",
-      "runtime_status": "accepted"
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    }
+  ],
+  "records": [
+    {
+      "id": 1,
+      "form": "йой",
+      "meaning": "м’яка несподіванка або перший симптом",
+      "intensity": 1,
+      "register": "lite",
+      "target": "system_or_process",
+      "source_codes": [
+        "Ф"
+      ],
+      "source_urls": [
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs/Items/Aby-Ani.html",
+          "note": "У Франковому корпусі зафіксовано формулу «Або гой, або йой»; слово «йой» входить до дослівного запису."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 2,
+      "form": "ой леле",
+      "meaning": "проблема є, але ще без аварії",
+      "intensity": 1,
+      "register": "lite",
+      "target": "system_or_process",
+      "source_codes": [
+        "Ф",
+        "Н"
+      ],
+      "source_urls": [
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://slovnyk.me/dict/synonyms_vusyk/%D0%BE%D0%B9",
+          "note": "Словникова стаття містить сполуку «ой, леле» як вигук."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 3,
+      "form": "трясця",
+      "meaning": "локальна дрібна халепа",
+      "intensity": 3,
+      "register": "lite",
+      "target": "system_or_process",
+      "source_codes": [
+        "Ф",
+        "Н"
+      ],
+      "source_urls": [
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 4,
+      "form": "трясця його знає",
+      "meaning": "причина поки невідома",
+      "intensity": 4,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С",
+        "Н"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 5,
+      "form": "бодай",
+      "meaning": "короткий прокльон-маркер",
+      "intensity": 3,
+      "register": "lite",
+      "target": "system_or_process",
+      "source_codes": [
+        "Ф",
+        "Н"
+      ],
+      "source_urls": [
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs/Items/Bogorodycja-Bolity.html",
+          "note": "Окремий розділ «Мудрування. Бодай» із народними формулами прокльону."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 6,
+      "form": "бодай би",
+      "meaning": "посилений прокльон без прямої атаки",
+      "intensity": 4,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Ф",
+        "Н"
+      ],
+      "source_urls": [
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs/Items/Vorknuty-Vorona.html",
+          "note": "У Франковому записі дослівно вжито формулу «Бодай би того...»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 7,
+      "form": "хай йому грець",
+      "meaning": "проблема неприємна, але контрольована",
+      "intensity": 3,
+      "register": "lite",
+      "target": "system_or_process",
+      "source_codes": [
+        "Ф",
+        "Н"
+      ],
+      "source_urls": [
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://slovnyk.me/dict/phraseology/%D1%85%D0%B0%D0%B9",
+          "note": "Фразеологічна стаття містить точну сполуку «хай йому грець»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 8,
+      "form": "шляк би трафив",
+      "meaning": "сильне роздратування через збій",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Ф"
+      ],
+      "source_urls": [
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 9,
+      "form": "хай йому біс",
+      "meaning": "несподіваний збій або витівка",
+      "intensity": 4,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Ф",
+        "Н"
+      ],
+      "source_urls": [
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 10,
+      "form": "до біса",
+      "meaning": "прибрати зайве, якщо це безпечно",
+      "intensity": 3,
+      "register": "lite",
+      "target": "system_or_process",
+      "source_codes": [
+        "Ф",
+        "Н"
+      ],
+      "source_urls": [
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://www.i-franko.name/uk/Prose/DomashnijPromysl.html",
+          "note": "У Франковому прозовому тексті дослівно вжито «Там до біса!»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 11,
+      "form": "чорт забирай",
+      "meaning": "різка реакція на подію",
+      "intensity": 4,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "К",
+        "Л"
+      ],
+      "source_urls": [
+        "https://uk.wikisource.org/wiki/Твори_(Котляревський,_1922)/Том_1/Енеїда",
+        "https://uk.wikisource.org/wiki/Кайдашева_сім’я"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 12,
+      "form": "дідько",
+      "meaning": "коротка назва неприємності",
+      "intensity": 3,
+      "register": "lite",
+      "target": "system_or_process",
+      "source_codes": [
+        "Ф",
+        "Н"
+      ],
+      "source_urls": [
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs/Items/Didko121-251.html",
+          "note": "Окремий розділ Франкового корпусу з численними народними формулами."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 13,
+      "form": "дідько лисий",
+      "meaning": "вперта, абсурдна проблема",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Ф",
+        "Н"
+      ],
+      "source_urls": [
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs/Items/Tatuno-Terpec.html",
+          "note": "У записі з Кукизова дослівно вжито сполуку «дідько лисий»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 14,
+      "form": "курча",
+      "meaning": "м’який публічний варіант роздратування",
+      "intensity": 2,
+      "register": "lite",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 15,
+      "form": "холера його знає",
+      "meaning": "причина не встановлена, але вже дратує",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С",
+        "Н"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 16,
+      "form": "кат його знає",
+      "meaning": "невідомий компонент або власник рішення",
+      "intensity": 4,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Н",
+        "Г"
+      ],
+      "source_urls": [
+        "https://archive.org/details/nomis1864",
+        "https://hrinchenko.com/"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs/Items/Kamuz-Kateryna.html",
+          "note": "У записі з Нагуєвичів дослівно вжито «Кат його знає!»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 17,
+      "form": "хрін його знає",
+      "meaning": "невідома причина в неформальному режимі",
+      "intensity": 4,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С",
+        "Г"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861",
+        "https://hrinchenko.com/"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 18,
+      "form": "якого хріна",
+      "meaning": "вимога пояснити дивну поведінку",
+      "intensity": 4,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 19,
+      "form": "на хріна",
+      "meaning": "питання до зайвої залежності або функції",
+      "intensity": 3,
+      "register": "lite",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 20,
+      "form": "ні хріна",
+      "meaning": "результату немає",
+      "intensity": 4,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С",
+        "Г"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861",
+        "https://hrinchenko.com/"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 21,
+      "form": "хрін з ним",
+      "meaning": "безпечне відкладання другорядної задачі",
+      "intensity": 3,
+      "register": "lite",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 22,
+      "form": "щоб його качка копнула",
+      "meaning": "абсурдна, але не критична невдача",
+      "intensity": 4,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Н"
+      ],
+      "source_urls": [
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs/Items/Kacap-Kypa.html",
+          "note": "Сторінка містить близькі народні варіанти «Бодай тебе качка надоптала!» та «Бодай тя качка копла!»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 23,
+      "form": "щоб його грім побив",
+      "meaning": "серйозна помилка з помітним впливом",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Н"
+      ],
+      "source_urls": [
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://www.i-franko.name/uk/Poems/KovalBassim/6.html",
+          "note": "У Франковому тексті зафіксовано близьку формулу «Ледарів щоб грім побив!»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 24,
+      "form": "щоб тобі пусто було",
+      "meaning": "жорстка оцінка зіпсованого процесу",
+      "intensity": 7,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Н"
+      ],
+      "source_urls": [
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 25,
+      "form": "лиха година",
+      "meaning": "затяжна серія невдалих подій",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Ф",
+        "Н"
+      ],
+      "source_urls": [
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs/Items/Lyko-Lykho.html",
+          "note": "Франковий корпус містить дослівну сполуку «лиха година»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 26,
+      "form": "хуйня",
+      "meaning": "незначна або не варта драматизації проблема",
+      "intensity": 3,
+      "register": "lite",
+      "target": "system_or_process",
+      "source_codes": [
+        "С",
+        "Г"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861",
+        "https://hrinchenko.com/"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 27,
+      "form": "хуйовина",
+      "meaning": "дивний артефакт чи незрозумілий шматок коду",
+      "intensity": 4,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 28,
+      "form": "хуйовий",
+      "meaning": "низька якість або невдалий результат",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С",
+        "Г"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861",
+        "https://hrinchenko.com/"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 29,
+      "form": "хуйово",
+      "meaning": "система працює погано",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 30,
+      "form": "хуй знає",
+      "meaning": "причина або значення невідомі",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 31,
+      "form": "ні хуя",
+      "meaning": "очікуваного результату немає",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 32,
+      "form": "до хуя",
+      "meaning": "чогось надмірно багато",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 33,
+      "form": "заїбись",
+      "meaning": "результат добрий, без зайвого пафосу",
+      "intensity": 2,
+      "register": "lite",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 34,
+      "form": "заїбати",
+      "meaning": "виснажити людину або процес повтореннями",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 35,
+      "form": "заїбатися",
+      "meaning": "довго й безрезультатно возитися з проблемою",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 36,
+      "form": "заїбаний",
+      "meaning": "виснажений або перевантажений компонент",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 37,
+      "form": "йобнути",
+      "meaning": "різко зупинити процес або втратити стан",
+      "intensity": 7,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 38,
+      "form": "йобнутися",
+      "meaning": "упасти через помилку чи конфігурацію",
+      "intensity": 8,
+      "register": "ultra",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 39,
+      "form": "йобнулося",
+      "meaning": "факт падіння вже стався",
+      "intensity": 8,
+      "register": "ultra",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 40,
+      "form": "йобаний",
+      "meaning": "такий, що створює непропорційну мороку",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 41,
+      "form": "ебашити",
+      "meaning": "працювати інтенсивно або виконувати великий обсяг",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 42,
+      "form": "ебашить",
+      "meaning": "сервіс або джоба працює на повну",
+      "intensity": 3,
+      "register": "lite",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 43,
+      "form": "ебанутися",
+      "meaning": "вийти за межі нормальної поведінки",
+      "intensity": 7,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 44,
+      "form": "наїбати",
+      "meaning": "підмінити очікуваний результат або ввести в оману",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 45,
+      "form": "наїбка",
+      "meaning": "прихована пастка в контракті, конфігурації чи процесі",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 46,
+      "form": "наїбнутися",
+      "meaning": "зламатися через хибне припущення",
+      "intensity": 7,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 47,
+      "form": "пиздець",
+      "meaning": "критичний інцидент або реальна загроза",
+      "intensity": 9,
+      "register": "ultra",
+      "target": "system_or_process",
+      "source_codes": [
+        "С",
+        "К"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861",
+        "https://uk.wikisource.org/wiki/Твори_(Котляревський,_1922)/Том_1/Енеїда"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 48,
+      "form": "пиздьож",
+      "meaning": "неправда в описі, звіті або документації",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 49,
+      "form": "пиздити",
+      "meaning": "перекручувати факт або безконтрольно забирати ресурс; вживати лише з контекстом",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 50,
+      "form": "пиздячити",
+      "meaning": "швидко й наполегливо виконувати механічну роботу",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 51,
+      "form": "пиздатий",
+      "meaning": "дуже сильний результат або рішення",
+      "intensity": 4,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 52,
+      "form": "пиздато",
+      "meaning": "дуже добре зроблено",
+      "intensity": 3,
+      "register": "lite",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 53,
+      "form": "розпиздяйство",
+      "meaning": "системна недбалість у процесі",
+      "intensity": 7,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 54,
+      "form": "срака",
+      "meaning": "ризик уже впливає на користувачів або дані",
+      "intensity": 8,
+      "register": "ultra",
+      "target": "system_or_process",
+      "source_codes": [
+        "С",
+        "К"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861",
+        "https://uk.wikisource.org/wiki/Твори_(Котляревський,_1922)/Том_1/Енеїда"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 55,
+      "form": "срака-мотика",
+      "meaning": "кілька проблем зійшлися в один клубок",
+      "intensity": 7,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Ф",
+        "Н"
+      ],
+      "source_urls": [
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 56,
+      "form": "засрати",
+      "meaning": "забруднити логи, базу, конфігурацію або репозиторій",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 57,
+      "form": "засраний",
+      "meaning": "перевантажений сміттям чи випадковими змінами",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 58,
+      "form": "просрати",
+      "meaning": "втратити дані, шанс або контрольований дедлайн",
+      "intensity": 8,
+      "register": "ultra",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 59,
+      "form": "обісратися",
+      "meaning": "невдало виконати крок із помітними наслідками",
+      "intensity": 7,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 60,
+      "form": "всратися",
+      "meaning": "провалити план або оцінку",
+      "intensity": 7,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 61,
+      "form": "насрати",
+      "meaning": "знехтувати перевіркою або попередженням",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 62,
+      "form": "сраний",
+      "meaning": "неякісний, дратівливий або недбало зроблений",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 63,
+      "form": "дупа",
+      "meaning": "крихкий стан, що ще можна врятувати",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Н",
+        "Г"
+      ],
+      "source_urls": [
+        "https://archive.org/details/nomis1864",
+        "https://hrinchenko.com/"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://hrinchenko.com/dictionary/word/14380-dupa",
+          "note": "Словникова стаття Бориса Грінченка містить лексему «дупа» та її тлумачення."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 64,
+      "form": "дупа в милі",
+      "meaning": "аварійна робота під сильним тиском часу",
+      "intensity": 8,
+      "register": "ultra",
+      "target": "system_or_process",
+      "source_codes": [
+        "Н",
+        "Ф"
+      ],
+      "source_urls": [
+        "https://archive.org/details/nomis1864",
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 65,
+      "form": "довбень",
+      "meaning": "простий, але впертий дефект або модуль",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Г",
+        "Н"
+      ],
+      "source_urls": [
+        "https://hrinchenko.com/",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 66,
+      "form": "довбаний",
+      "meaning": "такий, що постійно створює зайву роботу",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С",
+        "Г"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861",
+        "https://hrinchenko.com/"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 67,
+      "form": "довбати",
+      "meaning": "методично розбирати проблему до причини",
+      "intensity": 4,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С",
+        "Г"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861",
+        "https://hrinchenko.com/"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://hrinchenko.com/dictionary/word/12682-dovbati",
+          "note": "Словникова стаття Бориса Грінченка містить лексему «довбати»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 68,
+      "form": "довбатися",
+      "meaning": "довго шукати причину без швидкого результату",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://hrinchenko.com/dictionary/word/12683-dovbatisia",
+          "note": "Словникова стаття Бориса Грінченка містить лексему «довбатися»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 69,
+      "form": "довбодятел",
+      "meaning": "бездумний автоматизований крок або скрипт",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 70,
+      "form": "накосячити",
+      "meaning": "припуститися помилки в реалізації або конфігурації",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 71,
+      "form": "косяк",
+      "meaning": "конкретний дефект або проґавлена умова",
+      "intensity": 4,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С",
+        "Г"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861",
+        "https://hrinchenko.com/"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 72,
+      "form": "роздовбати",
+      "meaning": "розкласти проблему на частини або повністю зламати стару схему",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 73,
+      "form": "роздовбаний",
+      "meaning": "пошкоджений, розсипаний або погано організований",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 74,
+      "form": "прихачити",
+      "meaning": "швидко приєднати щось збоку без ідеальної архітектури",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "C",
+      "review_status": "adaptation",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 75,
+      "form": "на живу нитку",
+      "meaning": "тимчасово зібрати рішення без запасу міцності",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Н",
+        "Ф"
+      ],
+      "source_urls": [
+        "https://archive.org/details/nomis1864",
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://slovnyk.me/dict/phraseology/%D0%B6%D0%B8%D0%B2%D0%B8%D0%B9",
+          "note": "Фразеологічна стаття містить точну сполуку «на живу нитку»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 76,
+      "form": "через пень-колоду",
+      "meaning": "працює нестабільно й без системності",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Н",
+        "Ф"
+      ],
+      "source_urls": [
+        "https://archive.org/details/nomis1864",
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs/Items/Pacaniv-Pershyna.html",
+          "note": "Зафіксовано варіант «Через пень колоду валити»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 77,
+      "form": "як мокре горить",
+      "meaning": "процес іде повільно та неохоче",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Н",
+        "Ф"
+      ],
+      "source_urls": [
+        "https://archive.org/details/nomis1864",
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://i-franko.name/uk/Folklore/1901/GalRusProverbs/Items/Robyty.html",
+          "note": "У Франковому корпусі дослівно зафіксовано «Робит, як мокре горит»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 78,
+      "form": "пішло шкереберть",
+      "meaning": "локальна помилка перейшла в каскадну деградацію",
+      "intensity": 7,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "К",
+        "Л"
+      ],
+      "source_urls": [
+        "https://uk.wikisource.org/wiki/Твори_(Котляревський,_1922)/Том_1/Енеїда",
+        "https://uk.wikisource.org/wiki/Кайдашева_сім’я"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 79,
+      "form": "стоїть колом",
+      "meaning": "сервіс або задача заблоковані",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Н",
+        "Ф"
+      ],
+      "source_urls": [
+        "https://archive.org/details/nomis1864",
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 80,
+      "form": "ні руш",
+      "meaning": "немає жодного прогресу",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Н",
+        "Ф"
+      ],
+      "source_urls": [
+        "https://archive.org/details/nomis1864",
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://i-franko.name/uk/Verses/IzLitMojejiMolodosti/NashiChesnoty/Patriotyzm.html",
+          "note": "У Франковому тексті дослівно вжито «Ні руш!»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 81,
+      "form": "ще й кінь не валявся",
+      "meaning": "роботу фактично не почали",
+      "intensity": 4,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Н",
+        "Ф"
+      ],
+      "source_urls": [
+        "https://archive.org/details/nomis1864",
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 82,
+      "form": "пальцем роблений",
+      "meaning": "зроблений без належної перевірки або міцності",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Н",
+        "Г"
+      ],
+      "source_urls": [
+        "https://archive.org/details/nomis1864",
+        "https://hrinchenko.com/"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 83,
+      "form": "тяп-ляп",
+      "meaning": "швидко зроблено без якості",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Н",
+        "Г"
+      ],
+      "source_urls": [
+        "https://archive.org/details/nomis1864",
+        "https://hrinchenko.com/"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 84,
+      "form": "аби-як",
+      "meaning": "виконано довільно, без вимог і контролю",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Н",
+        "Г"
+      ],
+      "source_urls": [
+        "https://archive.org/details/nomis1864",
+        "https://hrinchenko.com/"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 85,
+      "form": "якось воно буде",
+      "meaning": "відсутність плану, критеріїв і rollback",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Н",
+        "Ф"
+      ],
+      "source_urls": [
+        "https://archive.org/details/nomis1864",
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://www.i-franko.name/uk/Prose/LelIPolel/3.html",
+          "note": "У Франковій прозі дослівно вжито «Ну, ну, тихо, якось воно буде!»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 86,
+      "form": "чортівня",
+      "meaning": "незрозуміла поведінка, яку ще треба дослідити",
+      "intensity": 4,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Ф",
+        "Н"
+      ],
+      "source_urls": [
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://goroh.pp.ua/%D0%A2%D0%BB%D1%83%D0%BC%D0%B0%D1%87%D0%B5%D0%BD%D0%BD%D1%8F/%D1%87%D0%BE%D1%80%D1%82%D1%96%D0%B2%D0%BD%D1%8F",
+          "note": "Тлумачний словник містить окрему статтю «чортівня»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 87,
+      "form": "бісівщина",
+      "meaning": "сукупність дивних винятків і несумісностей",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Ф",
+        "Н"
+      ],
+      "source_urls": [
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs/Items/Bis-Bovtaty.html",
+          "note": "Похідна сучасна форма; базову лексему «біс» зафіксовано окремим розділом."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 88,
+      "form": "морока",
+      "meaning": "багато дрібної ручної роботи",
+      "intensity": 4,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Ф",
+        "Н"
+      ],
+      "source_urls": [
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://hrinchenko.com/dictionary/word/29000-moroka",
+          "note": "Словникова стаття Бориса Грінченка містить лексему «морока» та формулу «Морока його знає»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 89,
+      "form": "халепа",
+      "meaning": "локальна проблема з контрольованим виправленням",
+      "intensity": 3,
+      "register": "lite",
+      "target": "system_or_process",
+      "source_codes": [
+        "Ф",
+        "Н"
+      ],
+      "source_urls": [
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://hrinchenko.com/dictionary/word/62371-xalepa",
+          "note": "Словникова стаття Бориса Грінченка містить лексему «халепа» та приклад «Нехай йому халепа»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 90,
+      "form": "влипнути",
+      "meaning": "потрапити в залежність, дедлайн або невдалу схему",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Н",
+        "Ф"
+      ],
+      "source_urls": [
+        "https://archive.org/details/nomis1864",
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://slovnyk.me/amp/dict/vts/%D0%B2%D0%BB%D0%B8%D0%BF%D0%BD%D1%83%D1%82%D0%B8",
+          "note": "Тлумачний словник містить окрему статтю «влипнути»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 91,
+      "form": "вляпатися",
+      "meaning": "зробити крок, що погіршив стан",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Н",
+        "Ф"
+      ],
+      "source_urls": [
+        "https://archive.org/details/nomis1864",
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 92,
+      "form": "задовбатися",
+      "meaning": "виснажитися від повторюваної роботи",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 93,
+      "form": "виносити мозок",
+      "meaning": "створювати постійний шум, алерти або зайві погодження",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 94,
+      "form": "горе-майстер",
+      "meaning": "компонент або реалізація, що лише імітує роботу",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Н",
+        "Ф"
+      ],
+      "source_urls": [
+        "https://archive.org/details/nomis1864",
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://goroh.pp.ua/%D0%A1%D0%BB%D0%BE%D0%B2%D0%BE%D0%B2%D0%B6%D0%B8%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F/%D0%B3%D0%BE%D1%80%D0%B5-%D0%BC%D0%B0%D0%B9%D1%81%D1%82%D0%B5%D1%80",
+          "note": "Словник слововживання містить окрему статтю «горе-майстер»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 95,
+      "form": "телепень",
+      "meaning": "незграбний або недоладний технічний об’єкт",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Г",
+        "Н"
+      ],
+      "source_urls": [
+        "https://hrinchenko.com/",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://hrinchenko.com/dictionary/word/58216-telepen",
+          "note": "Словникова стаття Бориса Грінченка містить лексему «телепень»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 96,
+      "form": "йолоп",
+      "meaning": "простий і очевидний дефект у неформальному описі",
+      "intensity": 4,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Г",
+        "Н"
+      ],
+      "source_urls": [
+        "https://hrinchenko.com/",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://hrinchenko.com/dictionary/word/21691-iolop",
+          "note": "Словникова стаття Бориса Грінченка містить лексему «йолоп»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 97,
+      "form": "дурбецало",
+      "meaning": "незграбний скрипт або процес",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Г",
+        "Н"
+      ],
+      "source_urls": [
+        "https://hrinchenko.com/",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 98,
+      "form": "бевзь",
+      "meaning": "незграбна автоматизація чи недоладний модуль",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Г",
+        "Н"
+      ],
+      "source_urls": [
+        "https://hrinchenko.com/",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://hrinchenko.com/dictionary/word/1168-bevz",
+          "note": "Словникова стаття Бориса Грінченка містить лексему «бевзь» як лайливе слово."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 99,
+      "form": "безтолоч",
+      "meaning": "процес, який споживає ресурси без користі",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Г",
+        "Н"
+      ],
+      "source_urls": [
+        "https://hrinchenko.com/",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "candidate",
+      "runtime_status": "candidate",
+      "exact_citations": [],
+      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+    },
+    {
+      "id": 100,
+      "form": "паскуда",
+      "meaning": "особливо підступний баг або зіпсована підміна",
+      "intensity": 7,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Г",
+        "Н"
+      ],
+      "source_urls": [
+        "https://hrinchenko.com/",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://hrinchenko.com/dictionary/word/36822-paskuda",
+          "note": "Словникова стаття Бориса Грінченка подає «паскуда» як лайливе слово."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     }
   ]
 }
