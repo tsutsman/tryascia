@@ -1,0 +1,72 @@
+name: Publish v0.1.0-rc.1
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/publish-rc1.yml
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout release target
+        uses: actions/checkout@v7
+        with:
+          ref: 2f1109bbaa14e8cc779fc8566020067c0cf6eeea
+      - name: Verify release state
+        run: |
+          set -euo pipefail
+          test "$(node -p "require('./package.json').version")" = "0.1.0-rc.1"
+          test "$(node -p "require('./evals/evals.json').version")" = "0.1.0-rc.1"
+          node - <<'NODE'
+          const fs = require('fs');
+          const corpus = JSON.parse(fs.readFileSync('skills/tryascia/references/korpus.json', 'utf8'));
+          if (corpus.record_count !== 100 || corpus.accepted_record_count !== 75 || corpus.candidate_record_count !== 25 || corpus.runtime_records.length !== 75) {
+            throw new Error('RC corpus counts are not 100/75/25/75');
+          }
+          NODE
+      - name: Create prerelease on clean RC commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TARGET_SHA: 2f1109bbaa14e8cc779fc8566020067c0cf6eeea
+        run: |
+          set -euo pipefail
+          cat > /tmp/release-notes.md <<'EOF'
+          ## ТРЯСЦЯ v0.1.0-rc.1
+
+          - verified runtime-корпус: 75 `accepted` / 25 `candidate`;
+          - 25 нових exact anchors у RC-наборі;
+          - 12 behavior/regression evals, включно з public-output, security, no-user-insult і `normal` mode boundaries;
+          - corpus policy та verification journal синхронізовані з RC gate;
+          - generated corpus перевіряється на drift;
+          - Codex і Claude Code інсталятори пройшли локальний та remote-ref smoke.
+
+          Це release candidate. Для встановлення використовуй тег `v0.1.0-rc.1`, а не `main`.
+          EOF
+
+          gh api -X POST "repos/${GITHUB_REPOSITORY}/releases" \
+            -f tag_name='v0.1.0-rc.1' \
+            -f target_commitish="$TARGET_SHA" \
+            -f name='v0.1.0-rc.1' \
+            -F prerelease=true \
+            -F draft=false \
+            -F body=@/tmp/release-notes.md
+
+          actual_target="$(gh api "repos/${GITHUB_REPOSITORY}/releases/tags/v0.1.0-rc.1" --jq '.target_commitish')"
+          prerelease="$(gh api "repos/${GITHUB_REPOSITORY}/releases/tags/v0.1.0-rc.1" --jq '.prerelease')"
+          draft="$(gh api "repos/${GITHUB_REPOSITORY}/releases/tags/v0.1.0-rc.1" --jq '.draft')"
+          test "$actual_target" = "$TARGET_SHA"
+          test "$prerelease" = "true"
+          test "$draft" = "false"
+      - name: Remove merged release branches
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api -X DELETE "repos/${GITHUB_REPOSITORY}/git/refs/heads/agent/rc1-corpus-and-evals" 2>/dev/null || true
+          gh api -X DELETE "repos/${GITHUB_REPOSITORY}/git/refs/heads/chore/publish-rc1-via-actions" 2>/dev/null || true
