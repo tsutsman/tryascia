@@ -9,6 +9,8 @@ trap 'rm -rf -- "$WORK_DIR"' EXIT
 
 CODEX_DIR="$WORK_DIR/codex"
 CLAUDE_DIR="$WORK_DIR/claude"
+HERMES_SKILL_DIR="$WORK_DIR/hermes/skills/tryascia"
+OPENCLAW_SKILL_DIR="$WORK_DIR/openclaw/skills/tryascia"
 
 mkdir -p "$CODEX_DIR"
 printf '# Існуючі правила\n' > "$CODEX_DIR/AGENTS.md"
@@ -39,4 +41,26 @@ test ! -e "$CLAUDE_DIR/output-styles/tryascia.md"
 test ! -e "$CLAUDE_DIR/skills/tryascia/SKILL.md"
 grep -Fq "# Чужий файл" "$CLAUDE_DIR/skills/tryascia/references/custom.md"
 
-echo "OK: Codex/Claude Code інсталятори пройшли smoke-перевірку."
+mkdir -p "$HERMES_SKILL_DIR/references"
+printf '# Чужий Hermes-файл\n' > "$HERMES_SKILL_DIR/references/custom.md"
+TARGET_HERMES_SKILL_DIR="$HERMES_SKILL_DIR" bash "$ROOT_DIR/install-hermes.sh"
+test -s "$HERMES_SKILL_DIR/SKILL.md"
+test -s "$HERMES_SKILL_DIR/references/korpus.json"
+test -s "$HERMES_SKILL_DIR/references/polityka-korpusu.md"
+grep -Fq "name: tryascia" "$HERMES_SKILL_DIR/SKILL.md"
+TARGET_HERMES_SKILL_DIR="$HERMES_SKILL_DIR" bash "$ROOT_DIR/install-hermes.sh" --uninstall
+test ! -e "$HERMES_SKILL_DIR/SKILL.md"
+grep -Fq "# Чужий Hermes-файл" "$HERMES_SKILL_DIR/references/custom.md"
+
+mkdir -p "$OPENCLAW_SKILL_DIR/references"
+printf '# Чужий OpenClaw-файл\n' > "$OPENCLAW_SKILL_DIR/references/custom.md"
+TARGET_OPENCLAW_SKILL_DIR="$OPENCLAW_SKILL_DIR" bash "$ROOT_DIR/install-openclaw.sh"
+test -s "$OPENCLAW_SKILL_DIR/SKILL.md"
+test -s "$OPENCLAW_SKILL_DIR/references/korpus.json"
+test -s "$OPENCLAW_SKILL_DIR/references/polityka-korpusu.md"
+grep -Fq "name: tryascia" "$OPENCLAW_SKILL_DIR/SKILL.md"
+TARGET_OPENCLAW_SKILL_DIR="$OPENCLAW_SKILL_DIR" bash "$ROOT_DIR/install-openclaw.sh" --uninstall
+test ! -e "$OPENCLAW_SKILL_DIR/SKILL.md"
+grep -Fq "# Чужий OpenClaw-файл" "$OPENCLAW_SKILL_DIR/references/custom.md"
+
+echo "OK: Codex/Claude Code/Hermes/OpenClaw інсталятори пройшли smoke-перевірку."

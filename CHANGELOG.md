@@ -1,5 +1,18 @@
 # Changelog
 
+## Unreleased
+
+### Додано
+
+- first-class підтримку Hermes Agent через AgentSkills-сумісний skill та `install-hermes.sh`;
+- first-class підтримку OpenClaw через managed/workspace skill та `install-openclaw.sh`;
+- локальні й remote-ref smoke-перевірки для Hermes Agent та OpenClaw.
+
+### Змінено
+
+- CI перевіряє shell-синтаксис і інсталяцію для Codex, Claude Code, Hermes Agent та OpenClaw;
+- README містить матрицю підтримуваних агентів і окремі інструкції встановлення.
+
 ## 0.1.0-rc.1 — 18.08.2026
 
 ### Додано

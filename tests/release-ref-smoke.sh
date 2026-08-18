@@ -10,11 +10,20 @@ trap 'rm -rf -- "$WORK_DIR"' EXIT
 
 CODEX_DIR="$WORK_DIR/codex"
 CLAUDE_DIR="$WORK_DIR/claude"
+HERMES_SKILL_DIR="$WORK_DIR/hermes/skills/tryascia"
+OPENCLAW_SKILL_DIR="$WORK_DIR/openclaw/skills/tryascia"
 INSTALLER_DIR="$WORK_DIR/installers"
 
-mkdir -p "$CODEX_DIR" "$CLAUDE_DIR/skills/tryascia/references" "$INSTALLER_DIR"
+mkdir -p \
+  "$CODEX_DIR" \
+  "$CLAUDE_DIR/skills/tryascia/references" \
+  "$HERMES_SKILL_DIR/references" \
+  "$OPENCLAW_SKILL_DIR/references" \
+  "$INSTALLER_DIR"
 printf '# Існуючі правила\n' > "$CODEX_DIR/AGENTS.md"
 printf '# Чужий файл\n' > "$CLAUDE_DIR/skills/tryascia/references/custom.md"
+printf '# Чужий Hermes-файл\n' > "$HERMES_SKILL_DIR/references/custom.md"
+printf '# Чужий OpenClaw-файл\n' > "$OPENCLAW_SKILL_DIR/references/custom.md"
 
 download_file() {
   local url="$1"
@@ -32,9 +41,10 @@ download_file() {
   return 1
 }
 
-download_file "$RAW_ROOT/install-codex.sh" "$INSTALLER_DIR/install-codex.sh"
-download_file "$RAW_ROOT/install.sh" "$INSTALLER_DIR/install.sh"
-chmod +x "$INSTALLER_DIR/install-codex.sh" "$INSTALLER_DIR/install.sh"
+for installer in install-codex.sh install.sh install-hermes.sh install-openclaw.sh; do
+  download_file "$RAW_ROOT/$installer" "$INSTALLER_DIR/$installer"
+done
+chmod +x "$INSTALLER_DIR"/*.sh
 
 TARGET_CODEX_DIR="$CODEX_DIR" TRYASCIA_REF="$REF" RAW_BASE="$RAW_ROOT" \
   bash "$INSTALLER_DIR/install-codex.sh"
@@ -63,4 +73,22 @@ test ! -e "$CLAUDE_DIR/output-styles/tryascia.md"
 test ! -e "$CLAUDE_DIR/skills/tryascia/SKILL.md"
 grep -Fq "# Чужий файл" "$CLAUDE_DIR/skills/tryascia/references/custom.md"
 
-echo "OK: віддалені інсталятори пройшли smoke-перевірку для ref $REF."
+TARGET_HERMES_SKILL_DIR="$HERMES_SKILL_DIR" TRYASCIA_REF="$REF" RAW_BASE="$RAW_ROOT" \
+  bash "$INSTALLER_DIR/install-hermes.sh"
+test -s "$HERMES_SKILL_DIR/SKILL.md"
+test -s "$HERMES_SKILL_DIR/references/korpus.json"
+grep -Fq "name: tryascia" "$HERMES_SKILL_DIR/SKILL.md"
+TARGET_HERMES_SKILL_DIR="$HERMES_SKILL_DIR" TRYASCIA_REF="$REF" RAW_BASE="$RAW_ROOT" \
+  bash "$INSTALLER_DIR/install-hermes.sh" --uninstall
+grep -Fq "# Чужий Hermes-файл" "$HERMES_SKILL_DIR/references/custom.md"
+
+TARGET_OPENCLAW_SKILL_DIR="$OPENCLAW_SKILL_DIR" TRYASCIA_REF="$REF" RAW_BASE="$RAW_ROOT" \
+  bash "$INSTALLER_DIR/install-openclaw.sh"
+test -s "$OPENCLAW_SKILL_DIR/SKILL.md"
+test -s "$OPENCLAW_SKILL_DIR/references/korpus.json"
+grep -Fq "name: tryascia" "$OPENCLAW_SKILL_DIR/SKILL.md"
+TARGET_OPENCLAW_SKILL_DIR="$OPENCLAW_SKILL_DIR" TRYASCIA_REF="$REF" RAW_BASE="$RAW_ROOT" \
+  bash "$INSTALLER_DIR/install-openclaw.sh" --uninstall
+grep -Fq "# Чужий OpenClaw-файл" "$OPENCLAW_SKILL_DIR/references/custom.md"
+
+echo "OK: віддалені інсталятори Codex/Claude Code/Hermes/OpenClaw пройшли smoke-перевірку для ref $REF."
