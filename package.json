@@ -19,6 +19,8 @@
     "commands/",
     "codex/",
     "evals/",
+    "install-absurd-codex.sh",
+    "install-absurd.sh",
     "install-codex.sh",
     "install.sh",
     "output-styles/",

@@ -126,11 +126,17 @@ skills/tryascia/references/   # Словник, сцени, онтологія, 
 scripts/                      # Перевірка та генерація машинного корпусу
 tests/                        # Smoke-перевірки інсталяторів
 output-styles/tryascia.md     # Output style для Claude Code
+output-styles/absurd.md       # Окремий творчий абсурдистський стиль
 codex/AGENTS-tryascia.md      # Секція для Codex AGENTS.md
+codex/AGENTS-absurd.md        # Секція творчого стилю для Codex
 commands/tryascia.md          # Slash-команда Claude Code
+commands/absurd.md            # Slash-команда творчого стилю
 install-codex.sh              # Ідемпотентна інсталяція для Codex
 install.sh                    # Ідемпотентна інсталяція для Claude Code
+install-absurd-codex.sh       # Інсталяція АБСУРД для Codex
+install-absurd.sh             # Інсталяція АБСУРД для Claude Code
 evals/evals.json              # Перевірки калібрування стилю
+evals/absurd.json              # Перевірки творчого стилю
 ```
 
 Перевірка корпусу:
@@ -152,6 +158,28 @@ Markdown-корпус призначений для читання, а skills/tr
 ## Статус
 
 Перша beta-версія підтримує Codex і Claude Code через prompt/style-файли та інсталятори. Релізні інсталятори мають використовувати тег або commit SHA. Адаптер для Pi планується після стабілізації словника й evals.
+
+## Окремий творчий стиль: АБСУРД
+
+АБСУРД — незалежний стиль для вигаданих діалогів, коротких п’єс, монологів і соціальної сатири. Він спирається на високорівневі риси української абсурдистської драматургії: театральність, гротеск, чорний гумор, сухий контраст і послідовну ескалацію нелогічного правила.
+
+Це не режим `ТРЯСЦЯ` і не стилізація під конкретного автора. Стиль не копіює відомі репліки, персонажів, сюжети або впізнавану індивідуальну манеру.
+
+### Активація
+
+Для Claude Code:
+
+```bash
+TRYASCIA_REF=v0.1.0-beta.1 bash install-absurd.sh
+```
+
+Для Codex:
+
+```bash
+TRYASCIA_REF=v0.1.0-beta.1 bash install-absurd-codex.sh
+```
+
+Режими: `dry`, `scene`, `chaos`, `normal`. Докладні правила — у [skills/absurd/SKILL.md](skills/absurd/SKILL.md).
 
 ## Ліцензія
 
