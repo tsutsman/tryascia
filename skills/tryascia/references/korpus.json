@@ -3,8 +3,8 @@
   "generated_from": "skills/tryascia/references/korpus-100.md",
   "generated_by": "scripts/validate-corpus.mjs",
   "record_count": 100,
-  "accepted_record_count": 50,
-  "candidate_record_count": 50,
+  "accepted_record_count": 75,
+  "candidate_record_count": 25,
   "runtime_status": "accepted",
   "runtime_records": [
     {
@@ -534,6 +534,487 @@
       "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
+      "id": 26,
+      "form": "хуйня",
+      "meaning": "незначна або не варта драматизації проблема",
+      "intensity": 3,
+      "register": "lite",
+      "target": "system_or_process",
+      "source_codes": [
+        "С",
+        "Г"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861",
+        "https://hrinchenko.com/"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "У словнику Лесі Ставицької «Українська мова без табу» є окрема словникова стаття «ХУЙНЯ»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 27,
+      "form": "хуйовина",
+      "meaning": "дивний артефакт чи незрозумілий шматок коду",
+      "intensity": 4,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "У словнику Лесі Ставицької є окрема словникова стаття «ХУЙОВИНА»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 28,
+      "form": "хуйовий",
+      "meaning": "низька якість або невдалий результат",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С",
+        "Г"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861",
+        "https://hrinchenko.com/"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "У словнику Лесі Ставицької є окрема словникова стаття «ХУЙОВИЙ»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 29,
+      "form": "хуйово",
+      "meaning": "система працює погано",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "У словнику Лесі Ставицької зафіксовано форму «ХУЙОВО» як прислівникову одиницю."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 31,
+      "form": "ні хуя",
+      "meaning": "очікуваного результату немає",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://slovnyk.me/dict/slang_modern/%D0%BD%D1%96_%D1%85%D1%83%D1%8F",
+          "note": "Словник сучасного українського сленгу фіксує окрему сполуку «ні хуя»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 32,
+      "form": "до хуя",
+      "meaning": "чогось надмірно багато",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://slovnyk.me/dict/slang_modern/%D1%85%D1%83%D0%B9",
+          "note": "Словникова стаття «хуй» у словнику сучасного українського сленгу містить сполуку «до хуя»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 33,
+      "form": "заїбись",
+      "meaning": "результат добрий, без зайвого пафосу",
+      "intensity": 2,
+      "register": "lite",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://slovnyk.me/dict/slang_modern/%D0%B7%D0%B0%D1%97%D0%B1%D0%B8%D1%81%D1%8C",
+          "note": "Словник сучасного українського сленгу містить окрему статтю «заїбись»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 34,
+      "form": "заїбати",
+      "meaning": "виснажити людину або процес повтореннями",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "У словнику Лесі Ставицької зафіксовано дієслово «ЗАЇБАТИ» у словниковій статті відповідної лексеми."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 35,
+      "form": "заїбатися",
+      "meaning": "довго й безрезультатно возитися з проблемою",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "У словнику Лесі Ставицької є окрема словникова стаття «ЗАЇБАТИСЯ»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 37,
+      "form": "йобнути",
+      "meaning": "різко зупинити процес або втратити стан",
+      "intensity": 7,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "У словнику Лесі Ставицької є окрема словникова стаття «ЙОБНУТИ»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 38,
+      "form": "йобнутися",
+      "meaning": "упасти через помилку чи конфігурацію",
+      "intensity": 8,
+      "register": "ultra",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "У словнику Лесі Ставицької є окрема словникова стаття «ЙОБНУТИСЯ», зокрема зі значенням падіння."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 40,
+      "form": "йобаний",
+      "meaning": "такий, що створює непропорційну мороку",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "У словнику Лесі Ставицької є окрема словникова стаття «ЙОБАНИЙ»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 44,
+      "form": "наїбати",
+      "meaning": "підмінити очікуваний результат або ввести в оману",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "У словнику Лесі Ставицької є окрема словникова стаття «НАЇБАТИ»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 47,
+      "form": "пиздець",
+      "meaning": "критичний інцидент або реальна загроза",
+      "intensity": 9,
+      "register": "ultra",
+      "target": "system_or_process",
+      "source_codes": [
+        "С",
+        "К"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861",
+        "https://uk.wikisource.org/wiki/Твори_(Котляревський,_1922)/Том_1/Енеїда"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "У словнику Лесі Ставицької є окрема словникова стаття «ПИЗДЕЦЬ»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 48,
+      "form": "пиздьож",
+      "meaning": "неправда в описі, звіті або документації",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://slovnyk.me/dict/slang_modern/%D0%BF%D0%B8%D0%B7%D0%B4%D1%8C%D0%BE%D0%B6",
+          "note": "Словник сучасного українського сленгу містить окрему статтю «пиздьож»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 49,
+      "form": "пиздити",
+      "meaning": "перекручувати факт або безконтрольно забирати ресурс; вживати лише з контекстом",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "У словнику Лесі Ставицької є окрема словникова стаття «ПИЗДИТИ»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 50,
+      "form": "пиздячити",
+      "meaning": "швидко й наполегливо виконувати механічну роботу",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "У словнику Лесі Ставицької є окрема словникова стаття «ПИЗДЯЧИТИ»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 51,
+      "form": "пиздатий",
+      "meaning": "дуже сильний результат або рішення",
+      "intensity": 4,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "У словнику Лесі Ставицької є окрема словникова стаття «ПИЗДАТИЙ»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 53,
+      "form": "розпиздяйство",
+      "meaning": "системна недбалість у процесі",
+      "intensity": 7,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "У словнику Лесі Ставицької є окрема словникова стаття «РОЗПИЗДЯЙСТВО»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
       "id": 54,
       "form": "срака",
       "meaning": "ризик уже впливає на користувачів або дані",
@@ -556,6 +1037,133 @@
         {
           "url": "https://slovnyk.me/dict/hrinchenko/%D1%81%D1%80%D0%B0%D0%BA%D0%B0",
           "note": "Словник Грінченка містить окрему статтю «срака»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 55,
+      "form": "срака-мотика",
+      "meaning": "кілька проблем зійшлися в один клубок",
+      "intensity": 7,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "Ф",
+        "Н"
+      ],
+      "source_urls": [
+        "https://www.i-franko.name/uk/Folklore/1901/GalRusProverbs.html",
+        "https://archive.org/details/nomis1864"
+      ],
+      "state": "A",
+      "review_status": "screened",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "У словнику Лесі Ставицької зафіксовано фразеологічну сполуку «СРАКА-МОТИКА»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 56,
+      "form": "засрати",
+      "meaning": "забруднити логи, базу, конфігурацію або репозиторій",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "У словнику Лесі Ставицької зафіксовано дієслово «ЗАСРАТИ» у словниковій статті відповідної лексеми."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 59,
+      "form": "обісратися",
+      "meaning": "невдало виконати крок із помітними наслідками",
+      "intensity": 7,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "У словнику Лесі Ставицької є окрема словникова стаття «ОБІСРАТИСЯ», зокрема зі значенням зробити грубу помилку."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 61,
+      "form": "насрати",
+      "meaning": "знехтувати перевіркою або попередженням",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "У словнику Лесі Ставицької є окрема словникова стаття «НАСРАТИ»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 62,
+      "form": "сраний",
+      "meaning": "неякісний, дратівливий або недбало зроблений",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "У словнику Лесі Ставицької є окрема словникова стаття «СРАНИЙ»."
         }
       ],
       "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
@@ -714,6 +1322,31 @@
         {
           "url": "https://slovnyk.me/dict/hrinchenko/%D1%80%D0%BE%D0%B7%D0%B4%D0%BE%D0%B2%D0%B1%D0%B0%D1%82%D0%B8",
           "note": "Словник Грінченка містить форму «роздовбати» з посиланням на словникову статтю дієслова."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 73,
+      "form": "роздовбаний",
+      "meaning": "пошкоджений, розсипаний або погано організований",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://slovnyk.me/dict/newsum/%D1%80%D0%BE%D0%B7%D0%B4%D0%BE%D0%B2%D0%B1%D0%B0%D0%BD%D0%B8%D0%B9",
+          "note": "СУМ-20 містить окрему словникову статтю «роздовбаний»."
         }
       ],
       "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
@@ -1988,10 +2621,15 @@
       ],
       "state": "A",
       "review_status": "screened",
-      "citation_status": "candidate",
-      "runtime_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "У словнику Лесі Ставицької «Українська мова без табу» є окрема словникова стаття «ХУЙНЯ»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 27,
@@ -2008,10 +2646,15 @@
       ],
       "state": "B",
       "review_status": "derivative",
-      "citation_status": "candidate",
-      "runtime_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "У словнику Лесі Ставицької є окрема словникова стаття «ХУЙОВИНА»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 28,
@@ -2030,10 +2673,15 @@
       ],
       "state": "B",
       "review_status": "derivative",
-      "citation_status": "candidate",
-      "runtime_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "У словнику Лесі Ставицької є окрема словникова стаття «ХУЙОВИЙ»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 29,
@@ -2050,10 +2698,15 @@
       ],
       "state": "B",
       "review_status": "derivative",
-      "citation_status": "candidate",
-      "runtime_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "У словнику Лесі Ставицької зафіксовано форму «ХУЙОВО» як прислівникову одиницю."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 30,
@@ -2090,10 +2743,15 @@
       ],
       "state": "A",
       "review_status": "screened",
-      "citation_status": "candidate",
-      "runtime_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://slovnyk.me/dict/slang_modern/%D0%BD%D1%96_%D1%85%D1%83%D1%8F",
+          "note": "Словник сучасного українського сленгу фіксує окрему сполуку «ні хуя»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 32,
@@ -2110,10 +2768,15 @@
       ],
       "state": "A",
       "review_status": "screened",
-      "citation_status": "candidate",
-      "runtime_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://slovnyk.me/dict/slang_modern/%D1%85%D1%83%D0%B9",
+          "note": "Словникова стаття «хуй» у словнику сучасного українського сленгу містить сполуку «до хуя»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 33,
@@ -2130,10 +2793,15 @@
       ],
       "state": "B",
       "review_status": "derivative",
-      "citation_status": "candidate",
-      "runtime_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://slovnyk.me/dict/slang_modern/%D0%B7%D0%B0%D1%97%D0%B1%D0%B8%D1%81%D1%8C",
+          "note": "Словник сучасного українського сленгу містить окрему статтю «заїбись»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 34,
@@ -2150,10 +2818,15 @@
       ],
       "state": "B",
       "review_status": "derivative",
-      "citation_status": "candidate",
-      "runtime_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "У словнику Лесі Ставицької зафіксовано дієслово «ЗАЇБАТИ» у словниковій статті відповідної лексеми."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 35,
@@ -2170,10 +2843,15 @@
       ],
       "state": "B",
       "review_status": "derivative",
-      "citation_status": "candidate",
-      "runtime_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "У словнику Лесі Ставицької є окрема словникова стаття «ЗАЇБАТИСЯ»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 36,
@@ -2210,10 +2888,15 @@
       ],
       "state": "B",
       "review_status": "derivative",
-      "citation_status": "candidate",
-      "runtime_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "У словнику Лесі Ставицької є окрема словникова стаття «ЙОБНУТИ»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 38,
@@ -2230,10 +2913,15 @@
       ],
       "state": "B",
       "review_status": "derivative",
-      "citation_status": "candidate",
-      "runtime_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "У словнику Лесі Ставицької є окрема словникова стаття «ЙОБНУТИСЯ», зокрема зі значенням падіння."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 39,
@@ -2270,10 +2958,15 @@
       ],
       "state": "B",
       "review_status": "derivative",
-      "citation_status": "candidate",
-      "runtime_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "У словнику Лесі Ставицької є окрема словникова стаття «ЙОБАНИЙ»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 41,
@@ -2350,10 +3043,15 @@
       ],
       "state": "B",
       "review_status": "derivative",
-      "citation_status": "candidate",
-      "runtime_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "У словнику Лесі Ставицької є окрема словникова стаття «НАЇБАТИ»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 45,
@@ -2412,10 +3110,15 @@
       ],
       "state": "A",
       "review_status": "screened",
-      "citation_status": "candidate",
-      "runtime_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "У словнику Лесі Ставицької є окрема словникова стаття «ПИЗДЕЦЬ»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 48,
@@ -2432,10 +3135,15 @@
       ],
       "state": "B",
       "review_status": "derivative",
-      "citation_status": "candidate",
-      "runtime_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://slovnyk.me/dict/slang_modern/%D0%BF%D0%B8%D0%B7%D0%B4%D1%8C%D0%BE%D0%B6",
+          "note": "Словник сучасного українського сленгу містить окрему статтю «пиздьож»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 49,
@@ -2452,10 +3160,15 @@
       ],
       "state": "B",
       "review_status": "derivative",
-      "citation_status": "candidate",
-      "runtime_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "У словнику Лесі Ставицької є окрема словникова стаття «ПИЗДИТИ»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 50,
@@ -2472,10 +3185,15 @@
       ],
       "state": "B",
       "review_status": "derivative",
-      "citation_status": "candidate",
-      "runtime_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "У словнику Лесі Ставицької є окрема словникова стаття «ПИЗДЯЧИТИ»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 51,
@@ -2492,10 +3210,15 @@
       ],
       "state": "B",
       "review_status": "derivative",
-      "citation_status": "candidate",
-      "runtime_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "У словнику Лесі Ставицької є окрема словникова стаття «ПИЗДАТИЙ»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 52,
@@ -2532,10 +3255,15 @@
       ],
       "state": "B",
       "review_status": "derivative",
-      "citation_status": "candidate",
-      "runtime_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "У словнику Лесі Ставицької є окрема словникова стаття «РОЗПИЗДЯЙСТВО»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 54,
@@ -2581,10 +3309,15 @@
       ],
       "state": "A",
       "review_status": "screened",
-      "citation_status": "candidate",
-      "runtime_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "У словнику Лесі Ставицької зафіксовано фразеологічну сполуку «СРАКА-МОТИКА»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 56,
@@ -2601,10 +3334,15 @@
       ],
       "state": "B",
       "review_status": "derivative",
-      "citation_status": "candidate",
-      "runtime_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "У словнику Лесі Ставицької зафіксовано дієслово «ЗАСРАТИ» у словниковій статті відповідної лексеми."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 57,
@@ -2661,10 +3399,15 @@
       ],
       "state": "B",
       "review_status": "derivative",
-      "citation_status": "candidate",
-      "runtime_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "У словнику Лесі Ставицької є окрема словникова стаття «ОБІСРАТИСЯ», зокрема зі значенням зробити грубу помилку."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 60,
@@ -2701,10 +3444,15 @@
       ],
       "state": "B",
       "review_status": "derivative",
-      "citation_status": "candidate",
-      "runtime_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "У словнику Лесі Ставицької є окрема словникова стаття «НАСРАТИ»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 62,
@@ -2721,10 +3469,15 @@
       ],
       "state": "B",
       "review_status": "derivative",
-      "citation_status": "candidate",
-      "runtime_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "У словнику Лесі Ставицької є окрема словникова стаття «СРАНИЙ»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 63,
@@ -2983,10 +3736,15 @@
       ],
       "state": "B",
       "review_status": "derivative",
-      "citation_status": "candidate",
-      "runtime_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://slovnyk.me/dict/newsum/%D1%80%D0%BE%D0%B7%D0%B4%D0%BE%D0%B2%D0%B1%D0%B0%D0%BD%D0%B8%D0%B9",
+          "note": "СУМ-20 містить окрему словникову статтю «роздовбаний»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 74,

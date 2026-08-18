@@ -4,9 +4,9 @@
 
 > Деплой йобнувся — це не привід писати роман. Знайди причину, скажи прямо й полагодь.
 
-**18+ · українська обсценна лексика · для інженерної роботи · v0.1.0-beta.3**
+**18+ · українська обсценна лексика · для інженерної роботи · v0.1.0-rc.1**
 
-> Експериментальний публічний реліз. ТРЯСЦЯ не є академічним словником і не призначена для образ користувача.
+> Release candidate. ТРЯСЦЯ не є академічним словником і не призначена для образ користувача.
 
 ## Що це
 
@@ -18,7 +18,7 @@
 - код, команди, імена API, логи й помилки залишаються точними;
 - security, дані та незворотні операції пояснюються чисто й без жартів.
 
-Корпус містить 100 форм: 50 мають exact anchor, 50 залишаються кандидатами для редакторської перевірки. Повний аудит зберігається в `records`, а runtime-пул `runtime_records` містить лише accepted-форми. Статуси й методологія описані у [журналі верифікації](skills/tryascia/references/verifikatsiya.md), [політиці корпусу](skills/tryascia/references/polityka-korpusu.md) та [реєстрі джерел](skills/tryascia/references/dzherela.md).
+Корпус містить 100 форм: 75 мають exact anchor, 25 залишаються кандидатами для редакторської перевірки. Повний аудит зберігається в `records`, а runtime-пул `runtime_records` містить лише accepted-форми. Статуси й методологія описані у [журналі верифікації](skills/tryascia/references/verifikatsiya.md), [політиці корпусу](skills/tryascia/references/polityka-korpusu.md) та [реєстрі джерел](skills/tryascia/references/dzherela.md).
 
 ## До / після
 
@@ -58,7 +58,7 @@
 ### Codex
 
 ```bash
-export TRYASCIA_REF=v0.1.0-beta.3
+export TRYASCIA_REF=v0.1.0-rc.1
 curl -fsSL "https://raw.githubusercontent.com/tsutsman/tryascia/${TRYASCIA_REF}/install-codex.sh" -o /tmp/tryascia-install-codex.sh
 TRYASCIA_REF="$TRYASCIA_REF" bash /tmp/tryascia-install-codex.sh
 rm -f /tmp/tryascia-install-codex.sh
@@ -67,7 +67,7 @@ rm -f /tmp/tryascia-install-codex.sh
 Після цього перезапусти Codex. Видалення:
 
 ```bash
-export TRYASCIA_REF=v0.1.0-beta.3
+export TRYASCIA_REF=v0.1.0-rc.1
 curl -fsSL "https://raw.githubusercontent.com/tsutsman/tryascia/${TRYASCIA_REF}/install-codex.sh" -o /tmp/tryascia-install-codex.sh
 TRYASCIA_REF="$TRYASCIA_REF" bash /tmp/tryascia-install-codex.sh --uninstall
 rm -f /tmp/tryascia-install-codex.sh
@@ -76,7 +76,7 @@ rm -f /tmp/tryascia-install-codex.sh
 ### Claude Code
 
 ```bash
-export TRYASCIA_REF=v0.1.0-beta.3
+export TRYASCIA_REF=v0.1.0-rc.1
 curl -fsSL "https://raw.githubusercontent.com/tsutsman/tryascia/${TRYASCIA_REF}/install.sh" -o /tmp/tryascia-install.sh
 TRYASCIA_REF="$TRYASCIA_REF" bash /tmp/tryascia-install.sh
 rm -f /tmp/tryascia-install.sh
@@ -85,7 +85,7 @@ rm -f /tmp/tryascia-install.sh
 Видалення:
 
 ```bash
-export TRYASCIA_REF=v0.1.0-beta.3
+export TRYASCIA_REF=v0.1.0-rc.1
 curl -fsSL "https://raw.githubusercontent.com/tsutsman/tryascia/${TRYASCIA_REF}/install.sh" -o /tmp/tryascia-install.sh
 TRYASCIA_REF="$TRYASCIA_REF" bash /tmp/tryascia-install.sh --uninstall
 rm -f /tmp/tryascia-install.sh
@@ -150,11 +150,11 @@ bash tests/installer-smoke.sh
 bash tests/release-ref-smoke.sh
 ~~~
 
-Markdown-корпус призначений для читання, а skills/tryascia/references/korpus.json генерується валідатором і використовується як машинозчитуваний результат аудиту.
+Markdown-корпус призначений для читання, а `skills/tryascia/references/korpus.json` генерується валідатором і використовується як машинозчитуваний результат аудиту.
 
 ## Статус
 
-Beta-реліз 0.1.0-beta.3 підтримує Codex і Claude Code через prompt/style-файли та інсталятори. Релізні інсталятори мають використовувати тег або commit SHA. Адаптер для Pi планується після стабілізації словника й evals.
+Release candidate `0.1.0-rc.1` підтримує Codex і Claude Code через prompt/style-файли та інсталятори. Релізні інсталятори мають використовувати тег або commit SHA. До `1.0` залишаються редакторський прохід кандидатів і стабілізація поведінкових evals.
 
 ## Ліцензія
 

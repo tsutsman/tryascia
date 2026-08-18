@@ -6,8 +6,8 @@
     "candidate": "Запис має джерельний напрям, але ще потребує точного підтвердження."
   },
   "release_gate": {
-    "minimum_accepted_records": 50,
-    "maximum_candidate_records": 50
+    "minimum_accepted_records": 75,
+    "maximum_candidate_records": 25
   },
   "rules": [
     "Кандидат не видається за дослівну цитату.",
