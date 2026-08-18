@@ -4,7 +4,9 @@
 
 > Деплой йобнувся — це не привід писати роман. Знайди причину, скажи прямо й полагодь.
 
-**18+ · українська обсценна лексика · для інженерної роботи · v0.1**
+**18+ · українська обсценна лексика · для інженерної роботи · v0.1.0-beta.1**
+
+> Експериментальний публічний реліз. ТРЯСЦЯ не є академічним словником і не призначена для образ користувача.
 
 ## Що це
 
@@ -15,6 +17,8 @@
 - рівень емоції відповідає реальному масштабу проблеми;
 - код, команди, імена API, логи й помилки залишаються точними;
 - security, дані та незворотні операції пояснюються чисто й без жартів.
+
+Корпус містить 100 форм: 30 мають опорні сторінки або зафіксовані близькі варіанти, 70 залишаються кандидатами для редакторської перевірки. Статуси й методологія описані у [журналі верифікації](skills/tryascia/references/verifikatsiya.md) та [реєстрі джерел](skills/tryascia/references/dzherela.md).
 
 ## До / після
 
@@ -49,22 +53,42 @@
 
 ## Швидкий старт
 
+Для поширення використовуй релізний тег або конкретний commit SHA. `main` придатна лише для тестування.
+
 ### Codex
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/tsutsman/tryascia/main/install-codex.sh | bash
+export TRYASCIA_REF=v0.1.0-beta.1
+curl -fsSL "https://raw.githubusercontent.com/tsutsman/tryascia/${TRYASCIA_REF}/install-codex.sh" -o /tmp/tryascia-install-codex.sh
+TRYASCIA_REF="$TRYASCIA_REF" bash /tmp/tryascia-install-codex.sh
+rm -f /tmp/tryascia-install-codex.sh
 ```
 
 Після цього перезапусти Codex. Видалення:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/tsutsman/tryascia/main/install-codex.sh | bash -s -- --uninstall
+export TRYASCIA_REF=v0.1.0-beta.1
+curl -fsSL "https://raw.githubusercontent.com/tsutsman/tryascia/${TRYASCIA_REF}/install-codex.sh" -o /tmp/tryascia-install-codex.sh
+TRYASCIA_REF="$TRYASCIA_REF" bash /tmp/tryascia-install-codex.sh --uninstall
+rm -f /tmp/tryascia-install-codex.sh
 ```
 
 ### Claude Code
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/tsutsman/tryascia/main/install.sh | bash
+export TRYASCIA_REF=v0.1.0-beta.1
+curl -fsSL "https://raw.githubusercontent.com/tsutsman/tryascia/${TRYASCIA_REF}/install.sh" -o /tmp/tryascia-install.sh
+TRYASCIA_REF="$TRYASCIA_REF" bash /tmp/tryascia-install.sh
+rm -f /tmp/tryascia-install.sh
+```
+
+Видалення:
+
+```bash
+export TRYASCIA_REF=v0.1.0-beta.1
+curl -fsSL "https://raw.githubusercontent.com/tsutsman/tryascia/${TRYASCIA_REF}/install.sh" -o /tmp/tryascia-install.sh
+TRYASCIA_REF="$TRYASCIA_REF" bash /tmp/tryascia-install.sh --uninstall
+rm -f /tmp/tryascia-install.sh
 ```
 
 Команди перемикання:
@@ -84,7 +108,7 @@ curl -fsSL https://raw.githubusercontent.com/tsutsman/tryascia/main/install.sh |
 
 ### Українська, а не калька
 
-Словник укладено заново українською: з природним наголосом на `йой`, `трясця`, `дідько`, `шляк би трафив`, `срака-мотика`, `на хріна`, `йобнулося`, `довбаний`, `пішло шкереберть` та інших живих конструкціях. Не копіюємо чужі мовні форми механічно.
+Корпус укладається на основі українських фольклорних, літературних і словникових джерел, а інженерні відповідники маркуються окремо. Не копіюємо мовні форми механічно й не видаємо неперевірений запис за академічну норму.
 
 ### Користувач — у своїй команді
 
@@ -100,6 +124,7 @@ curl -fsSL https://raw.githubusercontent.com/tsutsman/tryascia/main/install.sh |
 skills/tryascia/              # Основні правила стилю
 skills/tryascia/references/   # Словник, сцени, онтологія, джерела й корпус
 scripts/                      # Перевірка та генерація машинного корпусу
+tests/                        # Smoke-перевірки інсталяторів
 output-styles/tryascia.md     # Output style для Claude Code
 codex/AGENTS-tryascia.md      # Секція для Codex AGENTS.md
 commands/tryascia.md          # Slash-команда Claude Code
@@ -114,11 +139,19 @@ evals/evals.json              # Перевірки калібрування ст
 npm test
 ~~~
 
+Повний локальний набір перевірок:
+
+~~~bash
+npm test
+bash -n install.sh install-codex.sh tests/installer-smoke.sh
+bash tests/installer-smoke.sh
+~~~
+
 Markdown-корпус призначений для читання, а skills/tryascia/references/korpus.json генерується валідатором і використовується як машинозчитуваний результат аудиту.
 
 ## Статус
 
-Перша публічна версія підтримує Codex і Claude Code через prompt/style-файли та інсталятори. Адаптер для Pi планується після стабілізації словника й evals.
+Перша beta-версія підтримує Codex і Claude Code через prompt/style-файли та інсталятори. Релізні інсталятори мають використовувати тег або commit SHA. Адаптер для Pi планується після стабілізації словника й evals.
 
 ## Ліцензія
 

@@ -19,3 +19,7 @@ jobs:
           node-version: 20
       - name: Validate corpus
         run: npm test
+      - name: Validate shell syntax
+        run: bash -n install.sh install-codex.sh tests/installer-smoke.sh
+      - name: Smoke-test installers
+        run: bash tests/installer-smoke.sh
