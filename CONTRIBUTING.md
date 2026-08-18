@@ -27,8 +27,9 @@
 
 ```bash
 npm test
-bash -n install.sh install-codex.sh tests/installer-smoke.sh
+bash -n install.sh install-codex.sh install-hermes.sh install-openclaw.sh tests/installer-smoke.sh tests/release-ref-smoke.sh
 bash tests/installer-smoke.sh
+bash tests/release-ref-smoke.sh
 ```
 
 У PR коротко опиши, що змінилося, які джерела використано та які перевірки пройдено.
