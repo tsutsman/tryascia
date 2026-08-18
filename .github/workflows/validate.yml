@@ -22,7 +22,7 @@ jobs:
       - name: Verify generated corpus is committed
         run: git diff --exit-code -- skills/tryascia/references/korpus.json
       - name: Validate shell syntax
-        run: bash -n install.sh install-codex.sh tests/installer-smoke.sh tests/release-ref-smoke.sh
+        run: bash -n install.sh install-codex.sh install-hermes.sh install-openclaw.sh tests/installer-smoke.sh tests/release-ref-smoke.sh
       - name: Smoke-test installers
         run: bash tests/installer-smoke.sh
       - name: Smoke-test ref installers
