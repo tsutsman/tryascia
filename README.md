@@ -18,7 +18,7 @@
 - код, команди, імена API, логи й помилки залишаються точними;
 - security, дані та незворотні операції пояснюються чисто й без жартів.
 
-Корпус містить 100 форм: 30 мають опорні сторінки або зафіксовані близькі варіанти, 70 залишаються кандидатами для редакторської перевірки. Статуси й методологія описані у [журналі верифікації](skills/tryascia/references/verifikatsiya.md) та [реєстрі джерел](skills/tryascia/references/dzherela.md).
+Корпус містить 100 форм: 30 мають exact anchor, 70 залишаються кандидатами для редакторської перевірки. Повний аудит зберігається в `records`, а runtime-пул `runtime_records` містить лише accepted-форми. Статуси й методологія описані у [журналі верифікації](skills/tryascia/references/verifikatsiya.md), [політиці корпусу](skills/tryascia/references/polityka-korpusu.md) та [реєстрі джерел](skills/tryascia/references/dzherela.md).
 
 ## До / після
 
@@ -123,6 +123,7 @@ rm -f /tmp/tryascia-install.sh
 ```text
 skills/tryascia/              # Основні правила стилю
 skills/tryascia/references/   # Словник, сцени, онтологія, джерела й корпус
+skills/tryascia/references/polityka-korpusu.md # Політика accepted/candidate і release gate
 scripts/                      # Перевірка та генерація машинного корпусу
 tests/                        # Smoke-перевірки інсталяторів
 output-styles/tryascia.md     # Output style для Claude Code

@@ -6,7 +6,9 @@ import path from "node:path";
 const root = process.cwd();
 const markdownPath = path.join(root, "skills/tryascia/references/korpus-100.md");
 const jsonPath = path.join(root, "skills/tryascia/references/korpus.json");
+const policyPath = path.join(root, "evals/corpus-policy.json");
 const markdown = fs.readFileSync(markdownPath, "utf8");
+const policy = JSON.parse(fs.readFileSync(policyPath, "utf8"));
 
 const sourceUrls = {
   "С": "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861",
@@ -288,6 +290,7 @@ const records = rows.map((row) => {
     state: row.state,
     review_status: reviewStatus,
     citation_status: citations.length > 0 ? "exact_anchor" : "candidate",
+    runtime_status: citations.length > 0 ? "accepted" : "candidate",
     exact_citations: citations,
     note: citations.length > 0
       ? "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
@@ -295,11 +298,42 @@ const records = rows.map((row) => {
   };
 });
 
+const acceptedRecords = records.filter((record) => record.runtime_status === "accepted");
+const candidateRecords = records.filter((record) => record.runtime_status === "candidate");
+
+if (policy.default_runtime_status !== "accepted") {
+  errors.push("Політика має використовувати accepted як runtime-статус за замовчуванням.");
+}
+if (acceptedRecords.length < policy.release_gate.minimum_accepted_records) {
+  errors.push(
+    "Прийнятих записів менше за release gate: " +
+      acceptedRecords.length + " < " + policy.release_gate.minimum_accepted_records + "."
+  );
+}
+if (candidateRecords.length > policy.release_gate.maximum_candidate_records) {
+  errors.push(
+    "Кандидатів більше за release gate: " +
+      candidateRecords.length + " > " + policy.release_gate.maximum_candidate_records + "."
+  );
+}
+if (acceptedRecords.some((record) => record.citation_status !== "exact_anchor")) {
+  errors.push("До accepted потрапив запис без exact_anchor.");
+}
+
+if (errors.length > 0) {
+  console.error(errors.join("\n"));
+  process.exit(1);
+}
+
 const document = {
-  schema_version: "0.2",
+  schema_version: "0.3",
   generated_from: "skills/tryascia/references/korpus-100.md",
   generated_by: "scripts/validate-corpus.mjs",
   record_count: records.length,
+  accepted_record_count: acceptedRecords.length,
+  candidate_record_count: candidateRecords.length,
+  runtime_status: policy.default_runtime_status,
+  runtime_records: acceptedRecords,
   records
 };
 

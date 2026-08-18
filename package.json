@@ -3,8 +3,8 @@
   "version": "0.1.0-beta.1",
   "description": "Український інженерний стиль для AI-агентів",
   "scripts": {
-    "test": "node scripts/validate-corpus.mjs",
-    "validate": "node scripts/validate-corpus.mjs"
+    "test": "node scripts/validate-corpus.mjs && node scripts/validate-evals.mjs",
+    "validate": "node scripts/validate-corpus.mjs && node scripts/validate-evals.mjs"
   },
   "keywords": [
     "ai-agent",
