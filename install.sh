@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Інсталяція output style ТРЯСЦЯ для Claude Code.
 #
-#   TRYASCIA_REF=v0.1.0-beta.2 bash install.sh
+#   TRYASCIA_REF=v0.1.0-beta.3 bash install.sh
 #   bash install.sh --uninstall
 
 set -euo pipefail
