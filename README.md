@@ -4,7 +4,7 @@
 
 > Деплой йобнувся — це не привід писати роман. Знайди причину, скажи прямо й полагодь.
 
-**18+ · українська обсценна лексика · для інженерної роботи · v0.1.0-rc.1**
+**18+ · українська обсценна лексика · для інженерної роботи · v0.1.0-rc.2**
 
 > Release candidate. ТРЯСЦЯ не є академічним словником і не призначена для образ користувача.
 
@@ -67,7 +67,7 @@
 ### Codex
 
 ```bash
-export TRYASCIA_REF=v0.1.0-rc.1
+export TRYASCIA_REF=v0.1.0-rc.2
 curl -fsSL "https://raw.githubusercontent.com/tsutsman/tryascia/${TRYASCIA_REF}/install-codex.sh" -o /tmp/tryascia-install-codex.sh
 TRYASCIA_REF="$TRYASCIA_REF" bash /tmp/tryascia-install-codex.sh
 rm -f /tmp/tryascia-install-codex.sh
@@ -76,7 +76,7 @@ rm -f /tmp/tryascia-install-codex.sh
 Після цього перезапусти Codex. Видалення:
 
 ```bash
-export TRYASCIA_REF=v0.1.0-rc.1
+export TRYASCIA_REF=v0.1.0-rc.2
 curl -fsSL "https://raw.githubusercontent.com/tsutsman/tryascia/${TRYASCIA_REF}/install-codex.sh" -o /tmp/tryascia-install-codex.sh
 TRYASCIA_REF="$TRYASCIA_REF" bash /tmp/tryascia-install-codex.sh --uninstall
 rm -f /tmp/tryascia-install-codex.sh
@@ -85,7 +85,7 @@ rm -f /tmp/tryascia-install-codex.sh
 ### Claude Code
 
 ```bash
-export TRYASCIA_REF=v0.1.0-rc.1
+export TRYASCIA_REF=v0.1.0-rc.2
 curl -fsSL "https://raw.githubusercontent.com/tsutsman/tryascia/${TRYASCIA_REF}/install.sh" -o /tmp/tryascia-install.sh
 TRYASCIA_REF="$TRYASCIA_REF" bash /tmp/tryascia-install.sh
 rm -f /tmp/tryascia-install.sh
@@ -94,7 +94,7 @@ rm -f /tmp/tryascia-install.sh
 Видалення:
 
 ```bash
-export TRYASCIA_REF=v0.1.0-rc.1
+export TRYASCIA_REF=v0.1.0-rc.2
 curl -fsSL "https://raw.githubusercontent.com/tsutsman/tryascia/${TRYASCIA_REF}/install.sh" -o /tmp/tryascia-install.sh
 TRYASCIA_REF="$TRYASCIA_REF" bash /tmp/tryascia-install.sh --uninstall
 rm -f /tmp/tryascia-install.sh
@@ -105,7 +105,7 @@ rm -f /tmp/tryascia-install.sh
 ТРЯСЦЯ встановлюється як звичайний Hermes skill. За замовчуванням ціль — `~/.hermes/skills/tryascia`.
 
 ```bash
-export TRYASCIA_REF=v0.1.0-rc.1
+export TRYASCIA_REF=v0.1.0-rc.2
 curl -fsSL "https://raw.githubusercontent.com/tsutsman/tryascia/${TRYASCIA_REF}/install-hermes.sh" -o /tmp/tryascia-install-hermes.sh
 TRYASCIA_REF="$TRYASCIA_REF" bash /tmp/tryascia-install-hermes.sh
 rm -f /tmp/tryascia-install-hermes.sh
@@ -118,7 +118,7 @@ rm -f /tmp/tryascia-install-hermes.sh
 За замовчуванням ТРЯСЦЯ ставиться як shared managed skill у `~/.openclaw/skills/tryascia`.
 
 ```bash
-export TRYASCIA_REF=v0.1.0-rc.1
+export TRYASCIA_REF=v0.1.0-rc.2
 curl -fsSL "https://raw.githubusercontent.com/tsutsman/tryascia/${TRYASCIA_REF}/install-openclaw.sh" -o /tmp/tryascia-install-openclaw.sh
 TRYASCIA_REF="$TRYASCIA_REF" bash /tmp/tryascia-install-openclaw.sh
 rm -f /tmp/tryascia-install-openclaw.sh
@@ -191,7 +191,7 @@ Markdown-корпус призначений для читання, а `skills/t
 
 ## Статус
 
-Release candidate `0.1.0-rc.1` підтримує Codex, Claude Code, Hermes Agent і OpenClaw. Для Hermes/OpenClaw використовується спільний AgentSkills-сумісний `skills/tryascia/SKILL.md`, без окремого дубльованого корпусу. Релізні інсталятори мають використовувати тег або commit SHA. До `1.0` залишаються редакторський прохід кандидатів і стабілізація поведінкових evals.
+Release candidate `0.1.0-rc.2` підтримує Codex, Claude Code, Hermes Agent і OpenClaw. Для Hermes/OpenClaw використовується спільний AgentSkills-сумісний `skills/tryascia/SKILL.md`, без окремого дубльованого корпусу. Релізні інсталятори мають використовувати тег або commit SHA. До `1.0` залишаються редакторський прохід кандидатів і стабілізація поведінкових evals.
 
 ## Ліцензія
 
