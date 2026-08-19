@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.1.0-rc.2 — 19.08.2026
 
 ### Додано
 
@@ -11,7 +11,18 @@
 ### Змінено
 
 - CI перевіряє shell-синтаксис і інсталяцію для Codex, Claude Code, Hermes Agent та OpenClaw;
-- README містить матрицю підтримуваних агентів і окремі інструкції встановлення.
+- README містить матрицю підтримуваних агентів і окремі інструкції встановлення;
+- версію пакета, eval-manifest і release refs синхронізовано на `0.1.0-rc.2`.
+
+### Перевірки
+
+- `npm test`;
+- узгодженість версій `package.json` та `evals/evals.json`;
+- generated corpus drift;
+- 100 записів / 75 accepted / 25 candidate / 75 runtime records;
+- shell syntax для всіх чотирьох інсталяторів;
+- локальні installer smoke для Codex, Claude Code, Hermes Agent та OpenClaw;
+- remote-ref installer smoke для всіх чотирьох платформ.
 
 ## 0.1.0-rc.1 — 18.08.2026
 
