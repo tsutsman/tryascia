@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Інсталяція skill ТРЯСЦЯ для Hermes Agent.
 #
-#   TRYASCIA_REF=v0.1.0-rc.1 bash install-hermes.sh
+#   TRYASCIA_REF=v0.1.0-rc.2 bash install-hermes.sh
 #   bash install-hermes.sh --uninstall
 
 set -euo pipefail
