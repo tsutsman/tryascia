@@ -3,7 +3,7 @@
 # За замовчуванням ставить shared managed skill у ~/.openclaw/skills/tryascia.
 # Для workspace-рівня передай OPENCLAW_SKILLS_DIR=/path/to/workspace/skills.
 #
-#   TRYASCIA_REF=v0.1.0-rc.2 bash install-openclaw.sh
+#   TRYASCIA_REF=v1.0.0 bash install-openclaw.sh
 #   bash install-openclaw.sh --uninstall
 
 set -euo pipefail
