@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Інсталяція стилю ТРЯСЦЯ для Codex.
 #
-#   TRYASCIA_REF=v0.1.0-rc.2 bash install-codex.sh
+#   TRYASCIA_REF=v1.0.0 bash install-codex.sh
 #   bash install-codex.sh --uninstall
 
 set -euo pipefail
