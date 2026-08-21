@@ -11,6 +11,7 @@ const anchorPaths = [
   path.join(root, "evals/verified-anchors-base.json"),
   path.join(root, "evals/verified-anchors-beta3.json"),
   path.join(root, "evals/verified-anchors-rc1.json"),
+  path.join(root, "evals/verified-anchors-v1.json"),
 ];
 
 const markdown = fs.readFileSync(markdownPath, "utf8");
