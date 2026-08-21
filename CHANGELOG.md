@@ -1,5 +1,31 @@
 # Changelog
 
+## 1.0.0 — 21.08.2026
+
+### Додано
+
+- 15 нових перевірених exact anchors у окремому V1-наборі;
+- явний freeze 10 форм, які залишаються `candidate` до сильнішої джерельної опори.
+
+### Змінено
+
+- verified runtime-корпус розширено з 75 до 90 `accepted` форм;
+- stable release gate піднято до 90 `accepted` / максимум 10 `candidate`;
+- політику корпусу та журнал верифікації синхронізовано зі stable-рівнем;
+- версію package та eval-manifest піднято до `1.0.0`;
+- README та installer examples переведено на `v1.0.0`;
+- підтримка Codex, Claude Code, Hermes Agent і OpenClaw входить до стабільного контракту релізу.
+
+### Перевірки
+
+- `npm test`;
+- узгодженість версій `package.json` та `evals/evals.json`;
+- generated corpus drift;
+- 100 записів / 90 accepted / 10 candidate / 90 runtime records;
+- shell syntax для всіх чотирьох інсталяторів;
+- локальні installer smoke для Codex, Claude Code, Hermes Agent та OpenClaw;
+- remote-ref installer smoke для всіх чотирьох платформ.
+
 ## 0.1.0-rc.2 — 19.08.2026
 
 ### Додано
