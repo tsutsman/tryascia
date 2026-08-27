@@ -1,5 +1,20 @@
 # Changelog
 
+## Unreleased
+
+### Додано
+
+- `install-manifest.sha256` для SHA256-перевірки керованого install payload;
+- спільні staging/verification primitives у `scripts/install-common.sh`;
+- regression smoke для checksum mismatch і simulated download failure на Codex, Claude Code, Hermes Agent та OpenClaw.
+
+### Змінено
+
+- усі чотири інсталятори спочатку готують payload у тимчасовому каталозі, перевіряють checksum і лише після цього змінюють target;
+- directory-based skill install використовує swap підготовленого дерева та зберігає сторонні файли;
+- reinstall/uninstall smoke перевіряє ідемпотентність і видалення лише керованих ТРЯСЦЕЮ файлів;
+- `npm test` перевіряє drift install manifest.
+
 ## 1.0.0 — 21.08.2026
 
 ### Додано

@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Український інженерний стиль для AI-агентів",
   "scripts": {
-    "test": "node scripts/validate-corpus.mjs && node scripts/validate-evals.mjs",
-    "validate": "node scripts/validate-corpus.mjs && node scripts/validate-evals.mjs"
+    "test": "node scripts/validate-corpus.mjs && node scripts/validate-evals.mjs && node scripts/install-manifest.mjs",
+    "validate": "node scripts/validate-corpus.mjs && node scripts/validate-evals.mjs && node scripts/install-manifest.mjs",
+    "manifest:write": "node scripts/install-manifest.mjs --write"
   },
   "keywords": [
     "ai-agent",
@@ -22,6 +23,7 @@
     "commands/",
     "codex/",
     "evals/",
+    "install-manifest.sha256",
     "install-codex.sh",
     "install-hermes.sh",
     "install-openclaw.sh",

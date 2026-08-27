@@ -12,22 +12,27 @@ CLAUDE_DIR="$WORK_DIR/claude"
 HERMES_SKILL_DIR="$WORK_DIR/hermes/skills/tryascia"
 OPENCLAW_SKILL_DIR="$WORK_DIR/openclaw/skills/tryascia"
 
-mkdir -p "$CODEX_DIR"
+mkdir -p "$CODEX_DIR/tryascia/references"
 printf '# Існуючі правила\n' > "$CODEX_DIR/AGENTS.md"
+printf '# Чужий Codex-файл\n' > "$CODEX_DIR/tryascia/references/custom.md"
 
 TARGET_CODEX_DIR="$CODEX_DIR" bash "$ROOT_DIR/install-codex.sh"
 grep -Fq "<!-- tryascia:start -->" "$CODEX_DIR/AGENTS.md"
 test -s "$CODEX_DIR/tryascia/references/korpus.json"
 test -s "$CODEX_DIR/tryascia/references/polityka-korpusu.md"
+grep -Fq "# Чужий Codex-файл" "$CODEX_DIR/tryascia/references/custom.md"
 
 TARGET_CODEX_DIR="$CODEX_DIR" bash "$ROOT_DIR/install-codex.sh"
 grep -Fq "# Існуючі правила" "$CODEX_DIR/AGENTS.md"
+grep -Fq "# Чужий Codex-файл" "$CODEX_DIR/tryascia/references/custom.md"
 TARGET_CODEX_DIR="$CODEX_DIR" bash "$ROOT_DIR/install-codex.sh" --uninstall
 grep -Fq "# Існуючі правила" "$CODEX_DIR/AGENTS.md"
 if grep -Fq "<!-- tryascia:start -->" "$CODEX_DIR/AGENTS.md"; then
   echo "Помилка: Codex-блок не видалено." >&2
   exit 1
 fi
+test ! -e "$CODEX_DIR/tryascia/references/korpus.json"
+grep -Fq "# Чужий Codex-файл" "$CODEX_DIR/tryascia/references/custom.md"
 
 mkdir -p "$CLAUDE_DIR/skills/tryascia/references"
 printf '# Чужий файл\n' > "$CLAUDE_DIR/skills/tryascia/references/custom.md"
@@ -36,6 +41,8 @@ test -s "$CLAUDE_DIR/output-styles/tryascia.md"
 test -s "$CLAUDE_DIR/skills/tryascia/SKILL.md"
 test -s "$CLAUDE_DIR/skills/tryascia/references/korpus.json"
 test -s "$CLAUDE_DIR/skills/tryascia/references/polityka-korpusu.md"
+TARGET_CLAUDE_DIR="$CLAUDE_DIR" bash "$ROOT_DIR/install.sh"
+grep -Fq "# Чужий файл" "$CLAUDE_DIR/skills/tryascia/references/custom.md"
 TARGET_CLAUDE_DIR="$CLAUDE_DIR" bash "$ROOT_DIR/install.sh" --uninstall
 test ! -e "$CLAUDE_DIR/output-styles/tryascia.md"
 test ! -e "$CLAUDE_DIR/skills/tryascia/SKILL.md"
@@ -48,6 +55,8 @@ test -s "$HERMES_SKILL_DIR/SKILL.md"
 test -s "$HERMES_SKILL_DIR/references/korpus.json"
 test -s "$HERMES_SKILL_DIR/references/polityka-korpusu.md"
 grep -Fq "name: tryascia" "$HERMES_SKILL_DIR/SKILL.md"
+TARGET_HERMES_SKILL_DIR="$HERMES_SKILL_DIR" bash "$ROOT_DIR/install-hermes.sh"
+grep -Fq "# Чужий Hermes-файл" "$HERMES_SKILL_DIR/references/custom.md"
 TARGET_HERMES_SKILL_DIR="$HERMES_SKILL_DIR" bash "$ROOT_DIR/install-hermes.sh" --uninstall
 test ! -e "$HERMES_SKILL_DIR/SKILL.md"
 grep -Fq "# Чужий Hermes-файл" "$HERMES_SKILL_DIR/references/custom.md"
@@ -59,8 +68,10 @@ test -s "$OPENCLAW_SKILL_DIR/SKILL.md"
 test -s "$OPENCLAW_SKILL_DIR/references/korpus.json"
 test -s "$OPENCLAW_SKILL_DIR/references/polityka-korpusu.md"
 grep -Fq "name: tryascia" "$OPENCLAW_SKILL_DIR/SKILL.md"
+TARGET_OPENCLAW_SKILL_DIR="$OPENCLAW_SKILL_DIR" bash "$ROOT_DIR/install-openclaw.sh"
+grep -Fq "# Чужий OpenClaw-файл" "$OPENCLAW_SKILL_DIR/references/custom.md"
 TARGET_OPENCLAW_SKILL_DIR="$OPENCLAW_SKILL_DIR" bash "$ROOT_DIR/install-openclaw.sh" --uninstall
 test ! -e "$OPENCLAW_SKILL_DIR/SKILL.md"
 grep -Fq "# Чужий OpenClaw-файл" "$OPENCLAW_SKILL_DIR/references/custom.md"
 
-echo "OK: Codex/Claude Code/Hermes/OpenClaw інсталятори пройшли smoke-перевірку."
+echo "OK: Codex/Claude Code/Hermes/OpenClaw інсталятори пройшли reinstall/uninstall smoke-перевірку."
