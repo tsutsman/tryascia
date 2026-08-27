@@ -27,7 +27,7 @@ jobs:
       - name: Checkout existing release tag
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
-          ref: ${{ env.RELEASE_TAG }}
+          ref: refs/tags/${{ env.RELEASE_TAG }}
           fetch-depth: 0
           persist-credentials: false
 
@@ -48,7 +48,7 @@ jobs:
           fi
 
           git fetch origin main --no-tags
-          TARGET_SHA="$(git rev-list -n 1 "$TAG")"
+          TARGET_SHA="$(git rev-list -n 1 "refs/tags/${TAG}")"
           git merge-base --is-ancestor "$TARGET_SHA" origin/main || {
             echo "Release tag target is not contained in main: $TARGET_SHA" >&2
             exit 1
