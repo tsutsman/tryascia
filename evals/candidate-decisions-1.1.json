@@ -1,6 +1,12 @@
 {
   "schema_version": "1.0",
   "reviewed_from": "evals/v1-candidate-freeze.json",
+  "resulting_gate": {
+    "record_count": 100,
+    "accepted": 95,
+    "candidate": 5,
+    "runtime": 95
+  },
   "reviewed_candidates": [
     {
       "original": "заїбаний",
