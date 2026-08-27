@@ -1,5 +1,7 @@
 # Compatibility contract
 
+**Contract schema:** `1.0` · **Release track:** Unreleased `1.1`
+
 ТРЯСЦЯ має один canonical runtime skill: `skills/tryascia/SKILL.md` + `skills/tryascia/references/`. Платформні адаптери не мають власних копій корпусу.
 
 Машинним джерелом істини є `evals/compatibility-contract.json`; `scripts/validate-compatibility.mjs` і `tests/compatibility-smoke.sh` блокують непомітні breaking-зміни layout, installer overrides або runtime contract.
