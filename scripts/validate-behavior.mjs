@@ -51,6 +51,12 @@ for (const item of decisions.reviewed_candidates) {
   if ((item.decision === "promote" || item.decision === "replace") && (!item.resolved_form || !item.anchor_url)) {
     throw new Error(`Promote/replace для ${item.original} потребує resolved_form та anchor_url.`);
   }
+  if (item.decision === "promote" && item.resolved_form !== item.original) {
+    throw new Error(`Promote має зберігати форму без заміни: ${item.original}`);
+  }
+  if (item.decision === "replace" && item.resolved_form === item.original) {
+    throw new Error(`Replace має змінювати форму: ${item.original}`);
+  }
   if (item.decision === "retain" && item.resolved_form && item.resolved_form !== item.original) {
     throw new Error(`Retain не може мовчки замінювати форму ${item.original}.`);
   }
@@ -66,6 +72,9 @@ if (corpus.accepted_record_count < 95 || corpus.candidate_record_count > 5) {
 
 const records = new Map(corpus.records.map((record) => [record.form, record]));
 const runtime = new Map(corpus.runtime_records.map((record) => [record.form, record]));
+const actualCandidates = new Set(corpus.records.filter((record) => record.runtime_status === "candidate").map((record) => record.form));
+const retainedCandidates = new Set();
+
 for (const record of corpus.records) {
   if (record.runtime_status === "candidate" && runtime.has(record.form)) {
     throw new Error(`Candidate потрапив у runtime pool: ${record.form}`);
@@ -77,12 +86,22 @@ for (const item of decisions.reviewed_candidates) {
     if (!record || record.runtime_status !== "candidate") {
       throw new Error(`Retained candidate має залишатися candidate: ${item.original}`);
     }
+    retainedCandidates.add(item.original);
   } else {
     const record = records.get(item.resolved_form);
     if (!record || record.runtime_status !== "accepted" || record.citation_status !== "exact_anchor") {
       throw new Error(`Resolved форма має бути accepted exact_anchor: ${item.resolved_form}`);
     }
+    if (!record.exact_citations.some((citation) => citation.url === item.anchor_url)) {
+      throw new Error(`Рішення для ${item.original} не збігається з exact anchor URL форми ${item.resolved_form}.`);
+    }
+    if (item.decision === "replace" && records.has(item.original)) {
+      throw new Error(`Замінена форма не повинна залишатися в корпусі: ${item.original}`);
+    }
   }
+}
+if (retainedCandidates.size !== actualCandidates.size || [...retainedCandidates].some((form) => !actualCandidates.has(form))) {
+  throw new Error("Поточний candidate pool має точно збігатися з редакторськими рішеннями retain.");
 }
 
 const requiredModes = ["lite", "full", "ultra", "normal"];
@@ -95,6 +114,16 @@ for (const context of requiredContexts) {
 }
 if (!Array.isArray(behavior.fixtures) || behavior.fixtures.length < 10) {
   throw new Error("Behavior policy має містити щонайменше 10 executable fixtures.");
+}
+for (const mode of requiredModes) {
+  if (!behavior.fixtures.some((fixture) => fixture.mode === mode)) {
+    throw new Error(`Executable fixtures не покривають режим ${mode}.`);
+  }
+}
+for (const context of requiredContexts) {
+  if (!behavior.fixtures.some((fixture) => fixture.context === context)) {
+    throw new Error(`Executable fixtures не покривають context ${context}.`);
+  }
 }
 
 function evaluateFixture(fixture) {
