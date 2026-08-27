@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "release_ref_env": "TRYASCIA_REF",
+  "modes": ["lite", "full", "ultra", "normal"],
+  "support_levels": {
+    "stable": "Підтримується CI та release-ref smoke; breaking layout changes потребують явного оновлення contract fixture.",
+    "experimental": "Може змінюватися без compatibility guarantee.",
+    "unsupported": "Інтеграція не тестується і не входить до release contract."
+  },
+  "shared_canonical_files": [
+    "skills/tryascia/SKILL.md",
+    "skills/tryascia/references/korpus.json",
+    "skills/tryascia/references/polityka-korpusu.md"
+  ],
+  "required_runtime_examples": ["трясця", "ібошить", "йобнулося", "пиздець"],
+  "forbidden_runtime_forms": ["ебашити", "ебашить", "ебанутися"],
+  "required_smoke_tokens": [
+    "TARGET_CODEX_DIR",
+    "TARGET_CLAUDE_DIR",
+    "HERMES_HOME",
+    "HERMES_SKILLS_DIR",
+    "OPENCLAW_STATE_DIR",
+    "OPENCLAW_SKILLS_DIR",
+    "--uninstall"
+  ],
+  "platforms": {
+    "codex": {
+      "support": "stable",
+      "installer": "install-codex.sh",
+      "override_env": ["TARGET_CODEX_DIR"],
+      "default_layout": ["AGENTS.md", "tryascia/references/korpus.json"],
+      "required_repo_files": ["codex/AGENTS-tryascia.md", "skills/tryascia/references/korpus.json"]
+    },
+    "claude-code": {
+      "support": "stable",
+      "installer": "install.sh",
+      "override_env": ["TARGET_CLAUDE_DIR"],
+      "default_layout": ["output-styles/tryascia.md", "skills/tryascia/SKILL.md", "skills/tryascia/references/korpus.json"],
+      "required_repo_files": ["output-styles/tryascia.md", "skills/tryascia/SKILL.md"]
+    },
+    "hermes-agent": {
+      "support": "stable",
+      "installer": "install-hermes.sh",
+      "agent_skills": true,
+      "override_env": ["HERMES_HOME", "HERMES_SKILLS_DIR", "TARGET_HERMES_SKILL_DIR"],
+      "default_layout": ["skills/tryascia/SKILL.md", "skills/tryascia/references/korpus.json"],
+      "required_repo_files": ["skills/tryascia/SKILL.md", "skills/tryascia/references/korpus.json"]
+    },
+    "openclaw": {
+      "support": "stable",
+      "installer": "install-openclaw.sh",
+      "agent_skills": true,
+      "install_modes": ["managed", "workspace"],
+      "override_env": ["OPENCLAW_STATE_DIR", "OPENCLAW_SKILLS_DIR", "TARGET_OPENCLAW_SKILL_DIR"],
+      "default_layout": ["skills/tryascia/SKILL.md", "skills/tryascia/references/korpus.json"],
+      "required_repo_files": ["skills/tryascia/SKILL.md", "skills/tryascia/references/korpus.json"]
+    }
+  }
+}
