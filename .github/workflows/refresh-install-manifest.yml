@@ -1,0 +1,39 @@
+name: Refresh install manifest
+
+on:
+  push:
+    branches:
+      - agent/behavioral-evals-corpus-quality
+    paths:
+      - .github/workflows/refresh-install-manifest.yml
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          ref: agent/behavioral-evals-corpus-quality
+          fetch-depth: 0
+      - name: Setup Node
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020
+        with:
+          node-version: 24
+      - name: Refresh and verify manifest
+        run: |
+          set -euo pipefail
+          npm run manifest:write
+          npm test
+      - name: Commit refreshed manifest and remove workflow
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git rm .github/workflows/refresh-install-manifest.yml
+          git add install-manifest.sha256
+          git commit -m 'chore: refresh install manifest for 1.1 quality state'
+          git push origin HEAD:agent/behavioral-evals-corpus-quality
