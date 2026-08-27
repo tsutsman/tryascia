@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "reviewed_from": "evals/v1-candidate-freeze.json",
+  "reviewed_candidates": [
+    {
+      "original": "заїбаний",
+      "decision": "retain",
+      "resolved_form": "заїбаний",
+      "rationale": "Природний словотвір від заїбати, але окремого сильного exact anchor для цієї форми під час 1.1-проходу не знайдено; деривація не замінює точного підтвердження."
+    },
+    {
+      "original": "йобнулося",
+      "decision": "promote",
+      "resolved_form": "йобнулося",
+      "anchor_url": "https://lb.ua/society/2022/06/02/518778_yuriy_gudimenko_usim_kolis.html",
+      "rationale": "Публічний український текст LB.ua містить дослівну форму «йобнулося»."
+    },
+    {
+      "original": "ебашити",
+      "decision": "replace",
+      "resolved_form": "ібошити",
+      "anchor_url": "https://files.znu.edu.ua/files/Bibliobooks/Inshi47/0038133.pdf",
+      "rationale": "Форму з е- замінено на зафіксовану в українському словнику Лесі Ставицької лему «ібошити»."
+    },
+    {
+      "original": "ебашить",
+      "decision": "replace",
+      "resolved_form": "ібошить",
+      "anchor_url": "https://files.znu.edu.ua/files/Bibliobooks/Inshi47/0038133.pdf",
+      "rationale": "Заміна на дослівно зафіксовану українську форму «ібошить» у словникових прикладах."
+    },
+    {
+      "original": "ебанутися",
+      "decision": "replace",
+      "resolved_form": "їбанутися",
+      "anchor_url": "https://djvu.online/file/TTbju63x97ABF",
+      "rationale": "Заміна російсько-графічного варіанта на окрему словникову статтю «ЇБАНУТИСЯ» в українському лексикографічному джерелі."
+    },
+    {
+      "original": "наїбка",
+      "decision": "retain",
+      "resolved_form": "наїбка",
+      "rationale": "Сильного українського exact anchor не знайдено; форма лишається candidate і не потрапляє до runtime."
+    },
+    {
+      "original": "наїбнутися",
+      "decision": "retain",
+      "resolved_form": "наїбнутися",
+      "rationale": "Є сучасні неформальні вживання, але для 1.1 їх недостатньо як сильного exact-anchor стандарту."
+    },
+    {
+      "original": "довбодятел",
+      "decision": "promote",
+      "resolved_form": "довбодятел",
+      "anchor_url": "https://journal.kdpu.edu.ua/filstd/article/download/674/673/1325",
+      "rationale": "Академічна стаття з українського інтернет-дискурсу дослівно фіксує «довбодятел»."
+    },
+    {
+      "original": "прихачити",
+      "decision": "retain",
+      "resolved_form": "прихачити",
+      "rationale": "Це інженерна адаптація без окремого сильного exact anchor; залишено candidate замість легалізації через внутрішню семантику."
+    },
+    {
+      "original": "стоїть колом",
+      "decision": "retain",
+      "resolved_form": "стоїть колом",
+      "rationale": "Українські фразеологічні джерела фіксують ширшу конструкцію «стояти/стати кілком (колом) в горлі», але не підтверджують окрему технічну форму «стоїть колом» як exact anchor."
+    }
+  ]
+}
