@@ -18,7 +18,7 @@
 - код, команди, імена API, логи й помилки залишаються точними;
 - security, дані та незворотні операції пояснюються чисто й без жартів.
 
-Корпус містить 100 форм: 90 мають exact anchor, 10 залишаються кандидатами для редакторської перевірки. Повний аудит зберігається в `records`, а runtime-пул `runtime_records` містить лише accepted-форми. Статуси й методологія описані у [журналі верифікації](skills/tryascia/references/verifikatsiya.md), [політиці корпусу](skills/tryascia/references/polityka-korpusu.md) та [реєстрі джерел](skills/tryascia/references/dzherela.md).
+Поточний `main` / Unreleased 1.1 містить 100 форм: 95 мають `exact_anchor`, 5 залишаються кандидатами після окремого редакторського рішення. Повний аудит зберігається в `records`, а runtime-пул `runtime_records` містить лише 95 `accepted`-форм. Стабільний тег `v1.0.0` історично містить 90 `accepted` / 10 `candidate` і не переписується. Статуси й методологія описані у [журналі верифікації](skills/tryascia/references/verifikatsiya.md), [політиці корпусу](skills/tryascia/references/polityka-korpusu.md) та [реєстрі джерел](skills/tryascia/references/dzherela.md).
 
 ## Підтримувані агенти
 
@@ -59,6 +59,8 @@
 | `full` | Повний інженерний словник: «йобнулося», «срака», «хуйня», «пиздець» — лише там, де це має сенс. |
 | `ultra` | Максимальна образність, прислів’я й ритм. Не перетворює відповідь на словесну кашу. |
 | `normal` | Вимикає стиль і повертає звичайний тон. |
+
+Режим і контекст мають машинний regression-gate в `evals/behavior-policy.json`: public output, security та незворотні операції не допускають стилізованої лайки; користувач не є ціллю; `normal` ізолює стиль; intensity не може без причини стрибати до сильних форм.
 
 ## Швидкий старт
 
@@ -159,6 +161,8 @@ rm -f /tmp/tryascia-install-openclaw.sh
 skills/tryascia/              # AgentSkills-сумісний skill і runtime-правила
 skills/tryascia/references/   # Словник, сцени, онтологія, джерела й корпус
 skills/tryascia/references/polityka-korpusu.md # Політика accepted/candidate і release gate
+evals/behavior-policy.json    # Executable policy для режимів, контекстів та intensity
+evals/candidate-decisions-1.1.json # Рішення для frozen candidates
 scripts/                      # Перевірка та генерація машинного корпусу
 tests/                        # Smoke-перевірки інсталяторів
 output-styles/tryascia.md     # Output style для Claude Code
@@ -172,7 +176,7 @@ CHANGELOG.md                  # Історія релізів
 evals/evals.json              # Перевірки калібрування стилю
 ```
 
-Перевірка корпусу:
+Перевірка корпусу, behavioral policy, manifests і release-contract:
 
 ~~~bash
 npm test
@@ -182,8 +186,9 @@ npm test
 
 ~~~bash
 npm test
-bash -n install.sh install-codex.sh install-hermes.sh install-openclaw.sh tests/installer-smoke.sh tests/release-ref-smoke.sh
+bash -n install.sh install-codex.sh install-hermes.sh install-openclaw.sh scripts/install-common.sh tests/installer-smoke.sh tests/release-ref-smoke.sh tests/installer-atomicity.sh
 bash tests/installer-smoke.sh
+bash tests/installer-atomicity.sh
 bash tests/release-ref-smoke.sh
 ~~~
 
@@ -191,7 +196,7 @@ Markdown-корпус призначений для читання, а `skills/t
 
 ## Статус
 
-Стабільний реліз `1.0.0` підтримує Codex, Claude Code, Hermes Agent і OpenClaw. Для Hermes/OpenClaw використовується спільний AgentSkills-сумісний `skills/tryascia/SKILL.md`, без окремого дубльованого корпусу. Runtime-корпус містить 90 підтверджених форм; 10 слабше підтверджених форм залишаються кандидатами для подальшої редакторської роботи. Релізні інсталятори мають використовувати тег або commit SHA.
+Стабільний реліз `v1.0.0` підтримує Codex, Claude Code, Hermes Agent і OpenClaw та лишається незмінним із корпусом 90/10. Поточний `main` / Unreleased 1.1 зберігає той самий compatibility contract, піднімає quality gate до 95 `accepted` / 5 `candidate` і додає executable behavioral regression policy. Для Hermes/OpenClaw використовується спільний AgentSkills-сумісний `skills/tryascia/SKILL.md`, без окремого дубльованого корпусу. Релізні інсталятори мають використовувати тег або commit SHA.
 
 ## Ліцензія
 
