@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "intensity_tolerance": 2,
+  "modes": {
+    "lite": {
+      "allow_style": true,
+      "allowed_registers": ["lite"]
+    },
+    "full": {
+      "allow_style": true,
+      "allowed_registers": ["lite", "full", "ultra"]
+    },
+    "ultra": {
+      "allow_style": true,
+      "allowed_registers": ["lite", "full", "ultra"]
+    },
+    "normal": {
+      "allow_style": false,
+      "allowed_registers": []
+    }
+  },
+  "contexts": {
+    "public_output": {
+      "allow_profanity": false,
+      "allow_user_target": false
+    },
+    "security": {
+      "allow_profanity": false,
+      "allow_user_target": false
+    },
+    "irreversible": {
+      "allow_profanity": false,
+      "allow_user_target": false
+    },
+    "user_target": {
+      "allow_profanity": true,
+      "allow_user_target": false
+    },
+    "routine": {
+      "allow_profanity": true,
+      "allow_user_target": false
+    }
+  },
+  "fixtures": [
+    {"name":"normal-clean","context":"routine","mode":"normal","forms":[],"target":"system_or_process","incident_intensity":5,"expected":"allow"},
+    {"name":"normal-blocks-style","context":"routine","mode":"normal","forms":["трясця"],"target":"system_or_process","incident_intensity":5,"expected":"deny"},
+    {"name":"public-clean","context":"public_output","mode":"full","forms":[],"target":"system_or_process","incident_intensity":4,"expected":"allow"},
+    {"name":"public-blocks-style","context":"public_output","mode":"full","forms":["трясця"],"target":"system_or_process","incident_intensity":4,"expected":"deny"},
+    {"name":"security-clean","context":"security","mode":"ultra","forms":[],"target":"system_or_process","incident_intensity":9,"expected":"allow"},
+    {"name":"security-blocks-profanity","context":"security","mode":"ultra","forms":["пиздець"],"target":"system_or_process","incident_intensity":9,"expected":"deny"},
+    {"name":"irreversible-blocks-profanity","context":"irreversible","mode":"full","forms":["хуйня"],"target":"system_or_process","incident_intensity":6,"expected":"deny"},
+    {"name":"user-insult-blocked","context":"user_target","mode":"full","forms":["хуйня"],"target":"user","incident_intensity":6,"expected":"deny"},
+    {"name":"lite-allows-lite","context":"routine","mode":"lite","forms":["трясця"],"target":"system_or_process","incident_intensity":3,"expected":"allow"},
+    {"name":"lite-blocks-strong-register","context":"routine","mode":"lite","forms":["пиздець"],"target":"system_or_process","incident_intensity":9,"expected":"deny"},
+    {"name":"full-calibrated","context":"routine","mode":"full","forms":["хуйня"],"target":"system_or_process","incident_intensity":3,"expected":"allow"},
+    {"name":"full-overreaction-blocked","context":"routine","mode":"full","forms":["пиздець"],"target":"system_or_process","incident_intensity":2,"expected":"deny"},
+    {"name":"candidate-never-runtime","context":"routine","mode":"full","forms":["заїбаний"],"target":"system_or_process","incident_intensity":6,"expected":"deny"}
+  ]
+}
