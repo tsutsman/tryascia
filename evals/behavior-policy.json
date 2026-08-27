@@ -54,6 +54,7 @@
     {"name":"lite-blocks-strong-register","context":"routine","mode":"lite","forms":["пиздець"],"target":"system_or_process","incident_intensity":9,"expected":"deny"},
     {"name":"full-calibrated","context":"routine","mode":"full","forms":["хуйня"],"target":"system_or_process","incident_intensity":3,"expected":"allow"},
     {"name":"full-overreaction-blocked","context":"routine","mode":"full","forms":["пиздець"],"target":"system_or_process","incident_intensity":2,"expected":"deny"},
+    {"name":"ultra-allows-critical-register","context":"routine","mode":"ultra","forms":["пиздець"],"target":"system_or_process","incident_intensity":9,"expected":"allow"},
     {"name":"candidate-never-runtime","context":"routine","mode":"full","forms":["заїбаний"],"target":"system_or_process","incident_intensity":6,"expected":"deny"}
   ]
 }
