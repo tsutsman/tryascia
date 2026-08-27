@@ -9,16 +9,23 @@
 - regression smoke для checksum mismatch і simulated download failure на Codex, Claude Code, Hermes Agent та OpenClaw;
 - постійний `.github/workflows/release.yml` для stable/patch релізів із уже існуючих `vX.Y.Z` tags;
 - детермінований release archive `tryascia-X.Y.Z.tar.gz`, `SHA256SUMS` та документований `docs/RELEASING.md`;
-- `scripts/validate-release-pipeline.mjs` для машинної перевірки release/supply-chain контракту.
+- `scripts/validate-release-pipeline.mjs` для машинної перевірки release/supply-chain контракту;
+- `evals/behavior-policy.json` і `scripts/validate-behavior.mjs` для executable regression-gate public/security/irreversible/no-user-insult/intensity та `lite/full/ultra/normal`;
+- `evals/candidate-decisions-1.1.json` з явним рішенням для кожного з 10 frozen candidates;
+- 5 нових exact anchors у `evals/verified-anchors-1.1.json`.
 
 ### Змінено
 
 - усі чотири інсталятори спочатку готують payload у тимчасовому каталозі, перевіряють checksum і лише після цього змінюють target;
 - directory-based skill install використовує swap підготовленого дерева та зберігає сторонні файли;
 - reinstall/uninstall smoke перевіряє ідемпотентність і видалення лише керованих ТРЯСЦЕЮ файлів;
-- `npm test` перевіряє drift install manifest і release pipeline contract;
+- `npm test` перевіряє drift install manifest, release pipeline contract і behavioral policy;
 - GitHub Actions dependencies pinned на конкретні commit SHA, checkout не зберігає git credentials;
-- release automation не створює/не рухає tags і не модифікує `main`: tag має вже існувати, мати stable semver, відповідати package/evals version і вказувати на commit з історії `main`.
+- release automation не створює/не рухає tags і не модифікує `main`: tag має вже існувати, мати stable semver, відповідати package/evals version і вказувати на commit з історії `main`;
+- corpus quality gate піднято з 90/10 до 95 `accepted` / максимум 5 `candidate`;
+- `ебашити`, `ебашить`, `ебанутися` замінено на джерельно зафіксовані `ібошити`, `ібошить`, `їбанутися`;
+- `йобнулося` та `довбодятел` підвищено до `accepted` після exact-anchor перевірки;
+- п’ять слабше підтверджених форм залишено `candidate` без послаблення стандарту.
 
 ## 1.0.0 — 21.08.2026
 

@@ -3,8 +3,8 @@
   "generated_from": "skills/tryascia/references/korpus-100.md",
   "generated_by": "scripts/validate-corpus.mjs",
   "record_count": 100,
-  "accepted_record_count": 90,
-  "candidate_record_count": 10,
+  "accepted_record_count": 95,
+  "candidate_record_count": 5,
   "runtime_status": "accepted",
   "runtime_records": [
     {
@@ -969,6 +969,31 @@
       "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
+      "id": 39,
+      "form": "йобнулося",
+      "meaning": "факт падіння вже стався",
+      "intensity": 8,
+      "register": "ultra",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://lb.ua/society/2022/06/02/518778_yuriy_gudimenko_usim_kolis.html",
+          "note": "Публічний український текст LB.ua дослівно містить форму «йобнулося»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
       "id": 40,
       "form": "йобаний",
       "meaning": "такий, що створює непропорційну мороку",
@@ -989,6 +1014,81 @@
         {
           "url": "https://djvu.online/file/TTbju63x97ABF",
           "note": "У словнику Лесі Ставицької є окрема словникова стаття «ЙОБАНИЙ»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 41,
+      "form": "ібошити",
+      "meaning": "працювати інтенсивно або виконувати великий обсяг",
+      "intensity": 5,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://files.znu.edu.ua/files/Bibliobooks/Inshi47/0038133.pdf",
+          "note": "Українське лексикографічне джерело містить окрему словникову статтю «ІБОШИТИ»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 42,
+      "form": "ібошить",
+      "meaning": "сервіс або джоба працює на повну",
+      "intensity": 3,
+      "register": "lite",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://files.znu.edu.ua/files/Bibliobooks/Inshi47/0038133.pdf",
+          "note": "У словниковій статті «ІБОШИТИ» дослівно зафіксовано форму «ібошить» у прикладах уживання."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 43,
+      "form": "їбанутися",
+      "meaning": "вийти за межі нормальної поведінки",
+      "intensity": 7,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "Словник Лесі Ставицької містить окрему словникову статтю «ЇБАНУТИСЯ»."
         }
       ],
       "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
@@ -1580,6 +1680,31 @@
         {
           "url": "https://hrinchenko.com/dictionary/word/12683-dovbatisia",
           "note": "Словникова стаття Бориса Грінченка містить лексему «довбатися»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
+    },
+    {
+      "id": 69,
+      "form": "довбодятел",
+      "meaning": "бездумний автоматизований крок або скрипт",
+      "intensity": 6,
+      "register": "full",
+      "target": "system_or_process",
+      "source_codes": [
+        "С"
+      ],
+      "source_urls": [
+        "https://irbis-nbuv.gov.ua/ulib/item/UKR0001861"
+      ],
+      "state": "B",
+      "review_status": "derivative",
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://journal.kdpu.edu.ua/filstd/article/download/674/673/1325",
+          "note": "Академічна стаття на матеріалі українського інтернет-дискурсу дослівно фіксує лексему «довбодятел»."
         }
       ],
       "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
@@ -3355,10 +3480,15 @@
       ],
       "state": "B",
       "review_status": "derivative",
-      "citation_status": "candidate",
-      "runtime_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://lb.ua/society/2022/06/02/518778_yuriy_gudimenko_usim_kolis.html",
+          "note": "Публічний український текст LB.ua дослівно містить форму «йобнулося»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 40,
@@ -3387,7 +3517,7 @@
     },
     {
       "id": 41,
-      "form": "ебашити",
+      "form": "ібошити",
       "meaning": "працювати інтенсивно або виконувати великий обсяг",
       "intensity": 5,
       "register": "full",
@@ -3400,14 +3530,19 @@
       ],
       "state": "B",
       "review_status": "derivative",
-      "citation_status": "candidate",
-      "runtime_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://files.znu.edu.ua/files/Bibliobooks/Inshi47/0038133.pdf",
+          "note": "Українське лексикографічне джерело містить окрему словникову статтю «ІБОШИТИ»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 42,
-      "form": "ебашить",
+      "form": "ібошить",
       "meaning": "сервіс або джоба працює на повну",
       "intensity": 3,
       "register": "lite",
@@ -3420,14 +3555,19 @@
       ],
       "state": "B",
       "review_status": "derivative",
-      "citation_status": "candidate",
-      "runtime_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://files.znu.edu.ua/files/Bibliobooks/Inshi47/0038133.pdf",
+          "note": "У словниковій статті «ІБОШИТИ» дослівно зафіксовано форму «ібошить» у прикладах уживання."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 43,
-      "form": "ебанутися",
+      "form": "їбанутися",
       "meaning": "вийти за межі нормальної поведінки",
       "intensity": 7,
       "register": "full",
@@ -3440,10 +3580,15 @@
       ],
       "state": "B",
       "review_status": "derivative",
-      "citation_status": "candidate",
-      "runtime_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://djvu.online/file/TTbju63x97ABF",
+          "note": "Словник Лесі Ставицької містить окрему словникову статтю «ЇБАНУТИСЯ»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 44,
@@ -4091,10 +4236,15 @@
       ],
       "state": "B",
       "review_status": "derivative",
-      "citation_status": "candidate",
-      "runtime_status": "candidate",
-      "exact_citations": [],
-      "note": "Кандидат: джерельний шар визначено, але точний запис або сторінку ще треба додати під час редакторської верифікації."
+      "citation_status": "exact_anchor",
+      "runtime_status": "accepted",
+      "exact_citations": [
+        {
+          "url": "https://journal.kdpu.edu.ua/filstd/article/download/674/673/1325",
+          "note": "Академічна стаття на матеріалі українського інтернет-дискурсу дослівно фіксує лексему «довбодятел»."
+        }
+      ],
+      "note": "Є точна опорна сторінка; варіант форми може відрізнятися від оригінального написання."
     },
     {
       "id": 70,

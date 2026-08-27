@@ -19,7 +19,7 @@ jobs:
         uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020
         with:
           node-version: 24
-      - name: Validate corpus, evals, install manifest and release pipeline
+      - name: Validate corpus, evals, manifests, release and behavior
         run: npm test
       - name: Verify generated corpus is committed
         run: git diff --exit-code -- skills/tryascia/references/korpus.json

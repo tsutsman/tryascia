@@ -1,18 +1,19 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "default_runtime_status": "accepted",
   "statuses": {
     "accepted": "Запис має exact_anchor і може використовуватися у звичайному режимі.",
     "candidate": "Запис має джерельний напрям, але ще потребує точного підтвердження."
   },
   "release_gate": {
-    "minimum_accepted_records": 90,
-    "maximum_candidate_records": 10
+    "minimum_accepted_records": 95,
+    "maximum_candidate_records": 5
   },
   "rules": [
     "Кандидат не видається за дослівну цитату.",
     "До runtime_records потрапляють лише accepted-записи.",
     "Сумнівні форми не додаються до accepted без української джерельної опори.",
-    "Інженерна адаптація не змінює статус джерельної форми."
+    "Інженерна адаптація не змінює статус джерельної форми.",
+    "Кожен frozen candidate має явне редакторське рішення перед 1.1 release gate."
   ]
 }
