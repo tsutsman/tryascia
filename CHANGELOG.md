@@ -6,14 +6,19 @@
 
 - `install-manifest.sha256` для SHA256-перевірки керованого install payload;
 - спільні staging/verification primitives у `scripts/install-common.sh`;
-- regression smoke для checksum mismatch і simulated download failure на Codex, Claude Code, Hermes Agent та OpenClaw.
+- regression smoke для checksum mismatch і simulated download failure на Codex, Claude Code, Hermes Agent та OpenClaw;
+- постійний `.github/workflows/release.yml` для stable/patch релізів із уже існуючих `vX.Y.Z` tags;
+- детермінований release archive `tryascia-X.Y.Z.tar.gz`, `SHA256SUMS` та документований `docs/RELEASING.md`;
+- `scripts/validate-release-pipeline.mjs` для машинної перевірки release/supply-chain контракту.
 
 ### Змінено
 
 - усі чотири інсталятори спочатку готують payload у тимчасовому каталозі, перевіряють checksum і лише після цього змінюють target;
 - directory-based skill install використовує swap підготовленого дерева та зберігає сторонні файли;
 - reinstall/uninstall smoke перевіряє ідемпотентність і видалення лише керованих ТРЯСЦЕЮ файлів;
-- `npm test` перевіряє drift install manifest.
+- `npm test` перевіряє drift install manifest і release pipeline contract;
+- GitHub Actions dependencies pinned на конкретні commit SHA, checkout не зберігає git credentials;
+- release automation не створює/не рухає tags і не модифікує `main`: tag має вже існувати, мати stable semver, відповідати package/evals version і вказувати на commit з історії `main`.
 
 ## 1.0.0 — 21.08.2026
 

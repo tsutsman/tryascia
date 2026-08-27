@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Український інженерний стиль для AI-агентів",
   "scripts": {
-    "test": "node scripts/validate-corpus.mjs && node scripts/validate-evals.mjs && node scripts/install-manifest.mjs",
-    "validate": "node scripts/validate-corpus.mjs && node scripts/validate-evals.mjs && node scripts/install-manifest.mjs",
+    "test": "node scripts/validate-corpus.mjs && node scripts/validate-evals.mjs && node scripts/install-manifest.mjs && node scripts/validate-release-pipeline.mjs",
+    "validate": "node scripts/validate-corpus.mjs && node scripts/validate-evals.mjs && node scripts/install-manifest.mjs && node scripts/validate-release-pipeline.mjs",
     "manifest:write": "node scripts/install-manifest.mjs --write"
   },
   "keywords": [
