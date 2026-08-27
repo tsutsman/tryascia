@@ -20,7 +20,7 @@ const workflowFiles = fs.existsSync(workflowDir)
 
 for (const name of workflowFiles) {
   const text = fs.readFileSync(path.join(workflowDir, name), 'utf8');
-  for (const match of text.matchAll(/^\s*uses:\s*([^\s#]+)\s*$/gm)) {
+  for (const match of text.matchAll(/^\s*uses:\s*([^\s#]+)(?:\s+#.*)?\s*$/gm)) {
     const spec = match[1];
     if (spec.startsWith('./')) continue;
     const at = spec.lastIndexOf('@');
@@ -36,6 +36,7 @@ if (fs.existsSync(releasePath)) {
     ['tag push trigger', /tags:\s*\n(?:\s*-\s*['"]?v\*\.\*\.\*['"]?\s*\n?)/],
     ['manual rerun trigger', /workflow_dispatch:/],
     ['contents write permission', /permissions:\s*\n\s*contents:\s*write/],
+    ['checkout without persisted credentials', /persist-credentials:\s*false/],
     ['stable semver guard', /\^v\[0-9\]\+\\\.\[0-9\]\+\\\.\[0-9\]\+\$/],
     ['main ancestry guard', /git merge-base --is-ancestor/],
     ['package version check', /package\.json/],
