@@ -4,7 +4,7 @@
 
 > Деплой йобнувся — це не привід писати роман. Знайди причину, скажи прямо й полагодь.
 
-**18+ · українська обсценна лексика · для інженерної роботи · v1.0.0**
+**18+ · українська обсценна лексика · для інженерної роботи · v1.1.0**
 
 > Стабільний реліз. ТРЯСЦЯ не є академічним словником і не призначена для образ користувача.
 
@@ -18,7 +18,7 @@
 - код, команди, імена API, логи й помилки залишаються точними;
 - security, дані та незворотні операції пояснюються чисто й без жартів.
 
-Поточний `main` / Unreleased 1.1 містить 100 форм: 95 мають `exact_anchor`, 5 залишаються кандидатами після окремого редакторського рішення. Повний аудит зберігається в `records`, а runtime-пул `runtime_records` містить лише 95 `accepted`-форм. Стабільний тег `v1.0.0` історично містить 90 `accepted` / 10 `candidate` і не переписується. Статуси й методологія описані у [журналі верифікації](skills/tryascia/references/verifikatsiya.md), [політиці корпусу](skills/tryascia/references/polityka-korpusu.md) та [реєстрі джерел](skills/tryascia/references/dzherela.md).
+Стабільний `v1.1.0` містить 100 форм: 95 мають `exact_anchor`, 5 залишаються кандидатами після окремого редакторського рішення. Повний аудит зберігається в `records`, а runtime-пул `runtime_records` містить лише 95 `accepted`-форм. Історичний тег `v1.0.0` лишається незмінним із 90 `accepted` / 10 `candidate`. Статуси й методологія описані у [журналі верифікації](skills/tryascia/references/verifikatsiya.md), [політиці корпусу](skills/tryascia/references/polityka-korpusu.md) та [реєстрі джерел](skills/tryascia/references/dzherela.md).
 
 ## Підтримувані агенти
 
@@ -28,6 +28,8 @@
 | Claude Code | output style + skill |
 | Hermes Agent | AgentSkills-сумісний skill у `~/.hermes/skills/tryascia` |
 | OpenClaw | AgentSkills-сумісний managed/workspace skill |
+
+Формальний support/layout contract для всіх чотирьох stable інтеграцій описаний у [`docs/COMPATIBILITY.md`](docs/COMPATIBILITY.md) і перевіряється в CI.
 
 ## До / після
 
@@ -69,7 +71,7 @@
 ### Codex
 
 ```bash
-export TRYASCIA_REF=v1.0.0
+export TRYASCIA_REF=v1.1.0
 curl -fsSL "https://raw.githubusercontent.com/tsutsman/tryascia/${TRYASCIA_REF}/install-codex.sh" -o /tmp/tryascia-install-codex.sh
 TRYASCIA_REF="$TRYASCIA_REF" bash /tmp/tryascia-install-codex.sh
 rm -f /tmp/tryascia-install-codex.sh
@@ -78,7 +80,7 @@ rm -f /tmp/tryascia-install-codex.sh
 Після цього перезапусти Codex. Видалення:
 
 ```bash
-export TRYASCIA_REF=v1.0.0
+export TRYASCIA_REF=v1.1.0
 curl -fsSL "https://raw.githubusercontent.com/tsutsman/tryascia/${TRYASCIA_REF}/install-codex.sh" -o /tmp/tryascia-install-codex.sh
 TRYASCIA_REF="$TRYASCIA_REF" bash /tmp/tryascia-install-codex.sh --uninstall
 rm -f /tmp/tryascia-install-codex.sh
@@ -87,7 +89,7 @@ rm -f /tmp/tryascia-install-codex.sh
 ### Claude Code
 
 ```bash
-export TRYASCIA_REF=v1.0.0
+export TRYASCIA_REF=v1.1.0
 curl -fsSL "https://raw.githubusercontent.com/tsutsman/tryascia/${TRYASCIA_REF}/install.sh" -o /tmp/tryascia-install.sh
 TRYASCIA_REF="$TRYASCIA_REF" bash /tmp/tryascia-install.sh
 rm -f /tmp/tryascia-install.sh
@@ -96,7 +98,7 @@ rm -f /tmp/tryascia-install.sh
 Видалення:
 
 ```bash
-export TRYASCIA_REF=v1.0.0
+export TRYASCIA_REF=v1.1.0
 curl -fsSL "https://raw.githubusercontent.com/tsutsman/tryascia/${TRYASCIA_REF}/install.sh" -o /tmp/tryascia-install.sh
 TRYASCIA_REF="$TRYASCIA_REF" bash /tmp/tryascia-install.sh --uninstall
 rm -f /tmp/tryascia-install.sh
@@ -107,7 +109,7 @@ rm -f /tmp/tryascia-install.sh
 ТРЯСЦЯ встановлюється як звичайний Hermes skill. За замовчуванням ціль — `~/.hermes/skills/tryascia`.
 
 ```bash
-export TRYASCIA_REF=v1.0.0
+export TRYASCIA_REF=v1.1.0
 curl -fsSL "https://raw.githubusercontent.com/tsutsman/tryascia/${TRYASCIA_REF}/install-hermes.sh" -o /tmp/tryascia-install-hermes.sh
 TRYASCIA_REF="$TRYASCIA_REF" bash /tmp/tryascia-install-hermes.sh
 rm -f /tmp/tryascia-install-hermes.sh
@@ -120,7 +122,7 @@ rm -f /tmp/tryascia-install-hermes.sh
 За замовчуванням ТРЯСЦЯ ставиться як shared managed skill у `~/.openclaw/skills/tryascia`.
 
 ```bash
-export TRYASCIA_REF=v1.0.0
+export TRYASCIA_REF=v1.1.0
 curl -fsSL "https://raw.githubusercontent.com/tsutsman/tryascia/${TRYASCIA_REF}/install-openclaw.sh" -o /tmp/tryascia-install-openclaw.sh
 TRYASCIA_REF="$TRYASCIA_REF" bash /tmp/tryascia-install-openclaw.sh
 rm -f /tmp/tryascia-install-openclaw.sh
@@ -163,8 +165,9 @@ skills/tryascia/references/   # Словник, сцени, онтологія, 
 skills/tryascia/references/polityka-korpusu.md # Політика accepted/candidate і release gate
 evals/behavior-policy.json    # Executable policy для режимів, контекстів та intensity
 evals/candidate-decisions-1.1.json # Рішення для frozen candidates
+evals/compatibility-contract.json # Machine-readable contract 4 stable integrations
 scripts/                      # Перевірка та генерація машинного корпусу
-tests/                        # Smoke-перевірки інсталяторів
+tests/                        # Smoke-перевірки інсталяторів і compatibility
 output-styles/tryascia.md     # Output style для Claude Code
 codex/AGENTS-tryascia.md      # Секція для Codex AGENTS.md
 commands/tryascia.md          # Slash-команда Claude Code
@@ -176,7 +179,7 @@ CHANGELOG.md                  # Історія релізів
 evals/evals.json              # Перевірки калібрування стилю
 ```
 
-Перевірка корпусу, behavioral policy, manifests і release-contract:
+Перевірка корпусу, behavioral policy, manifests, compatibility і release-contract:
 
 ~~~bash
 npm test
@@ -186,9 +189,10 @@ npm test
 
 ~~~bash
 npm test
-bash -n install.sh install-codex.sh install-hermes.sh install-openclaw.sh scripts/install-common.sh tests/installer-smoke.sh tests/release-ref-smoke.sh tests/installer-atomicity.sh
+bash -n install.sh install-codex.sh install-hermes.sh install-openclaw.sh scripts/install-common.sh tests/installer-smoke.sh tests/release-ref-smoke.sh tests/installer-atomicity.sh tests/compatibility-smoke.sh
 bash tests/installer-smoke.sh
 bash tests/installer-atomicity.sh
+bash tests/compatibility-smoke.sh
 bash tests/release-ref-smoke.sh
 ~~~
 
@@ -196,7 +200,7 @@ Markdown-корпус призначений для читання, а `skills/t
 
 ## Статус
 
-Стабільний реліз `v1.0.0` підтримує Codex, Claude Code, Hermes Agent і OpenClaw та лишається незмінним із корпусом 90/10. Поточний `main` / Unreleased 1.1 зберігає той самий compatibility contract, піднімає quality gate до 95 `accepted` / 5 `candidate` і додає executable behavioral regression policy. Для Hermes/OpenClaw використовується спільний AgentSkills-сумісний `skills/tryascia/SKILL.md`, без окремого дубльованого корпусу. Релізні інсталятори мають використовувати тег або commit SHA.
+Стабільний реліз `v1.1.0` підтримує Codex, Claude Code, Hermes Agent і OpenClaw, використовує 95 `accepted` / 5 `candidate`, атомарні checksum-verified installers, executable behavioral regression policy, formal compatibility contract і постійний tag-driven release pipeline. Для Hermes/OpenClaw використовується спільний AgentSkills-сумісний `skills/tryascia/SKILL.md`, без окремого дубльованого корпусу. Релізні інсталятори мають використовувати тег або commit SHA.
 
 ## Ліцензія
 

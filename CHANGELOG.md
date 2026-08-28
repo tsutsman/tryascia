@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 1.1.0 — 28.08.2026
+
 ### Додано
 
 - `install-manifest.sha256` для SHA256-перевірки керованого install payload;
@@ -12,20 +14,37 @@
 - `scripts/validate-release-pipeline.mjs` для машинної перевірки release/supply-chain контракту;
 - `evals/behavior-policy.json` і `scripts/validate-behavior.mjs` для executable regression-gate public/security/irreversible/no-user-insult/intensity та `lite/full/ultra/normal`;
 - `evals/candidate-decisions-1.1.json` з явним рішенням для кожного з 10 frozen candidates;
-- 5 нових exact anchors у `evals/verified-anchors-1.1.json`.
+- 5 нових exact anchors у `evals/verified-anchors-1.1.json`;
+- `evals/compatibility-contract.json`, `scripts/validate-compatibility.mjs`, `tests/compatibility-smoke.sh` і `docs/COMPATIBILITY.md` для формального contract Codex, Claude Code, Hermes Agent та OpenClaw.
 
 ### Змінено
 
 - усі чотири інсталятори спочатку готують payload у тимчасовому каталозі, перевіряють checksum і лише після цього змінюють target;
 - directory-based skill install використовує swap підготовленого дерева та зберігає сторонні файли;
 - reinstall/uninstall smoke перевіряє ідемпотентність і видалення лише керованих ТРЯСЦЕЮ файлів;
-- `npm test` перевіряє drift install manifest, release pipeline contract і behavioral policy;
+- `npm test` перевіряє drift install manifest, release pipeline contract, behavioral policy та compatibility contract;
 - GitHub Actions dependencies pinned на конкретні commit SHA, checkout не зберігає git credentials;
 - release automation не створює/не рухає tags і не модифікує `main`: tag має вже існувати, мати stable semver, відповідати package/evals version і вказувати на commit з історії `main`;
 - corpus quality gate піднято з 90/10 до 95 `accepted` / максимум 5 `candidate`;
 - `ебашити`, `ебашить`, `ебанутися` замінено на джерельно зафіксовані `ібошити`, `ібошить`, `їбанутися`;
 - `йобнулося` та `довбодятел` підвищено до `accepted` після exact-anchor перевірки;
-- п’ять слабше підтверджених форм залишено `candidate` без послаблення стандарту.
+- п’ять слабше підтверджених форм залишено `candidate` без послаблення стандарту;
+- canonical `SKILL.md` синхронізовано з accepted runtime pool і явно підтримує `normal` mode;
+- `main` захищено active ruleset `Hardening`: PR-only, required check `corpus`, deletion/force-push заблоковано, bypass відсутній;
+- Wiki вимкнено, merged head branches видаляються автоматично;
+- package/evals/README синхронізовано на stable `1.1.0`.
+
+### Перевірки
+
+- 100 records / 95 accepted / 5 candidate / 95 runtime;
+- `npm test` з corpus/evals/manifests/release/behavior/compatibility gates;
+- generated corpus drift;
+- shell syntax;
+- installer reinstall/uninstall та atomicity;
+- Hermes `HERMES_HOME` / `HERMES_SKILLS_DIR` overrides;
+- OpenClaw managed/workspace layout;
+- remote-ref smoke для Codex, Claude Code, Hermes Agent та OpenClaw;
+- protected `main` з required status check `corpus`.
 
 ## 1.0.0 — 21.08.2026
 
