@@ -30,16 +30,16 @@ Stable `v1.1.0` випущений. Задачі #17–#21 закриті як c
 
 ### P0 — stabilization
 
-**#30 — Post-release hardening для `v1.1.x`.**
+**#30 — Post-release hardening для `v1.1.x`. — DONE**
 
-- release-tag smoke саме для `v1.1.0`;
-- end-to-end upgrade `v1.0.0 → v1.1.0` на 4 stable integrations;
-- reinstall/update/uninstall після upgrade;
+- fixed-tag smoke опублікованого `v1.1.0` для 4 stable integrations;
+- end-to-end upgrade `v1.0.0 → v1.1.0`;
+- reinstall/update/uninstall після upgrade без втрати unmanaged files;
 - machine verification release assets/checksums;
-- `SECURITY.md`;
-- release/dependency audit без розширення runtime contract.
+- 4-agent installer/supply-chain `SECURITY.md`;
+- stable-hardening validator у required `corpus` CI.
 
-Це перший блок 1.2 і стабілізаційна передумова для нового UX.
+P0 stabilization contract завершений; наступний основний блок — behavioral measurement.
 
 ### P1 — behavioral quality
 
@@ -88,13 +88,12 @@ Stable `v1.1.0` випущений. Задачі #17–#21 закриті як c
 
 ## Рекомендований порядок виконання
 
-1. **#30** — стабілізувати `v1.1.x` і upgrade/release path.
-2. **#31** — побудувати behavioral measurement contract.
-3. **#32** — дати користувачу unified CLI/doctor поверх стабільного backend.
-4. **#33** — винести upstream monitoring у scheduled compatibility layer.
-5. **#34** — формалізувати provenance/contribution flow без гонитви за кількістю.
+1. **#31** — побудувати behavioral measurement contract.
+2. **#32** — дати користувачу unified CLI/doctor поверх стабільного backend.
+3. **#33** — винести upstream monitoring у scheduled compatibility layer.
+4. **#34** — формалізувати provenance/contribution flow без гонитви за кількістю.
 
-#31, #33 і #34 технічно можуть розвиватися незалежно після фіксації базових invariants #30. #32 не повинен переписувати installer backend до завершення stabilization evidence.
+#31, #33 і #34 технічно можуть розвиватися незалежно. #32 тепер може будуватися поверх стабілізованого `v1.1.x` backend без rewrite installer contract.
 
 ## Definition of Done для `v1.2.0`
 
