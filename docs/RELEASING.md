@@ -35,6 +35,16 @@ Workflow перевіряє:
 
 Release створюється як stable (`draft=false`, `prerelease=false`).
 
+## Post-release verification
+
+Після публікації stable release окремий hardening gate перевіряє вже **опублікований** артефакт, а не branch head:
+
+- `tests/release-tag-smoke.sh` встановлює/видаляє всі 4 integrations через fixed stable tag;
+- `tests/release-assets-smoke.sh` завантажує archive, `SHA256SUMS` та `install-manifest.sha256`, виконує `sha256sum -c` і звіряє manifest із tag payload;
+- `tests/upgrade-smoke.sh` перевіряє `v1.0.0 → v1.1.0`, повторну інсталяцію та uninstall без видалення unmanaged files.
+
+Ці тести входять у required `corpus` CI на `main`; вони не рухають tags і не змінюють GitHub Release state.
+
 ## Повторний запуск
 
 Якщо release job обірвався після створення тега, не рухай тег. Запусти workflow вручну (`workflow_dispatch`) і передай той самий existing tag. Якщо GitHub Release уже існує, workflow перевірить stable flags і перезавантажить checksum/assets із `--clobber`.

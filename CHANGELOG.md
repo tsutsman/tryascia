@@ -2,6 +2,18 @@
 
 ## Unreleased
 
+### Додано
+
+- fixed-tag smoke для опублікованого `v1.1.0` на Codex, Claude Code, Hermes Agent та OpenClaw;
+- end-to-end upgrade regression `v1.0.0 → v1.1.0` з повторною інсталяцією та uninstall без видалення unmanaged files;
+- machine verification release assets `tryascia-1.1.0.tar.gz`, `SHA256SUMS` та `install-manifest.sha256`;
+- `scripts/validate-stable-hardening.mjs`, який не дозволяє випасти post-release checks із required CI.
+
+### Змінено
+
+- `SECURITY.md` розширено до 4-agent installer/supply-chain disclosure та patch-response contract;
+- `docs/RELEASING.md` документує post-release verification після публікації stable tag.
+
 ## 1.1.0 — 28.08.2026
 
 ### Додано

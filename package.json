@@ -3,8 +3,8 @@
   "version": "1.1.0",
   "description": "Український інженерний стиль для AI-агентів",
   "scripts": {
-    "test": "node scripts/validate-corpus.mjs && node scripts/validate-evals.mjs && node scripts/install-manifest.mjs && node scripts/validate-release-pipeline.mjs && node scripts/validate-behavior.mjs && node scripts/validate-compatibility.mjs",
-    "validate": "node scripts/validate-corpus.mjs && node scripts/validate-evals.mjs && node scripts/install-manifest.mjs && node scripts/validate-release-pipeline.mjs && node scripts/validate-behavior.mjs && node scripts/validate-compatibility.mjs",
+    "test": "node scripts/validate-corpus.mjs && node scripts/validate-evals.mjs && node scripts/install-manifest.mjs && node scripts/validate-release-pipeline.mjs && node scripts/validate-behavior.mjs && node scripts/validate-compatibility.mjs && node scripts/validate-stable-hardening.mjs",
+    "validate": "node scripts/validate-corpus.mjs && node scripts/validate-evals.mjs && node scripts/install-manifest.mjs && node scripts/validate-release-pipeline.mjs && node scripts/validate-behavior.mjs && node scripts/validate-compatibility.mjs && node scripts/validate-stable-hardening.mjs",
     "manifest:write": "node scripts/install-manifest.mjs --write"
   },
   "keywords": [
@@ -19,6 +19,7 @@
   "license": "MIT",
   "files": [
     "CHANGELOG.md",
+    "SECURITY.md",
     ".claude-plugin/",
     "commands/",
     "codex/",
