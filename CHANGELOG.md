@@ -2,6 +2,18 @@
 
 ## Unreleased
 
+### Додано
+
+- fixed-tag smoke для опублікованого `v1.1.0` на Codex, Claude Code, Hermes Agent та OpenClaw;
+- end-to-end upgrade regression `v1.0.0 → v1.1.0` з повторною інсталяцією та uninstall без видалення unmanaged files;
+- machine verification release assets `tryascia-1.1.0.tar.gz`, `SHA256SUMS` та `install-manifest.sha256`;
+- `scripts/validate-stable-hardening.mjs`, який не дозволяє випасти post-release checks із required CI.
+
+### Змінено
+
+- `SECURITY.md` розширено до 4-agent installer/supply-chain disclosure та patch-response contract;
+- `docs/RELEASING.md` документує post-release verification після публікації stable tag.
+
 ## 1.1.0 — 28.08.2026
 
 ### Додано
@@ -89,75 +101,6 @@
 ### Перевірки
 
 - `npm test`;
-- узгодженість версій `package.json` та `evals/evals.json`;
-- generated corpus drift;
-- 100 записів / 75 accepted / 25 candidate / 75 runtime records;
-- shell syntax для всіх чотирьох інсталяторів;
-- локальні installer smoke для Codex, Claude Code, Hermes Agent та OpenClaw;
-- remote-ref installer smoke для всіх чотирьох платформ.
-
-## 0.1.0-rc.1 — 18.08.2026
-
-### Додано
-
-- 25 нових перевірених exact anchors у окремому RC-наборі;
-- boundary-evals для public-output cleanliness, security auto-clarity, no-user-insult і `normal` mode isolation.
-
-### Змінено
-
-- верифікований runtime-корпус розширено з 50 до 75 `accepted` форм;
-- release gate піднято до 75 `accepted` / максимум 25 `candidate`;
-- політику корпусу та журнал верифікації синхронізовано з RC-рівнем;
-- валідатор читає base, beta.3 і rc.1 набори exact anchors як окремі дані.
-
-### Перевірки
-
-- `npm test`;
-- узгодженість версій `package.json` та `evals/evals.json`;
-- generated corpus drift;
-- 100 записів / 75 accepted / 25 candidate / 75 runtime records;
-- синтаксична перевірка shell-скриптів;
-- локальна smoke-перевірка інсталяторів;
-- smoke-перевірка інсталяторів через віддалений ref.
-
-## 0.1.0-beta.3 — 18.08.2026
-
-### Змінено
-
-- верифікований runtime-корпус розширено з 30 до 50 `accepted` форм;
-- release gate піднято до 50 `accepted` / максимум 50 `candidate`;
-- exact anchors винесено з валідатора у структуровані JSON-файли даних;
-- валідатор перевіряє дублікати anchors, URL, відповідність форм корпусу та узгодженість accepted-лічильника;
-- посилено детермінованість generated corpus і перевірку drift у CI.
-
-### Перевірки
-
-- `npm test`;
-- узгодженість версій `package.json` та `evals/evals.json`;
-- generated corpus drift;
-- синтаксична перевірка shell-скриптів;
-- локальна smoke-перевірка інсталяторів;
-- smoke-перевірка інсталяторів через віддалений ref.
-
-## 0.1.0-beta.2 — 18.08.2026
-
-### Додано
-
-- політику корпусу зі статусами `accepted` і `candidate`;
-- release gate для мінімальної кількості підтверджених форм;
-- окремий runtime-пул лише з підтверджених записів;
-- regression-evals для кандидатів, інтенсивності та мовної політики;
-- smoke-перевірку встановлення з гілки, тега або commit ref.
-
-### Змінено
-
-- версію пакета оновлено до `0.1.0-beta.2`;
-- README тепер використовує beta-релізний ref у прикладах;
-- інсталяторні перевірки розділено на локальний режим і режим віддаленого ref.
-
-### Перевірки
-
-- `npm test`;
-- синтаксична перевірка shell-скриптів;
-- локальна smoke-перевірка інсталяторів;
-- smoke-перевірка інсталяторів через віддалений ref.
+- shell syntax;
+- installer smoke;
+- remote-ref smoke для 4 платформ.
