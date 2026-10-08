@@ -19,12 +19,12 @@ jobs:
         uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020
         with:
           node-version: 24
-      - name: Validate corpus, evals, manifests, release, behavior and compatibility
+      - name: Validate corpus, evals, manifests, release, behavior, compatibility and stable hardening
         run: npm test
       - name: Verify generated corpus is committed
         run: git diff --exit-code -- skills/tryascia/references/korpus.json
       - name: Validate shell syntax
-        run: bash -n install.sh install-codex.sh install-hermes.sh install-openclaw.sh scripts/install-common.sh tests/installer-smoke.sh tests/release-ref-smoke.sh tests/installer-atomicity.sh tests/compatibility-smoke.sh
+        run: bash -n install.sh install-codex.sh install-hermes.sh install-openclaw.sh scripts/install-common.sh tests/installer-smoke.sh tests/release-ref-smoke.sh tests/installer-atomicity.sh tests/compatibility-smoke.sh tests/release-tag-smoke.sh tests/upgrade-smoke.sh tests/release-assets-smoke.sh
       - name: Smoke-test installers
         run: bash tests/installer-smoke.sh
       - name: Smoke-test installer atomicity
@@ -33,3 +33,9 @@ jobs:
         run: bash tests/compatibility-smoke.sh
       - name: Smoke-test ref installers
         run: bash tests/release-ref-smoke.sh
+      - name: Smoke-test stable release tag
+        run: bash tests/release-tag-smoke.sh
+      - name: Smoke-test v1.0.0 to v1.1.0 upgrade
+        run: bash tests/upgrade-smoke.sh
+      - name: Verify v1.1.0 release assets
+        run: bash tests/release-assets-smoke.sh
